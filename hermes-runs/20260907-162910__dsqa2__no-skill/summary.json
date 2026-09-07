@@ -1,0 +1,137 @@
+{
+  "run_id": "20260907-162910__dsqa2__no-skill",
+  "experiment": "no-skill",
+  "dataset": "/home/ubuntu/smasurekar/datasets/dsqa2",
+  "generated_at": "2026-09-07T16:30:27",
+  "queries_total": 2,
+  "queries_ok": 2,
+  "status_counts": {
+    "ok": 2
+  },
+  "headline_metrics": {
+    "latency_total_seconds": {
+      "total": 95.673,
+      "mean": 47.837,
+      "median": 47.837,
+      "min": 20.872,
+      "max": 74.801,
+      "n": 2
+    },
+    "token_usage_input": {
+      "total": 158300.0,
+      "mean": 79150.0,
+      "median": 79150.0,
+      "min": 31051.0,
+      "max": 127249.0,
+      "n": 2
+    },
+    "token_usage_output": {
+      "total": 8248.0,
+      "mean": 4124.0,
+      "median": 4124.0,
+      "min": 2503.0,
+      "max": 5745.0,
+      "n": 2
+    },
+    "llm_calls": {
+      "total": 14.0,
+      "mean": 7.0,
+      "median": 7.0,
+      "min": 3.0,
+      "max": 11.0,
+      "n": 2
+    },
+    "subagents_invoked": {
+      "total": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 2
+    },
+    "tool_calls_total": {
+      "total": 12.0,
+      "mean": 6.0,
+      "median": 6.0,
+      "min": 2.0,
+      "max": 10.0,
+      "n": 2
+    }
+  },
+  "tool_call_totals": {
+    "web_search": 8,
+    "web_extract": 4
+  },
+  "estimated_cost_usd_total": 0.0,
+  "wall_clock_seconds": 75.929,
+  "rows": [
+    {
+      "task_id": "deepsearchqa-0129",
+      "experiment": "no-skill",
+      "status": "ok",
+      "exit_code": 0,
+      "category": "Education",
+      "answer_type": "Set Answer",
+      "expected_answer": "Kentucky, Wyoming, Montana, Arkansas, Nebraska, Wisconsin, Utah",
+      "answer_chars": 1169,
+      "latency_total_seconds": 74.801,
+      "token_usage_input": 127249,
+      "token_usage_output": 5745,
+      "llm_calls": 11,
+      "subagents_invoked": 0,
+      "tool_calls_total": 10,
+      "token_usage_input_root": 127249,
+      "token_usage_output_root": 5745,
+      "llm_calls_root": 11,
+      "subagent_tasks_requested": 0,
+      "delegate_task_calls": 0,
+      "tool_calls_root": 10,
+      "tool_calls_subagents": 0,
+      "assistant_turns": 11,
+      "turns_with_reasoning": 11,
+      "sessions_total": 1,
+      "cache_read_tokens": 230784,
+      "reasoning_tokens": 4736,
+      "total_tokens": 132994,
+      "estimated_cost_usd": 0.0,
+      "model": "nvidia/nvidia/nemotron-3-ultra",
+      "provider": "custom",
+      "root_session_id": "20260907_162914_4a30d7",
+      "end_reason": "agent_close"
+    },
+    {
+      "task_id": "deepsearchqa-0699",
+      "experiment": "no-skill",
+      "status": "ok",
+      "exit_code": 0,
+      "category": "History",
+      "answer_type": "Set Answer",
+      "expected_answer": "John Hart, Joseph Hewes, Philip Livingston, Thomas Lynch Jr., John Morton, George Ross, Richard Stockton",
+      "answer_chars": 1321,
+      "latency_total_seconds": 20.872,
+      "token_usage_input": 31051,
+      "token_usage_output": 2503,
+      "llm_calls": 3,
+      "subagents_invoked": 0,
+      "tool_calls_total": 2,
+      "token_usage_input_root": 31051,
+      "token_usage_output_root": 2503,
+      "llm_calls_root": 3,
+      "subagent_tasks_requested": 0,
+      "delegate_task_calls": 0,
+      "tool_calls_root": 2,
+      "tool_calls_subagents": 0,
+      "assistant_turns": 3,
+      "turns_with_reasoning": 3,
+      "sessions_total": 1,
+      "cache_read_tokens": 0,
+      "reasoning_tokens": 1995,
+      "total_tokens": 33554,
+      "estimated_cost_usd": 0.0,
+      "model": "nvidia/nvidia/nemotron-3-ultra",
+      "provider": "custom",
+      "root_session_id": "20260907_162914_70016b",
+      "end_reason": "agent_close"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+16:29:10 run 20260907-162910__dsqa2__no-skill
+16:29:10 experiment: no-skill — Pure Hermes agent. No skills at all: the skills toolset is dropped, so the agent has no skill tools and no skills index in its system prompt.
+16:29:10 toolsets=web,terminal,file,todo,delegation skills=- prefix=''
+16:29:10 2 tasks, concurrency 2
+16:29:33 [1/2] deepsearchqa-0699: ok
+16:30:27 [2/2] deepsearchqa-0129: ok
+16:30:27 done in 76s — 2/2 ok
+16:30:27   latency_total_seconds    total=95.673       mean=47.837
+16:30:27   token_usage_input        total=158300.0     mean=79150.0
+16:30:27   token_usage_output       total=8248.0       mean=4124.0
+16:30:27   llm_calls                total=14.0         mean=7.0
+16:30:27   subagents_invoked        total=0.0          mean=0.0
+16:30:27   tool_calls_total         total=12.0         mean=6.0
+16:30:27 artifacts: /home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-162910__dsqa2__no-skill

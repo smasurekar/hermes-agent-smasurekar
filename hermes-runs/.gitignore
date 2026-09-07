@@ -1,0 +1,14 @@
+# Run directories ARE tracked: answers, results, metrics, traces and logs are the
+# point of the experiment. Only two things are held back, both from inside the
+# per-query isolated Hermes home.
+
+# 1. The isolated home's own files. state.db is a binary SQLite store of exactly
+#    the data already tracked as trace/sessions.jsonl, and at ~6 MB per query it
+#    would add gigabytes of undiffable blobs. config.yaml is a per-query copy of
+#    the user's config (secrets are ${ENV} references, but the redacted
+#    config.snapshot.yaml at the run root is the record worth keeping), and .env
+#    is a symlink into the live Hermes home.
+*/queries/*/hermes_home/*
+
+# 2. ...except the agent's own log files, which are genuine trace material.
+!*/queries/*/hermes_home/logs/

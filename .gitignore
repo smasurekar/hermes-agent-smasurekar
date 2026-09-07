@@ -42,6 +42,9 @@ test_durations.json
 tmp/
 temp_vision_images/
 hermes-*/*
+# ...but hermes-runs/ holds tracked experiment results; its own .gitignore
+# carves out the per-query isolated homes (binary state.db, config copies).
+!hermes-runs/**
 examples/
 tests/quick_test_dataset.jsonl
 tests/sample_dataset.jsonl

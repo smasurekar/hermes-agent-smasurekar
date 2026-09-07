@@ -1,0 +1,48 @@
+# Experiment (arm) definitions for dsqa_runner.py.
+#
+# Every arm runs the SAME dataset through the SAME model with the SAME toolsets.
+# The only variable across the three arms below is how the deep-research skill is
+# made available, so differences in the metrics are attributable to the skill.
+#
+# toolsets  -> passed to `hermes -z -t ...`. Omitting "skills" removes skills_list,
+#              skill_view and skill_manage AND removes the skills index from the
+#              system prompt entirely (agent/system_prompt.py::_skills_prompt),
+#              which is what "all skills disabled" means here.
+# skills    -> passed to `hermes -z -s ...` (preloads the skill body into the prompt).
+# prefix    -> prepended verbatim to the dataset instruction.
+
+defaults:
+  # Shared by every arm. `delegation` is present in ALL arms (including the
+  # no-skill baseline) so that fan-out capability is not itself the variable.
+  base_toolsets: [web, terminal, file, todo, delegation]
+  max_turns: 500
+  # Graceful wrap-up budget handed to the agent via config.yaml. Deliberately
+  # under the harness's hard --timeout (1800s) so the agent gets its wrap-up
+  # notice and writes an answer instead of being killed mid-turn.
+  run_budget_seconds: 1680
+
+experiments:
+
+  no-skill:
+    description: >-
+      Pure Hermes agent. No skills at all: the skills toolset is dropped, so the
+      agent has no skill tools and no skills index in its system prompt.
+    toolsets: []          # base_toolsets only
+    skills: []
+    prompt_prefix: ""
+
+  forced-skill:
+    description: >-
+      Every query is forced through the deep-research skill. The skill body is
+      preloaded with -s, and the instruction is prefixed with /deep-research.
+    toolsets: [skills]
+    skills: [deep-research]
+    prompt_prefix: "/deep-research "
+
+  auto-skill:
+    description: >-
+      The skill is available and discoverable, but nothing forces it. The agent
+      decides per query whether to load and follow deep-research.
+    toolsets: [skills]
+    skills: []
+    prompt_prefix: ""

@@ -1,0 +1,14 @@
+16:30:27 run 20260907-163027__dsqa2__forced-skill
+16:30:27 experiment: forced-skill — Every query is forced through the deep-research skill. The skill body is preloaded with -s, and the instruction is prefixed with /deep-research.
+16:30:27 toolsets=web,terminal,file,todo,delegation,skills skills=deep-research prefix='/deep-research '
+16:30:27 2 tasks, concurrency 2
+16:32:09 [1/2] deepsearchqa-0699: ok
+16:34:42 [2/2] deepsearchqa-0129: ok
+16:34:42 done in 254s — 2/2 ok
+16:34:42   latency_total_seconds    total=352.28       mean=176.14
+16:34:42   token_usage_input        total=2766741.0    mean=1383370.5
+16:34:42   token_usage_output       total=45965.0      mean=22982.5
+16:34:42   llm_calls                total=137.0        mean=68.5
+16:34:42   subagents_invoked        total=10.0         mean=5.0
+16:34:42   tool_calls_total         total=142.0        mean=71.0
+16:34:42 artifacts: /home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-163027__dsqa2__forced-skill

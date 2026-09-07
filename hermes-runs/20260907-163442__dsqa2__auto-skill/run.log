@@ -1,0 +1,14 @@
+16:34:42 run 20260907-163442__dsqa2__auto-skill
+16:34:42 experiment: auto-skill — The skill is available and discoverable, but nothing forces it. The agent decides per query whether to load and follow deep-research.
+16:34:42 toolsets=web,terminal,file,todo,delegation,skills skills=- prefix=''
+16:34:42 2 tasks, concurrency 2
+16:35:08 [1/2] deepsearchqa-0699: ok
+16:37:20 [2/2] deepsearchqa-0129: ok
+16:37:20 done in 158s — 2/2 ok
+16:37:20   latency_total_seconds    total=181.317      mean=90.658
+16:37:20   token_usage_input        total=412845.0     mean=206422.5
+16:37:20   token_usage_output       total=16611.0      mean=8305.5
+16:37:20   llm_calls                total=28.0         mean=14.0
+16:37:20   subagents_invoked        total=0.0          mean=0.0
+16:37:20   tool_calls_total         total=26.0         mean=13.0
+16:37:20 artifacts: /home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-163442__dsqa2__auto-skill
