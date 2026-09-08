@@ -1,0 +1,167 @@
+{
+  "task_id": "deepsearchqa-0454",
+  "experiment": "auto-skill",
+  "run_id": "20260907-234403__dsqa90__auto-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788830869.3920305,
+  "finished_at": 1788831321.6942203,
+  "latency_total_seconds": 452.302,
+  "prompt": "Using data from the USDA's National Agricultural Statistics Service's 2012 and 2017 census, looking at the Specialty crops section, which maple producing states saw a decrease in gallons produced from 2012 to 2017, while still producing at least 1,000 gallons?",
+  "prompt_prefix": "",
+  "instruction": "Using data from the USDA's National Agricultural Statistics Service's 2012 and 2017 census, looking at the Specialty crops section, which maple producing states saw a decrease in gallons produced from 2012 to 2017, while still producing at least 1,000 gallons?",
+  "answer": "Based on the USDA NASS 2012 and 2017 Census of Agriculture data (Table 37 for Maple Syrup), three maple-producing states saw a decrease in gallons produced from 2012 to 2017 while still producing at least 1,000 gallons in 2017:\n\n| State | 2012 Production (gallons) | 2017 Production (gallons) | Change |\n|-------|---------------------------|---------------------------|--------|\n| **Ohio** | 94,133 | 93,672 | **−461** |\n| **Illinois** | 3,331 | 2,384 | **−947** |\n| **Virginia** | 1,800 | 1,385 | **−415** |\n\n**Sources:**\n- 2012 Census: Table 37 (Maple Syrup: 2012 and 2007) from `st99_2_037_037.pdf` — syrup produced column for 2012\n- 2017 Census: State-level Table 40 (Woodland Crops Sales) and county-level Table 37 (Maple Syrup: 2017 and 2012) for each state\n\nAll other maple-producing states with ≥1,000 gallons in 2017 (Vermont, Maine, New York, Wisconsin, Pennsylvania, New Hampshire, Michigan, Massachusetts, Connecticut, Indiana, Kentucky, Maryland, West Virginia) showed increases from 2012 to 2017.",
+  "answer_chars": 1010,
+  "expected_answer": "Illinois, Ohio, Virginia",
+  "answer_type": "Set Answer",
+  "category": "Other",
+  "metrics": {
+    "latency_total_seconds": 452.302,
+    "token_usage_input": 535899,
+    "token_usage_output": 37414,
+    "llm_calls": 34,
+    "subagents_invoked": 0,
+    "tool_calls_total": 33,
+    "token_usage_input_root": 535899,
+    "token_usage_output_root": 37414,
+    "llm_calls_root": 34,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 33,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 16,
+      "web_extract": 12,
+      "read_file": 3,
+      "search_files": 2
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 34,
+    "turns_with_reasoning": 34,
+    "sessions_total": 1,
+    "cache_read_tokens": 2493056,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 33134,
+    "total_tokens": 573313,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260908_012752_0b6621",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260908_012752_0b6621",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788830873.0195723,
+        "ended_at": 1788831321.6322467,
+        "end_reason": "agent_close",
+        "message_count": 68,
+        "tool_call_count": 33,
+        "api_call_count": 34,
+        "input_tokens": 535899,
+        "output_tokens": 37414,
+        "cache_read_tokens": 2493056,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 33134,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0454/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation",
+      "skills"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": true,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Using data from the USDA's National Agricultural Statistics Service's 2012 and 2017 census, looking at the Specialty crops section, which maple producing states saw a decrease in gallons produced from 2012 to 2017, while still producing at least 1,000 gallons?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0454/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation,skills",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0454/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 696907
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 520127
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 68,
+  "agent_cwd_files": []
+}

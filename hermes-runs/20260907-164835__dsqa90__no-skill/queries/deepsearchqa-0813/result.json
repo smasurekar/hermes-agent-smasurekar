@@ -1,0 +1,165 @@
+{
+  "task_id": "deepsearchqa-0813",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788807386.7154734,
+  "finished_at": 1788807564.570472,
+  "latency_total_seconds": 177.855,
+  "prompt": "Out of the countries that the World Bank recorded as having women and girls as less than 45% of their population in 2000, which country had women and girls as the highest average percentage of its population from 2020 through the end of 2023?",
+  "prompt_prefix": "",
+  "instruction": "Out of the countries that the World Bank recorded as having women and girls as less than 45% of their population in 2000, which country had women and girls as the highest average percentage of its population from 2020 through the end of 2023?",
+  "answer": "**Kuwait**\n\nFrom the World Bank data (via Our World in Data), the five countries where women and girls were less than 45% of the population in 2000 were:\n\n| Country | Female % in 2000 |\n|---------|------------------|\n| Qatar | 31.70% |\n| United Arab Emirates | 31.03% |\n| Bahrain | 40.93% |\n| Kuwait | 41.52% |\n| Oman | 41.68% |\n\nTheir average female population percentages from 2020–2023:\n\n| Country | Avg 2020–2023 |\n|---------|---------------|\n| Kuwait | 39.05% |\n| Oman | 38.28% |\n| Bahrain | 37.91% |\n| United Arab Emirates | 35.82% |\n| Qatar | 28.18% |\n\nKuwait had the highest average at **39.05%**.",
+  "answer_chars": 605,
+  "expected_answer": "Kuwait",
+  "answer_type": "Single Answer",
+  "category": "Geography",
+  "metrics": {
+    "latency_total_seconds": 177.855,
+    "token_usage_input": 172469,
+    "token_usage_output": 3810,
+    "llm_calls": 25,
+    "subagents_invoked": 0,
+    "tool_calls_total": 24,
+    "token_usage_input_root": 172469,
+    "token_usage_output_root": 3810,
+    "llm_calls_root": 25,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 24,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "terminal": 14,
+      "web_extract": 7,
+      "web_search": 3
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 25,
+    "turns_with_reasoning": 25,
+    "sessions_total": 1,
+    "cache_read_tokens": 375552,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 800,
+    "total_tokens": 176279,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_185629_0e621c",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_185629_0e621c",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788807389.657956,
+        "ended_at": 1788807564.5491393,
+        "end_reason": "agent_close",
+        "message_count": 50,
+        "tool_call_count": 24,
+        "api_call_count": 25,
+        "input_tokens": 172469,
+        "output_tokens": 3810,
+        "cache_read_tokens": 375552,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 800,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0813/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Out of the countries that the World Bank recorded as having women and girls as less than 45% of their population in 2000, which country had women and girls as the highest average percentage of its population from 2020 through the end of 2023?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0813/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0813/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 140594
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 122889
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 50,
+  "agent_cwd_files": []
+}

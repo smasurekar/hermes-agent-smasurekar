@@ -1,0 +1,103 @@
+{
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "task_id": "deepsearchqa-0072",
+  "experiment": "no-skill",
+  "instruction": "According to the CDC, which US states had a death rate due to heart disease >191.5, a death rate due to cancer >161.9, and a death rate due to diabetes >33.1 in 2022?",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0072",
+    "source_id": "72",
+    "source_index": 72,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "According to the CDC, which US states had a death rate due to heart disease >191.5, a death rate due to cancer >161.9, and a death rate due to diabetes >33.1 in 2022?",
+    "problem_category": "Health",
+    "answer": "Arkansas, Mississippi, Oklahoma, West Virginia",
+    "answer_type": "Set Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "medium",
+      "termination_reason": "completed",
+      "research_action_count": 14,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "fully_correct",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": 1.0,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fully_correct": 1.0,
+        "fully_incorrect": 0.0,
+        "correct_with_excessive_answers": 0.0,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-pilot-20260818-v1",
+      "evaluated_at": "2026-08-18T04:28:20Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0072.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Medium: the worker produced a locally correct or partially correct answer in 14 actions, within the 5–15 action range (fully_correct, F1=1.000).",
+      "decision_basis": {
+        "termination_reason": "completed",
+        "research_action_count": 14,
+        "research_action_limit": 15,
+        "answer_outcome": "fully_correct",
+        "grader_valid": 1.0,
+        "f1_score": 1.0
+      },
+      "research_process": {
+        "action_type_counts": {
+          "open": 4,
+          "search": 10
+        },
+        "representative_actions": [
+          "Searched CDC for state-level heart disease mortality data.",
+          "Searched for CDC-sourced 2022 heart disease mortality data by state.",
+          "Located KFF's CDC-sourced cancer mortality table and its complete 2022 state data."
+        ],
+        "source_count": 5,
+        "action_log_detail": "descriptive",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0072.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0072",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation"
+  ],
+  "skills": [],
+  "prompt_prefix": "",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

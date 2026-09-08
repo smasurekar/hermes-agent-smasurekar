@@ -1,0 +1,3 @@
+2026-09-07 21:21:15,248 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-09-07 21:21:15,254 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-09-07 21:21:15,260 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl

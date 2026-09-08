@@ -1,0 +1,18 @@
+{
+  "estimated_cost_usd": 0.0,
+  "cost_status": "unknown",
+  "cost_source": "none",
+  "input_tokens": 29539,
+  "output_tokens": 2123,
+  "cache_read_tokens": 12544,
+  "cache_write_tokens": 0,
+  "reasoning_tokens": 443,
+  "total_tokens": 44206,
+  "api_calls": 3,
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": "custom",
+  "session_id": "20260907_220220_36828c",
+  "completed": true,
+  "failed": false,
+  "service_tier": null
+}

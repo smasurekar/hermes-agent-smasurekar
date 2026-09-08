@@ -1,0 +1,74 @@
+{
+  "example_id": "deepsearchqa-0545",
+  "source_id": "545",
+  "source_index": 545,
+  "source_dataset": "google/deepsearchqa",
+  "source_file": "DSQA-full.csv",
+  "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+  "problem": "I am performing research into best practices for low birth weight births. In 2017, which Canadian provinces had a Proportion of low birth weight births (<2500 grams at birth) above 6.0 but an Infant Mortality rate (per 1000 live births) below 4.5? Source all data from Statistics Canada Table: 13-10-0368-01 and Table: 13-10-0404-01. Ensure that all values are for both sexes.",
+  "problem_category": "Health",
+  "answer": "Prince Edward Island, Nova Scotia, New Brunswick, Quebec.",
+  "answer_type": "Set Answer",
+  "codex_difficulty": {
+    "schema_version": "1.0",
+    "method": "bounded-research-v1",
+    "label": "hard",
+    "termination_reason": "action_limit_reached",
+    "research_action_count": 15,
+    "research_action_limit": 15,
+    "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+    "answer_outcome": "partial",
+    "grader": {
+      "name": "deterministic-gold-item-comparison",
+      "grader_valid": true,
+      "f1_score": 0.3333333333,
+      "precision": 0.5,
+      "recall": 0.25,
+      "fully_correct": false,
+      "fully_incorrect": false,
+      "correct_with_excessive_answers": true,
+      "official_parity_verified": false
+    },
+    "agent": {
+      "platform": "codex",
+      "model": "inherited",
+      "reasoning_effort": "inherited",
+      "worker_prompt_version": "1.0",
+      "context_mode": "none"
+    },
+    "measurement": {
+      "action_count_source": "agent_self_reported",
+      "gold_isolation": "instruction_only",
+      "local_file_access_prohibited": true
+    },
+    "run_id": "codex-dsqa85-20260818-v1",
+    "evaluated_at": "2026-08-18T06:42:00Z",
+    "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0545.json"
+  },
+  "difficulty_rationale": {
+    "schema_version": "1.0",
+    "summary": "Hard: the worker used the full 15-action budget and returned a bounded best-effort answer (partial, F1=0.333).",
+    "decision_basis": {
+      "termination_reason": "action_limit_reached",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "answer_outcome": "partial",
+      "grader_valid": true,
+      "f1_score": 0.3333333333
+    },
+    "research_process": {
+      "action_type_counts": {
+        "reported": 15
+      },
+      "representative_actions": [
+        "Worker self-reported atomic research action 1; the action log was compacted during batch persistence.",
+        "Worker self-reported atomic research action 8; the action log was compacted during batch persistence.",
+        "Worker self-reported atomic research action 15; the action log was compacted during batch persistence."
+      ],
+      "source_count": 1,
+      "action_log_detail": "compacted",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0545.json"
+    },
+    "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+  }
+}

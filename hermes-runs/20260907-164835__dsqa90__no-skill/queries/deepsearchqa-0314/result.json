@@ -1,0 +1,165 @@
+{
+  "task_id": "deepsearchqa-0314",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788802780.3491325,
+  "finished_at": 1788802836.947275,
+  "latency_total_seconds": 56.598,
+  "prompt": "Exhaustive list of all types of the genus Tyrannosaurus as of May 2024",
+  "prompt_prefix": "",
+  "instruction": "Exhaustive list of all types of the genus Tyrannosaurus as of May 2024",
+  "answer": "As of **May 2024**, the genus ***Tyrannosaurus*** has the following formally named species, with their taxonomic status:\n\n---\n\n### **1. Currently Valid / Generally Accepted**\n\n| Species | Authority | Year | Status |\n|---------|-----------|------|--------|\n| ***Tyrannosaurus rex*** | Osborn | 1905 | **Type species** — universally accepted, only uncontested species. |\n\n---\n\n### **2. Formally Published in 2024 (Pre-May 2024)**\n\n| Species | Authority | Year | Status |\n|---------|-----------|------|--------|\n| ***Tyrannosaurus mcraeensis*** | Dalman et al. | 2024 | **Published Jan 2024** (*Scientific Reports*). Holotype NMMNH P-3698 (Hall Lake Formation, New Mexico). **Validity contested**: multiple 2025 studies (Voris et al., Morrison et al., Carr) argue it falls within *T. rex* variation and treat it as a junior synonym. As of May 2024 it was a newly erected, published name, but its acceptance was already debated. |\n\n---\n\n### **3. Controversial / Not Widely Accepted (2022 Proposal)**\n\n| Species | Authority | Year | Status |\n|---------|-----------|------|--------|\n| ***Tyrannosaurus imperator*** | Paul et al. | 2022 | Proposed in *Evolutionary Biology*; holotype = “Sue” (FMNH PR2081). **Rejected by most tyrannosaur specialists** (Brusatte, Carr, Holtz, Hone, O’Connor, Zanno, et al.) as inadequately supported; variation attributed to ontogeny/individual differences. |\n| ***Tyrannosaurus regina*** | Paul et al. | 2022 | Same paper; holotype = “Wankel rex” (MOR 555). **Same rejection** as *T. imperator*. |\n\n> **Note:** Paul maintained both names in a 2025 follow-up, but the broader community has not adopted them.\n\n---\n\n### **4. Historically Named Species Now Considered Invalid / Synonyms / Nomina Dubia**\n\n| Original Name | Authority | Year | Current Disposition |\n|---------------|-----------|------|---------------------|\n| *Tyrannosaurus bataar* | Maleev | 1955 | → ***Tarbosaurus bataar*** (separate genus; most authors) |\n| *Tyrannosaurus “lanpingensis”* | — | 1975 | **Nomen nudum** (isolated tooth, no description) |\n| *Tyrannosaurus “turpanensis”* | — | 1978 | **Nomen nudum**; later treated as jr. synonym of *Tarbosaurus bataar* |\n| *Tyrannosaurus luanchuanensis* | — | 1979–80 | Jr. synonym of *Tarbosaurus bataar* |\n| *Tyrannosaurus zhuchengensis* | Hu | 2001 | **Nomen dubium** (holotype lacks diagnostic features); possibly = *Zhuchengtyrannus* |\n| *Tyrannosaurus “vannus”* | Lawson | 1972 | **Nomen nudum** |\n| *Tyrannosaurus “megagracilis”* | Paul | 1988 | **Nomen nudum** (→ *Dinotyrannus megagracilis*, now juvenile *T. rex*) |\n| *Tyrannosaurus “gigantus”* | Harlan | 1990 | **Nomen nudum** |\n| *Tyrannosaurus “stanwinstonorum”* | Pickering | 1995 | **Nomen nudum** |\n| *Dynamosaurus imperiosus* | Osborn | 1905 | Jr. synonym of *T. rex* (Osborn 1906) |\n| *Manospondylus gigas* | Cope | 1892 | *Nomen oblitum*; type material non-diagnostic, *T. rex* conserved (ICZN) |\n| *Stygivenator amplus/cristatus* | Olshevsky et al. | 1995 | Jr. synonyms of *T. rex* (juvenile specimens) |\n| *Aublysodon* spp., *Deinodon* spp., *Ornithomimus grandis* | Various | 1890s | Jr. synonyms / nomina dubia of *T. rex* |\n\n---\n\n### **Summary (as of May 2024)**\n\n| Category | Count |\n|----------|-------|\n| **Universally accepted valid species** | **1** (*T. rex*) |\n| **Newly published, validity actively debated** | **1** (*T. mcraeensis*) |\n| **Proposed but rejected by consensus** | **2** (*T. imperator*, *T. regina*) |\n| **Historically named, now invalid** | **10+** |\n\n**Bottom line:** Only ***Tyrannosaurus rex*** is uncontroversially valid. ***T. mcraeensis*** exists as a published 2024 name but was already facing strong synonymy arguments by early 2025. The 2022 “three-species” split (*imperator*, *regina*) is not accepted by the tyrannosaur research community.",
+  "answer_chars": 3794,
+  "expected_answer": "Tyrannosaurus Rex, Tyrannosaurus Mcraeensis",
+  "answer_type": "Set Answer",
+  "category": "Science",
+  "metrics": {
+    "latency_total_seconds": 56.598,
+    "token_usage_input": 83495,
+    "token_usage_output": 3054,
+    "llm_calls": 7,
+    "subagents_invoked": 0,
+    "tool_calls_total": 6,
+    "token_usage_input_root": 83495,
+    "token_usage_output_root": 3054,
+    "llm_calls_root": 7,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 6,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 3,
+      "read_file": 2,
+      "web_extract": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 7,
+    "turns_with_reasoning": 7,
+    "sessions_total": 1,
+    "cache_read_tokens": 187904,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 1397,
+    "total_tokens": 86549,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_173943_9bae29",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_173943_9bae29",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788802783.1863558,
+        "ended_at": 1788802836.923547,
+        "end_reason": "agent_close",
+        "message_count": 14,
+        "tool_call_count": 6,
+        "api_call_count": 7,
+        "input_tokens": 83495,
+        "output_tokens": 3054,
+        "cache_read_tokens": 187904,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 1397,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0314/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Exhaustive list of all types of the genus Tyrannosaurus as of May 2024",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0314/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0314/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 257206
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 238398
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 14,
+  "agent_cwd_files": []
+}

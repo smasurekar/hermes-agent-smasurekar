@@ -1,0 +1,4 @@
+run,experiment,queries,ok,wall_clock_s,cost_usd,latency_total_seconds__mean,latency_total_seconds__total,token_usage_input__mean,token_usage_input__total,token_usage_output__mean,token_usage_output__total,llm_calls__mean,llm_calls__total,subagents_invoked__mean,subagents_invoked__total,tool_calls_total__mean,tool_calls_total__total
+20260907-164835__dsqa90__no-skill,no-skill,90,90,8874.054,0.0,194.014,17461.249,347815.144,31303363.0,9211.622,829046.0,22.533,2028.0,0.0,0.0,23.022,2072.0
+20260907-191629__dsqa90__forced-skill,forced-skill,90,89,16052.973,0.0,334.143,29738.759,732157.079,65161980.0,20472.888,1822087.0,58.798,5233.0,2.652,236.0,59.124,5262.0
+20260907-234403__dsqa90__auto-skill,auto-skill,90,90,10217.936,0.0,225.724,20315.137,256868.444,23118160.0,8323.522,749117.0,22.167,1995.0,0.2,18.0,22.711,2044.0

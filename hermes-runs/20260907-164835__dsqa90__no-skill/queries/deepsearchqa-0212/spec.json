@@ -1,0 +1,103 @@
+{
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "task_id": "deepsearchqa-0212",
+  "experiment": "no-skill",
+  "instruction": "Give me a list of all of the fish that Albacore form mixed schools with, but ignore the ones that can live over 20 years.",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0212",
+    "source_id": "212",
+    "source_index": 212,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "Give me a list of all of the fish that Albacore form mixed schools with, but ignore the ones that can live over 20 years.",
+    "problem_category": "Science",
+    "answer": "Skipjack Tuna, Yellowfin Tuna",
+    "answer_type": "Set Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "medium",
+      "termination_reason": "completed",
+      "research_action_count": 12,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "fully_correct",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": true,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fully_correct": true,
+        "fully_incorrect": false,
+        "correct_with_excessive_answers": false,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-dsqa85-20260818-v1",
+      "evaluated_at": "2026-08-18T05:06:00Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0212.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Medium: the worker produced a locally correct or partially correct answer in 12 actions, within the 5–15 action range (fully_correct, F1=1.000).",
+      "decision_basis": {
+        "termination_reason": "completed",
+        "research_action_count": 12,
+        "research_action_limit": 15,
+        "answer_outcome": "fully_correct",
+        "grader_valid": true,
+        "f1_score": 1.0
+      },
+      "research_process": {
+        "action_type_counts": {
+          "open": 4,
+          "search": 8
+        },
+        "representative_actions": [
+          "Searched fish species in mixed schools with albacore.",
+          "Searched NOAA bluefin lifespan.",
+          "Verified bluefin can live at least 20 years."
+        ],
+        "source_count": 3,
+        "action_log_detail": "descriptive",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0212.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0212",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation"
+  ],
+  "skills": [],
+  "prompt_prefix": "",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

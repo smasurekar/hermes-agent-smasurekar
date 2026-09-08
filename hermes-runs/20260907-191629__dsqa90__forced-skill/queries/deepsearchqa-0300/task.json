@@ -1,0 +1,76 @@
+{
+  "example_id": "deepsearchqa-0300",
+  "source_id": "300",
+  "source_index": 300,
+  "source_dataset": "google/deepsearchqa",
+  "source_file": "DSQA-full.csv",
+  "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+  "problem": "In June 2020, a review was published by two authors in Clinical reviews in allergy & immunology regarding the relationship between hypermobile Ehlers-Danlos Syndrome (hEDS), Postural Orthostatic Tachycardia Syndrome (POTS), and Mast Cell Activation Syndrome (MCAS). Using PubMed, go to the 2nd publication (published in 2008) that this review references, and identify the geneticist who published the classification of one of the previous syndromes in 1998. What is the title of this geneticist’s first publication in The Practitioner?",
+  "problem_category": "Health",
+  "answer": "Amitriptyline poisoning treated by forced diuresis.",
+  "answer_type": "Single Answer",
+  "codex_difficulty": {
+    "schema_version": "1.0",
+    "method": "bounded-research-v1",
+    "label": "medium",
+    "termination_reason": "completed",
+    "research_action_count": 13,
+    "research_action_limit": 15,
+    "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+    "answer_outcome": "fully_correct",
+    "grader": {
+      "name": "deterministic-gold-item-comparison",
+      "grader_valid": true,
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fully_correct": true,
+      "fully_incorrect": false,
+      "correct_with_excessive_answers": false,
+      "official_parity_verified": false
+    },
+    "agent": {
+      "platform": "codex",
+      "model": "inherited",
+      "reasoning_effort": "inherited",
+      "worker_prompt_version": "1.0",
+      "context_mode": "none"
+    },
+    "measurement": {
+      "action_count_source": "agent_self_reported",
+      "gold_isolation": "instruction_only",
+      "local_file_access_prohibited": true
+    },
+    "run_id": "codex-dsqa85-20260818-v1",
+    "evaluated_at": "2026-08-18T05:25:00Z",
+    "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0300.json"
+  },
+  "difficulty_rationale": {
+    "schema_version": "1.0",
+    "summary": "Medium: the worker produced a locally correct or partially correct answer in 13 actions, within the 5–15 action range (fully_correct, F1=1.000).",
+    "decision_basis": {
+      "termination_reason": "completed",
+      "research_action_count": 13,
+      "research_action_limit": 15,
+      "answer_outcome": "fully_correct",
+      "grader_valid": true,
+      "f1_score": 1.0
+    },
+    "research_process": {
+      "action_type_counts": {
+        "click": 1,
+        "open": 3,
+        "search": 9
+      },
+      "representative_actions": [
+        "Located the June 2020 review.",
+        "Checked for earlier publications.",
+        "Corroborated the earliest title."
+      ],
+      "source_count": 2,
+      "action_log_detail": "descriptive",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0300.json"
+    },
+    "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+  }
+}

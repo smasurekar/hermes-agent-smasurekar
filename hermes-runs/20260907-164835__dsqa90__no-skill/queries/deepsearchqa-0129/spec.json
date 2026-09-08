@@ -1,0 +1,104 @@
+{
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "task_id": "deepsearchqa-0129",
+  "experiment": "no-skill",
+  "instruction": "According to the ACT, for 2023 identify of all the states to have an estimated at least 90% of their grads tested using the ACT, which of those states had a composite average score of at least 18.5, had at least 42% of test takers meet the English benchmark, had at least 19% meet the math benchmark, and at least 30% meet the reading benchmark.",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0129",
+    "source_id": "129",
+    "source_index": 129,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "According to the ACT, for 2023 identify of all the states to have an estimated at least 90% of their grads tested using the ACT, which of those states had a composite average score of at least 18.5, had at least 42% of test takers meet the English benchmark, had at least 19% meet the math benchmark, and at least 30% meet the reading benchmark.",
+    "problem_category": "Education",
+    "answer": "Kentucky, Wyoming, Montana, Arkansas, Nebraska, Wisconsin, Utah",
+    "answer_type": "Set Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "easy",
+      "termination_reason": "completed",
+      "research_action_count": 4,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "fully_correct",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": 1.0,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fully_correct": 1.0,
+        "fully_incorrect": 0.0,
+        "correct_with_excessive_answers": 0.0,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-dsqa85-20260818-v1",
+      "evaluated_at": "2026-08-18T04:41:47Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0129.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Easy: the worker produced a locally correct or partially correct answer in 4 actions, below the five-action threshold.",
+      "decision_basis": {
+        "termination_reason": "completed",
+        "research_action_count": 4,
+        "research_action_limit": 15,
+        "answer_outcome": "fully_correct",
+        "grader_valid": 1.0,
+        "f1_score": 1.0
+      },
+      "research_process": {
+        "action_type_counts": {
+          "open": 1,
+          "screenshot": 1,
+          "search": 2
+        },
+        "representative_actions": [
+          "Searched ACT’s website for 2023 state-level participation, composite scores, and benchmark percentages.",
+          "Opened ACT’s official two-page 2023 Average ACT Scores by State PDF and reviewed its complete table.",
+          "Rendered the first PDF page to visually confirm the relevant high-participation rows."
+        ],
+        "source_count": 1,
+        "action_log_detail": "descriptive",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0129.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0129",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation"
+  ],
+  "skills": [],
+  "prompt_prefix": "",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

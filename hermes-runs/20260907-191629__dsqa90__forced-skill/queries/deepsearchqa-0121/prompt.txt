@@ -1,0 +1,1 @@
+/deep-research Tell me all of the candidates for Dublin South-West in the most recent Irish General Election, as of Jan 2024, who received 5% or less of the total "First Preference" vote, excluding candidates who ran as Independents with no political party.

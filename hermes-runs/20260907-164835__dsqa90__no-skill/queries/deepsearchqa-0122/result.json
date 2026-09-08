@@ -1,0 +1,167 @@
+{
+  "task_id": "deepsearchqa-0122",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788800752.9332745,
+  "finished_at": 1788801079.5328887,
+  "latency_total_seconds": 326.6,
+  "prompt": "According to fishbase.org, what is the FishBase Name and species of every fish in Japan that has a highly commercial designation in both the \"use\" column and the \"use elsewhere\" column?",
+  "prompt_prefix": "",
+  "instruction": "According to fishbase.org, what is the FishBase Name and species of every fish in Japan that has a highly commercial designation in both the \"use\" column and the \"use elsewhere\" column?",
+  "answer": "Based on my research of FishBase.org data for Japan (country code 392), the following fish species have **\"highly commercial\"** designation in **both** the \"Use\" column (Japan-specific importance) **and** the \"Use elsewhere\" column (global/highly commercial fisheries status):\n\n| FishBase Name | Species (Scientific Name) |\n|---------------|---------------------------|\n| Japanese amberjack | *Seriola quinqueradiata* |\n| Pacific Chub mackerel | *Scomber japonicus* |\n| Japanese anchovy | *Engraulis japonicus* |\n| Alaska pollock | *Gadus chalcogrammus* |\n| Yellowfin tuna | *Thunnus albacares* |\n| Red seabream | *Pagrus major* |\n\n**Verification details:**\n- Each species shows **\"Importance: highly commercial\"** in its Japan-specific CountrySpeciesSummary page\n- Each species shows **\"Fisheries: highly commercial\"** in its global Human Uses section (indicating \"highly commercial\" status elsewhere)\n- All are native to Japanese waters except *Gadus chalcogrammus* (Alaska pollock), which is native to northern Japan\n\nThese six species represent the major commercial fisheries targets in Japan that are also globally significant commercial species.",
+  "answer_chars": 1151,
+  "expected_answer": "Pacific sandlance (Ammodytes personatus), Japanese Scad (Decapterus maruadsi), Japanese anchovy (Engraulis japonicus), Deepwater longtail red snapper (Etelis coruscans), Alaska pollack (Gadus chalcogrammus), Pacific cod (Gadus macrocephalus), Red seabream (Pagrus major), Ayu sweetfish (Plecoglossus altivelis), Chub mackerel (Scomber japonicus), Japanese amberjack (Seriola quinqueradiata), Japanese pufferfish (Takifugu rubripes), Yellowfin tuna (Thunnus albacares)",
+  "answer_type": "Set Answer",
+  "category": "Science",
+  "metrics": {
+    "latency_total_seconds": 326.6,
+    "token_usage_input": 1017807,
+    "token_usage_output": 17678,
+    "llm_calls": 40,
+    "subagents_invoked": 0,
+    "tool_calls_total": 39,
+    "token_usage_input_root": 1017807,
+    "token_usage_output_root": 17678,
+    "llm_calls_root": 40,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 39,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_extract": 16,
+      "read_file": 9,
+      "web_search": 8,
+      "terminal": 4,
+      "search_files": 2
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 40,
+    "turns_with_reasoning": 40,
+    "sessions_total": 1,
+    "cache_read_tokens": 3998976,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 13355,
+    "total_tokens": 1035485,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_170555_9e94f1",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_170555_9e94f1",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788800755.8136609,
+        "ended_at": 1788801079.5104086,
+        "end_reason": "agent_close",
+        "message_count": 80,
+        "tool_call_count": 39,
+        "api_call_count": 40,
+        "input_tokens": 1017807,
+        "output_tokens": 17678,
+        "cache_read_tokens": 3998976,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 13355,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0122/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "According to fishbase.org, what is the FishBase Name and species of every fish in Japan that has a highly commercial designation in both the \"use\" column and the \"use elsewhere\" column?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0122/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0122/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 1102925
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 971103
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 80,
+  "agent_cwd_files": []
+}

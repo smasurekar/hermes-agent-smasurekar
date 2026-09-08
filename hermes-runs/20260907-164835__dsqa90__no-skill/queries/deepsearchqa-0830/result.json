@@ -1,0 +1,165 @@
+{
+  "task_id": "deepsearchqa-0830",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788807599.6612325,
+  "finished_at": 1788807738.9487114,
+  "latency_total_seconds": 139.287,
+  "prompt": "Please list all the people who were added to the FBI's Most Wanted list in 2000 or 2001 who were convicted of murder within the ten years after their placement on the list.",
+  "prompt_prefix": "",
+  "instruction": "Please list all the people who were added to the FBI's Most Wanted list in 2000 or 2001 who were convicted of murder within the ten years after their placement on the list.",
+  "answer": "Based on my research of the FBI's Ten Most Wanted Fugitives added in 2000 and 2001, here are the **five people** who were convicted of murder within ten years of their placement on the list:\n\n---\n\n### 1. **Jesse James Caston** (#459)\n- **Added:** August 19, 2000\n- **Convicted:** 2005 (pled guilty to second-degree murder, sentenced to life imprisonment at hard labor without benefit of probation, parole, or suspension of sentence) — *State v. Caston, 40,054-KA (La. Ct. App. 2005)*\n\n---\n\n### 2. **Aurlieas Dame McClarty** (#461)\n- **Added:** February 5, 2001\n- **Convicted:** May 2008 (convicted of two counts of first-degree murder and robbery with a firearm; sentenced to two consecutive life terms) — *Orlando Sentinel, May 14, 2008*\n\n---\n\n### 3. **Francis William Murphy** (#464)\n- **Added:** June 6, 2001\n- **Convicted:** November 2004 (convicted of five counts of second-degree murder and first-degree robbery after a non-jury trial; affirmed on appeal) — *People v. Murphy, 28 AD3d 1096 (N.Y. App. Div. 2006); Buffalo News, 2004*\n\n---\n\n### 4. **Dwight Bowen** (#465)\n- **Added:** August 30, 2001\n- **Convicted:** February 2004 (pled guilty to two counts of second-degree murder for the Molotov cocktail firebombing that killed two toddlers; sentenced to two consecutive life sentences) — *Commonwealth v. Bowen, CP-51-CR-0909801-2001; TribLive, Oct. 24, 2019*\n\n---\n\n### 5. **Felix Summers** (#468)\n- **Added:** October 30, 2001\n- **Convicted:** November 2006 (convicted by jury of first-degree murder and witness retaliation for the March 1999 killing of Charlotte Presley; sentenced to life imprisonment) — *Summers v. Wetzel, Civ. No. 13-3561 (E.D. Pa. 2016); Com. v. Summers, 2711 EDA 2014 (Pa. Super. Ct. 2016)*\n\n---\n\n### Excluded (not convicted of murder within 10 years):\n- **Eric Franklin Rosser** (#460, Dec 2000) — convicted of child pornography offenses\n- **Hopeton Eric Brown** (#462, Mar 2001) — killed in Jamaica in 2004 before conviction\n- **Maghfoor Mansoor** (#463, May 2001) — killed in shootout with FBI in 2001\n- **Nikolay Soltys** (#466, Aug 2001) — died by suicide in 2002\n- **Clayton Lee Waagner** (#467, Sep 2001) — convicted of bank robbery, firearms violations, and anthrax threats, not murder",
+  "answer_chars": 2227,
+  "expected_answer": "Jesse James Caston, Aurlieas Dame McClarty, Francis William Murphy, Dwight Bowen, Felix Summers",
+  "answer_type": "Set Answer",
+  "category": "History",
+  "metrics": {
+    "latency_total_seconds": 139.287,
+    "token_usage_input": 174581,
+    "token_usage_output": 7260,
+    "llm_calls": 14,
+    "subagents_invoked": 0,
+    "tool_calls_total": 13,
+    "token_usage_input_root": 174581,
+    "token_usage_output_root": 7260,
+    "llm_calls_root": 14,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 13,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 11,
+      "read_file": 1,
+      "web_extract": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 14,
+    "turns_with_reasoning": 14,
+    "sessions_total": 1,
+    "cache_read_tokens": 509440,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 5764,
+    "total_tokens": 181841,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_190003_d9cb18",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_190003_d9cb18",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788807604.0658092,
+        "ended_at": 1788807738.9261942,
+        "end_reason": "agent_close",
+        "message_count": 28,
+        "tool_call_count": 13,
+        "api_call_count": 14,
+        "input_tokens": 174581,
+        "output_tokens": 7260,
+        "cache_read_tokens": 509440,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 5764,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0830/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Please list all the people who were added to the FBI's Most Wanted list in 2000 or 2001 who were convicted of murder within the ten years after their placement on the list.",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0830/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0830/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 305767
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 259599
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 28,
+  "agent_cwd_files": []
+}

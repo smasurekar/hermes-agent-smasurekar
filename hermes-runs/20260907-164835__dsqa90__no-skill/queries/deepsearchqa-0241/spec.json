@@ -1,0 +1,103 @@
+{
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "task_id": "deepsearchqa-0241",
+  "experiment": "no-skill",
+  "instruction": "Which U.S. Presidents attended a university that was a member of the Association of American Universities (AAU) as of May 2024, had prior experience as a state governor, and were elected president after 1900?",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0241",
+    "source_id": "241",
+    "source_index": 241,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "Which U.S. Presidents attended a university that was a member of the Association of American Universities (AAU) as of May 2024, had prior experience as a state governor, and were elected president after 1900?",
+    "problem_category": "Politics & Government",
+    "answer": "Woodrow Wilson, Jimmy Carter, Franklin D. Roosevelt, George W. Bush, Bill Clinton, Theodore Roosevelt",
+    "answer_type": "Set Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "medium",
+      "termination_reason": "completed",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "fully_correct",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": true,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fully_correct": true,
+        "fully_incorrect": false,
+        "correct_with_excessive_answers": false,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-dsqa85-20260818-v1",
+      "evaluated_at": "2026-08-18T05:06:00Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0241.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Medium: the worker produced a locally correct or partially correct answer in 15 actions, within the 5–15 action range (fully_correct, F1=1.000).",
+      "decision_basis": {
+        "termination_reason": "completed",
+        "research_action_count": 15,
+        "research_action_limit": 15,
+        "answer_outcome": "fully_correct",
+        "grader_valid": true,
+        "f1_score": 1.0
+      },
+      "research_process": {
+        "action_type_counts": {
+          "open": 5,
+          "search": 10
+        },
+        "representative_actions": [
+          "Searched official AAU membership.",
+          "Checked Jimmy Carter's Georgia Tech attendance.",
+          "Opened the NGA Jimmy Carter biography."
+        ],
+        "source_count": 3,
+        "action_log_detail": "descriptive",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0241.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0241",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation"
+  ],
+  "skills": [],
+  "prompt_prefix": "",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

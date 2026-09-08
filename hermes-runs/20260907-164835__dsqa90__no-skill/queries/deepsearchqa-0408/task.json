@@ -1,0 +1,74 @@
+{
+  "example_id": "deepsearchqa-0408",
+  "source_id": "408",
+  "source_index": 408,
+  "source_dataset": "google/deepsearchqa",
+  "source_file": "DSQA-full.csv",
+  "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+  "problem": "Consider the countries that received a rating of “very high” in the 2023 Global Peace Index. Exclude any countries that have an area of either over 1,000,000 km2 or under 25,000 km2. Of the remaining countries, which had the highest CO2 emissions per capita in 2023 according to data.worldbank.org?",
+  "problem_category": "Geography",
+  "answer": "Czechia (or Czech Republic)",
+  "answer_type": "Single Answer",
+  "codex_difficulty": {
+    "schema_version": "1.0",
+    "method": "bounded-research-v1",
+    "label": "hard",
+    "termination_reason": "completed",
+    "research_action_count": 15,
+    "research_action_limit": 15,
+    "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+    "answer_outcome": "fully_incorrect",
+    "grader": {
+      "name": "deterministic-gold-item-comparison",
+      "grader_valid": true,
+      "f1_score": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "fully_correct": false,
+      "fully_incorrect": true,
+      "correct_with_excessive_answers": false,
+      "official_parity_verified": false
+    },
+    "agent": {
+      "platform": "codex",
+      "model": "inherited",
+      "reasoning_effort": "inherited",
+      "worker_prompt_version": "1.0",
+      "context_mode": "none"
+    },
+    "measurement": {
+      "action_count_source": "agent_self_reported",
+      "gold_isolation": "instruction_only",
+      "local_file_access_prohibited": true
+    },
+    "run_id": "codex-dsqa85-20260818-v1",
+    "evaluated_at": "2026-08-18T06:17:00Z",
+    "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0408.json"
+  },
+  "difficulty_rationale": {
+    "schema_version": "1.0",
+    "summary": "Hard: the worker completed 15 research actions, but the answer contained no correct gold items (F1=0).",
+    "decision_basis": {
+      "termination_reason": "completed",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "answer_outcome": "fully_incorrect",
+      "grader_valid": true,
+      "f1_score": 0.0
+    },
+    "research_process": {
+      "action_type_counts": {
+        "reported": 15
+      },
+      "representative_actions": [
+        "Worker self-reported atomic research action 1; the action log was compacted during batch persistence.",
+        "Worker self-reported atomic research action 8; the action log was compacted during batch persistence.",
+        "Worker self-reported atomic research action 15; the action log was compacted during batch persistence."
+      ],
+      "source_count": 1,
+      "action_log_detail": "compacted",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0408.json"
+    },
+    "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "school_name": "Dunlap Elementary School",
+      "regular_attendance_rate": 66.4,
+      "below_70_percent": true
+    },
+    {
+      "school_name": "Emerson Elementary School",
+      "regular_attendance_rate": 59.2,
+      "below_70_percent": true
+    },
+    {
+      "school_name": "Graham Hill Elementary School",
+      "regular_attendance_rate": 69.3,
+      "below_70_percent": true
+    },
+    {
+      "school_name": "Martin Luther King Jr. Elementary School",
+      "regular_attendance_rate": 69.5,
+      "below_70_percent": true
+    },
+    {
+      "school_name": "Rainier View Elementary School",
+      "regular_attendance_rate": 68.2,
+      "below_70_percent": true
+    },
+    {
+      "school_name": "Wing Luke Elementary School",
+      "regular_attendance_rate": 60.6,
+      "below_70_percent": true
+    }
+  ]
+}

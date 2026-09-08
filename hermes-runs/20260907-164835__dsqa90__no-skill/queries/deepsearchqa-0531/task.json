@@ -1,0 +1,74 @@
+{
+  "example_id": "deepsearchqa-0531",
+  "source_id": "531",
+  "source_index": 531,
+  "source_dataset": "google/deepsearchqa",
+  "source_file": "DSQA-full.csv",
+  "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+  "problem": "Out of all the subjects that you can study at the University of Cambridge, which ones saw an increase in the percentage of acceptances of students from Maintained schools between the 2019 and 2021 undergraduate admissions cycles and then also between the 2021 and 2023 undergraduate admissions cycles. Consider Home applicants only.",
+  "problem_category": "Education",
+  "answer": "\"Anglo-Saxon, Norse, & Celtic\", Archaeology, Economics, History, History of Art, Land Economy, \"Theology, Religion & Philosophy of Religion\", Computer Science, Natural Sciences",
+  "answer_type": "Set Answer",
+  "codex_difficulty": {
+    "schema_version": "1.0",
+    "method": "bounded-research-v1",
+    "label": "medium",
+    "termination_reason": "completed",
+    "research_action_count": 6,
+    "research_action_limit": 15,
+    "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+    "answer_outcome": "fully_correct",
+    "grader": {
+      "name": "deterministic-gold-item-comparison",
+      "grader_valid": true,
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fully_correct": true,
+      "fully_incorrect": false,
+      "correct_with_excessive_answers": false,
+      "official_parity_verified": false
+    },
+    "agent": {
+      "platform": "codex",
+      "model": "inherited",
+      "reasoning_effort": "inherited",
+      "worker_prompt_version": "1.0",
+      "context_mode": "none"
+    },
+    "measurement": {
+      "action_count_source": "agent_self_reported",
+      "gold_isolation": "instruction_only",
+      "local_file_access_prohibited": true
+    },
+    "run_id": "codex-dsqa85-20260818-v1",
+    "evaluated_at": "2026-08-18T06:42:00Z",
+    "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0531.json"
+  },
+  "difficulty_rationale": {
+    "schema_version": "1.0",
+    "summary": "Medium: the worker produced a locally correct or partially correct answer in 6 actions, within the 5–15 action range (fully_correct, F1=1.000).",
+    "decision_basis": {
+      "termination_reason": "completed",
+      "research_action_count": 6,
+      "research_action_limit": 15,
+      "answer_outcome": "fully_correct",
+      "grader_valid": true,
+      "f1_score": 1.0
+    },
+    "research_process": {
+      "action_type_counts": {
+        "reported": 6
+      },
+      "representative_actions": [
+        "Worker self-reported atomic research action 1; the action log was compacted during batch persistence.",
+        "Worker self-reported atomic research action 4; the action log was compacted during batch persistence.",
+        "Worker self-reported atomic research action 6; the action log was compacted during batch persistence."
+      ],
+      "source_count": 1,
+      "action_log_detail": "compacted",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0531.json"
+    },
+    "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+  }
+}

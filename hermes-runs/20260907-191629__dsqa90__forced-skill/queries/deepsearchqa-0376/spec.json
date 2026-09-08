@@ -1,0 +1,107 @@
+{
+  "run_id": "20260907-191629__dsqa90__forced-skill",
+  "task_id": "deepsearchqa-0376",
+  "experiment": "forced-skill",
+  "instruction": "I am researching trends of young people leaving Wales. According to the Welsh Census 2021 and official Welsh government data, find the local authorities that did NOT see an overall decrease in amount of households since 2011. Out of these local authorities, identify those that had a population of less than 120,000 at the point of mid-year 2021 and are not in the North Wales region. From this selection, identify the all local authorities that have seen an increase of over 2% in people aged 25 to 44 between mid-year 2021 and mid-year 2022.",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0376",
+    "source_id": "376",
+    "source_index": 376,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "I am researching trends of young people leaving Wales. According to the Welsh Census 2021 and official Welsh government data, find the local authorities that did NOT see an overall decrease in amount of households since 2011. Out of these local authorities, identify those that had a population of less than 120,000 at the point of mid-year 2021 and are not in the North Wales region. From this selection, identify the all local authorities that have seen an increase of over 2% in people aged 25 to 44 between mid-year 2021 and mid-year 2022.",
+    "problem_category": "Geography",
+    "answer": "Monmouthshire, Torfaen",
+    "answer_type": "Set Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "hard",
+      "termination_reason": "action_limit_reached",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "partial",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": true,
+        "f1_score": 0.5,
+        "precision": 0.5,
+        "recall": 0.5,
+        "fully_correct": false,
+        "fully_incorrect": false,
+        "correct_with_excessive_answers": true,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-dsqa85-20260818-v1",
+      "evaluated_at": "2026-08-18T05:52:00Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0376.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Hard: the worker used the full 15-action budget and returned a bounded best-effort answer (partial, F1=0.500).",
+      "decision_basis": {
+        "termination_reason": "action_limit_reached",
+        "research_action_count": 15,
+        "research_action_limit": 15,
+        "answer_outcome": "partial",
+        "grader_valid": true,
+        "f1_score": 0.5
+      },
+      "research_process": {
+        "action_type_counts": {
+          "click": 3,
+          "open": 3,
+          "search": 9
+        },
+        "representative_actions": [
+          "Searched Welsh household changes.",
+          "Checked Blaenau Gwent.",
+          "Identified the API base URL."
+        ],
+        "source_count": 1,
+        "action_log_detail": "descriptive",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0376.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-191629__dsqa90__forced-skill/queries/deepsearchqa-0376",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation",
+    "skills"
+  ],
+  "skills": [
+    "deep-research"
+  ],
+  "prompt_prefix": "/deep-research ",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

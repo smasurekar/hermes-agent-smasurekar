@@ -1,0 +1,166 @@
+{
+  "task_id": "deepsearchqa-0813",
+  "experiment": "auto-skill",
+  "run_id": "20260907-234403__dsqa90__auto-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788833615.826332,
+  "finished_at": 1788833749.524936,
+  "latency_total_seconds": 133.699,
+  "prompt": "Out of the countries that the World Bank recorded as having women and girls as less than 45% of their population in 2000, which country had women and girls as the highest average percentage of its population from 2020 through the end of 2023?",
+  "prompt_prefix": "",
+  "instruction": "Out of the countries that the World Bank recorded as having women and girls as less than 45% of their population in 2000, which country had women and girls as the highest average percentage of its population from 2020 through the end of 2023?",
+  "answer": "**Kuwait** had the highest average percentage of women and girls in its population from 2020 through 2023, at **39.05%**.\n\nOf the 5 countries the World Bank recorded as having women and girls below 45% of total population in 2000 (UAE at 31.0%, Qatar at 31.7%, Bahrain at 40.9%, Kuwait at 41.5%, Oman at 41.7%), Kuwait's female share averaged highest over 2020–2023.",
+  "answer_chars": 366,
+  "expected_answer": "Kuwait",
+  "answer_type": "Single Answer",
+  "category": "Geography",
+  "metrics": {
+    "latency_total_seconds": 133.699,
+    "token_usage_input": 120007,
+    "token_usage_output": 5577,
+    "llm_calls": 13,
+    "subagents_invoked": 0,
+    "tool_calls_total": 12,
+    "token_usage_input_root": 120007,
+    "token_usage_output_root": 5577,
+    "llm_calls_root": 13,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 12,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "terminal": 8,
+      "web_extract": 2,
+      "web_search": 2
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 13,
+    "turns_with_reasoning": 13,
+    "sessions_total": 1,
+    "cache_read_tokens": 471552,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 694,
+    "total_tokens": 125584,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260908_021338_8e31ba",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260908_021338_8e31ba",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788833618.7455,
+        "ended_at": 1788833749.4779265,
+        "end_reason": "agent_close",
+        "message_count": 26,
+        "tool_call_count": 12,
+        "api_call_count": 13,
+        "input_tokens": 120007,
+        "output_tokens": 5577,
+        "cache_read_tokens": 471552,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 694,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0813/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation",
+      "skills"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": true,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Out of the countries that the World Bank recorded as having women and girls as less than 45% of their population in 2000, which country had women and girls as the highest average percentage of its population from 2020 through the end of 2023?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0813/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation,skills",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0813/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 196747
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 174698
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 26,
+  "agent_cwd_files": []
+}

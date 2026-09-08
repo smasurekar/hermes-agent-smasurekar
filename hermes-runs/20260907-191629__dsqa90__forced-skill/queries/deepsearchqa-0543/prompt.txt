@@ -1,0 +1,1 @@
+/deep-research NASA has a reference guide for The Space Shuttle that features a detailed look at all the previous Shuttles. Note the shuttle that has the second fewest number of construction milestones listed before 2024. From the flights of the shuttle, create a list of the missions where its landing site was EAFB.

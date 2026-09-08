@@ -1,0 +1,164 @@
+{
+  "task_id": "deepsearchqa-0407",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788804624.4864407,
+  "finished_at": 1788804643.489025,
+  "latency_total_seconds": 19.003,
+  "prompt": "Of the top 5 states that have the most deaths by car crash in 2023, which had a seat belt use of less than 90% in 2023?",
+  "prompt_prefix": "",
+  "instruction": "Of the top 5 states that have the most deaths by car crash in 2023, which had a seat belt use of less than 90% in 2023?",
+  "answer": "**Florida** (89.4%) and **Georgia** (87.6%)\n\nThe top 5 states by total car crash deaths in 2023 were:\n1. Texas — 4,291 deaths — seat belt use **90.6%**\n2. California — 4,061 deaths — seat belt use **96.2%**\n3. Florida — 3,396 deaths — seat belt use **89.4%**\n4. Georgia — 1,615 deaths — seat belt use **87.6%**\n5. North Carolina — 1,561 deaths — seat belt use **92.2%**\n\nOnly **Florida** and **Georgia** had seat belt use rates below 90% in 2023.",
+  "answer_chars": 446,
+  "expected_answer": "Florida, Georgia",
+  "answer_type": "Set Answer",
+  "category": "Health",
+  "metrics": {
+    "latency_total_seconds": 19.003,
+    "token_usage_input": 28141,
+    "token_usage_output": 825,
+    "llm_calls": 3,
+    "subagents_invoked": 0,
+    "tool_calls_total": 4,
+    "token_usage_input_root": 28141,
+    "token_usage_output_root": 825,
+    "llm_calls_root": 3,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 4,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_extract": 2,
+      "web_search": 2
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 3,
+    "turns_with_reasoning": 3,
+    "sessions_total": 1,
+    "cache_read_tokens": 17024,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 455,
+    "total_tokens": 28966,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_181027_de7554",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_181027_de7554",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788804627.6292875,
+        "ended_at": 1788804643.4688983,
+        "end_reason": "agent_close",
+        "message_count": 8,
+        "tool_call_count": 4,
+        "api_call_count": 3,
+        "input_tokens": 28141,
+        "output_tokens": 825,
+        "cache_read_tokens": 17024,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 455,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0407/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Of the top 5 states that have the most deaths by car crash in 2023, which had a seat belt use of less than 90% in 2023?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0407/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0407/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 64999
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 54686
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 8,
+  "agent_cwd_files": []
+}

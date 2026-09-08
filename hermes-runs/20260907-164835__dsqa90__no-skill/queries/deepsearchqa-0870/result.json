@@ -1,0 +1,165 @@
+{
+  "task_id": "deepsearchqa-0870",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788808141.6744003,
+  "finished_at": 1788808409.8748822,
+  "latency_total_seconds": 268.2,
+  "prompt": "Which countries' GPI were at or above three in 2023 and were below three in 2021, given the states that collected data in World Population Review?",
+  "prompt_prefix": "",
+  "instruction": "Which countries' GPI were at or above three in 2023 and were below three in 2021, given the states that collected data in World Population Review?",
+  "answer": "Based on the Global Peace Index data from the Institute for Economics & Peace (the source World Population Review uses), three countries crossed the 3.0 threshold from below in 2021 to at or above in 2023:\n\n**Russia** — 2021: 2.993 → 2023: 3.142  \n**Ukraine** — 2021: 2.66 → 2023: 3.043  \n**Sudan** — 2021: 2.936 → 2023: 3.023  \n\nAll three had GPI scores below 3.0 in 2021 and at or above 3.0 in 2023. The deterioration for Russia and Ukraine was driven by the war beginning in February 2022, while Sudan's score worsened due to escalating internal conflict.",
+  "answer_chars": 558,
+  "expected_answer": "Sudan, Ukraine, Russia",
+  "answer_type": "Set Answer",
+  "category": "Politics & Government",
+  "metrics": {
+    "latency_total_seconds": 268.2,
+    "token_usage_input": 667473,
+    "token_usage_output": 15280,
+    "llm_calls": 31,
+    "subagents_invoked": 0,
+    "tool_calls_total": 34,
+    "token_usage_input_root": 667473,
+    "token_usage_output_root": 15280,
+    "llm_calls_root": 31,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 34,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 19,
+      "web_extract": 10,
+      "read_file": 5
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 31,
+    "turns_with_reasoning": 31,
+    "sessions_total": 1,
+    "cache_read_tokens": 2408320,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 12944,
+    "total_tokens": 682753,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_190904_746711",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_190904_746711",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788808144.5985575,
+        "ended_at": 1788808409.851634,
+        "end_reason": "agent_close",
+        "message_count": 66,
+        "tool_call_count": 34,
+        "api_call_count": 31,
+        "input_tokens": 667473,
+        "output_tokens": 15280,
+        "cache_read_tokens": 2408320,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 12944,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0870/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Which countries' GPI were at or above three in 2023 and were below three in 2021, given the states that collected data in World Population Review?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0870/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0870/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 770121
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 693356
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 66,
+  "agent_cwd_files": []
+}

@@ -1,0 +1,166 @@
+{
+  "task_id": "deepsearchqa-0780",
+  "experiment": "auto-skill",
+  "run_id": "20260907-234403__dsqa90__auto-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788833161.9635444,
+  "finished_at": 1788833430.8790512,
+  "latency_total_seconds": 268.916,
+  "prompt": "Regular attendance is defined as missing less than 10% of school days (or fewer than 2 absences per month), regardless of the reason. According to Washington state's Office of Superintendent of Public Instruction's report card data, which elementary schools in District 7 of Seattle Public Schools had less than 70% of students with regular attendance in the 2021-22 school year? Do not include K-8 schools.",
+  "prompt_prefix": "",
+  "instruction": "Regular attendance is defined as missing less than 10% of school days (or fewer than 2 absences per month), regardless of the reason. According to Washington state's Office of Superintendent of Public Instruction's report card data, which elementary schools in District 7 of Seattle Public Schools had less than 70% of students with regular attendance in the 2021-22 school year? Do not include K-8 schools.",
+  "answer": "Based on the OSPI Report Card SQSS data for 2021-22 and the official Seattle Public Schools District 7 elementary school list, here are the elementary schools in District 7 with less than 70% regular attendance:\n\n**Schools with <70% regular attendance (2021-22):**\n\n| School | Numerator | Denominator | Rate |\n|--------|-----------|-------------|------|\n| Emerson Elementary | 181 | 306 | **59.2%** |\n| Wing Luke Elementary | 168 | 277 | **60.6%** |\n| Rainier View Elementary | 152 | 223 | **68.2%** |\n| Dunlap Elementary | 164 | 247 | **66.4%** |\n| Graham Hill Elementary | 190 | 274 | **69.3%** |\n| Martin Luther King Jr. Elementary | 169 | 243 | **69.5%** |\n\n**6 schools** total.\n\n**Schools at or above 70% (for reference):**\n- Rising Star Elementary: 71.3%\n- Dearborn Park International: 73.8%\n- Beacon Hill International: 81.5%\n- Hawthorne Elementary: 77.0%\n- Kimball Elementary: 78.9%\n- Maple Elementary: 83.3%\n- John Muir Elementary: 82.1%\n\n*Note: K-8 schools (Orca K-8 and South Shore K-8) were excluded per the question.*",
+  "answer_chars": 1030,
+  "expected_answer": "Dunlap Elementary School, Emerson Elementary School, Graham Hill Elementary School, Martin Luther King Jr. Elementary School, Wing Luke Elementary School, Rainier View Elementary School",
+  "answer_type": "Set Answer",
+  "category": "Education",
+  "metrics": {
+    "latency_total_seconds": 268.916,
+    "token_usage_input": 112598,
+    "token_usage_output": 3913,
+    "llm_calls": 19,
+    "subagents_invoked": 0,
+    "tool_calls_total": 18,
+    "token_usage_input_root": 112598,
+    "token_usage_output_root": 3913,
+    "llm_calls_root": 19,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 18,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "terminal": 8,
+      "web_search": 7,
+      "web_extract": 3
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 19,
+    "turns_with_reasoning": 19,
+    "sessions_total": 1,
+    "cache_read_tokens": 503424,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 1994,
+    "total_tokens": 116511,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260908_020608_277f40",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260908_020608_277f40",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788833168.2421236,
+        "ended_at": 1788833430.8306997,
+        "end_reason": "agent_close",
+        "message_count": 38,
+        "tool_call_count": 18,
+        "api_call_count": 19,
+        "input_tokens": 112598,
+        "output_tokens": 3913,
+        "cache_read_tokens": 503424,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 1994,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0780/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation",
+      "skills"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": true,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Regular attendance is defined as missing less than 10% of school days (or fewer than 2 absences per month), regardless of the reason. According to Washington state's Office of Superintendent of Public Instruction's report card data, which elementary schools in District 7 of Seattle Public Schools had less than 70% of students with regular attendance in the 2021-22 school year? Do not include K-8 schools.",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0780/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation,skills",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0780/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 221010
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 188701
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 38,
+  "agent_cwd_files": []
+}

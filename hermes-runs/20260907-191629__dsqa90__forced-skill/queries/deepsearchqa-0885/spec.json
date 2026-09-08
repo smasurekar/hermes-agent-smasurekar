@@ -1,0 +1,105 @@
+{
+  "run_id": "20260907-191629__dsqa90__forced-skill",
+  "task_id": "deepsearchqa-0885",
+  "experiment": "forced-skill",
+  "instruction": "Which of the UK-born individuals who won The Nobel Prize in Economic Sciences while being affiliated with a UK based institution, between the inception of the award and the year that the first woman won The Nobel Prize in Economic Sciences, has fewer than 20 \"Articles\" listed on ideas.repec.org that have a publication year prior to the year that they won the award?",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0885",
+    "source_id": "885",
+    "source_index": 885,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "Which of the UK-born individuals who won The Nobel Prize in Economic Sciences while being affiliated with a UK based institution, between the inception of the award and the year that the first woman won The Nobel Prize in Economic Sciences, has fewer than 20 \"Articles\" listed on ideas.repec.org that have a publication year prior to the year that they won the award?",
+    "problem_category": "Finance & Economics",
+    "answer": "Richard Stone",
+    "answer_type": "Single Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "medium",
+      "termination_reason": "completed",
+      "research_action_count": 9,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "partial",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": true,
+        "f1_score": 0.6666666667,
+        "precision": 0.5,
+        "recall": 1.0,
+        "fully_correct": false,
+        "fully_incorrect": false,
+        "correct_with_excessive_answers": true,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-dsqa85-20260818-v1",
+      "evaluated_at": "2026-08-18T07:47:00Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0885.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Medium: the worker produced a locally correct or partially correct answer in 9 actions, within the 5–15 action range (partial, F1=0.667).",
+      "decision_basis": {
+        "termination_reason": "completed",
+        "research_action_count": 9,
+        "research_action_limit": 15,
+        "answer_outcome": "partial",
+        "grader_valid": true,
+        "f1_score": 0.6666666667
+      },
+      "research_process": {
+        "action_type_counts": {
+          "reported": 9
+        },
+        "representative_actions": [
+          "Worker self-reported atomic research action 1; the action log was compacted during batch persistence.",
+          "Worker self-reported atomic research action 5; the action log was compacted during batch persistence.",
+          "Worker self-reported atomic research action 9; the action log was compacted during batch persistence."
+        ],
+        "source_count": 1,
+        "action_log_detail": "compacted",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0885.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-191629__dsqa90__forced-skill/queries/deepsearchqa-0885",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation",
+    "skills"
+  ],
+  "skills": [
+    "deep-research"
+  ],
+  "prompt_prefix": "/deep-research ",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

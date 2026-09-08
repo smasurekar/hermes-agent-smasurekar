@@ -1,0 +1,15 @@
+providers:
+  inference-hub:
+    name: inference-hub
+    api: https://inference-api.nvidia.com/v1
+    key_env: <REDACTED>
+    transport: chat_completions
+    default_model: nvidia/nvidia/nemotron-3-ultra
+model:
+  provider: inference-hub
+  default: nvidia/nvidia/nemotron-3-ultra
+  base_url: https://inference-api.nvidia.com/v1
+  api_key: <REDACTED>
+  api_mode: chat_completions
+web:
+  backend: tavily

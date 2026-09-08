@@ -1,0 +1,169 @@
+{
+  "task_id": "deepsearchqa-0465",
+  "experiment": "forced-skill",
+  "run_id": "20260907-191629__dsqa90__forced-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788816954.2249043,
+  "finished_at": 1788816993.3185232,
+  "latency_total_seconds": 39.094,
+  "prompt": "/deep-research Which authors contributed articles to the NAWE's Writing in Education journal, vol 33 'Writing & Location'?",
+  "prompt_prefix": "/deep-research ",
+  "instruction": "Which authors contributed articles to the NAWE's Writing in Education journal, vol 33 'Writing & Location'?",
+  "answer": "Based on the NAWE website, **Writing in Education Vol. 33 – \"Writing & Location\"** contains 10 articles with the following authors:\n\n**Main article authors:**\n1. **Bryan Podmore** — *A Risky Business This Writing?* (elicits responses from Susan Wicks, Michelene Wandor, Gillian Allnutt, and Graham Mort)\n2. **Sarah Wardle** — *Audere Est Facere* and *Reflections on Memory and Identity*\n3. **Martin Goodman** — *Location and Dislocation – a Writer's Use of Place*\n4. **Fred Sedgwick** — *Primary Children Writing in the Grip of Shakespeare*\n5. **Paul Munden** — *Text and Context*\n6. **Maggie Butt** — *The View from Here*\n7. **Keith Bennett** — *Welcome to Maribor*\n8. **Carl Tighe** — *Worlds in War: War in Words*\n\n**Respondents to Podmore's article** (also contributors):\n- Susan Wicks\n- Michelene Wandor\n- Gillian Allnutt\n- Graham Mort\n\nSo **12 named contributors** in total: 8 primary article authors plus 4 respondents.\n\n## Sources\n- https://www.nawe.co.uk/DB/wie-editions/editions/writing-and-location.html",
+  "answer_chars": 1014,
+  "expected_answer": "Bryan Podmore, Sarah Wardle, Martin Goodman, Fred Sedgwick, Paul Munden, Maggie Butt, Keith Bennett, Carl Tighe",
+  "answer_type": "Set Answer",
+  "category": "Education",
+  "metrics": {
+    "latency_total_seconds": 39.094,
+    "token_usage_input": 50627,
+    "token_usage_output": 1430,
+    "llm_calls": 5,
+    "subagents_invoked": 0,
+    "tool_calls_total": 4,
+    "token_usage_input_root": 50627,
+    "token_usage_output_root": 1430,
+    "llm_calls_root": 5,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 4,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_extract": 3,
+      "web_search": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 5,
+    "turns_with_reasoning": 5,
+    "sessions_total": 1,
+    "cache_read_tokens": 37248,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 937,
+    "total_tokens": 52057,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_213559_e7de8d",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_213559_e7de8d",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788816959.181091,
+        "ended_at": 1788816993.2982354,
+        "end_reason": "agent_close",
+        "message_count": 10,
+        "tool_call_count": 4,
+        "api_call_count": 5,
+        "input_tokens": 50627,
+        "output_tokens": 1430,
+        "cache_read_tokens": 37248,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 937,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-191629__dsqa90__forced-skill/queries/deepsearchqa-0465/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation",
+      "skills"
+    ],
+    "skills_preloaded": [
+      "deep-research"
+    ],
+    "skills_toolset_enabled": true,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "/deep-research Which authors contributed articles to the NAWE's Writing in Education journal, vol 33 'Writing & Location'?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-191629__dsqa90__forced-skill/queries/deepsearchqa-0465/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation,skills",
+      "-s",
+      "deep-research",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-191629__dsqa90__forced-skill/queries/deepsearchqa-0465/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 75688
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 52862
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 10,
+  "agent_cwd_files": []
+}

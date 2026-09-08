@@ -1,0 +1,75 @@
+{
+  "example_id": "deepsearchqa-0103",
+  "source_id": "103",
+  "source_index": 103,
+  "source_dataset": "google/deepsearchqa",
+  "source_file": "DSQA-full.csv",
+  "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+  "problem": "According to Orange Country Transportation Authority's (OCTA) February 2024 Bus Book, identify the city that is the starting point for the most local fixed routes. Of those local fixed routes with the identified city as the starting point, look at the route with the largest number. How many stops have scheduled departures for that route?",
+  "problem_category": "Travel",
+  "answer": "5",
+  "answer_type": "Single Answer",
+  "codex_difficulty": {
+    "schema_version": "1.0",
+    "method": "bounded-research-v1",
+    "label": "medium",
+    "termination_reason": "completed",
+    "research_action_count": 12,
+    "research_action_limit": 15,
+    "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+    "answer_outcome": "fully_correct",
+    "grader": {
+      "name": "deterministic-gold-item-comparison",
+      "grader_valid": 1.0,
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fully_correct": 1.0,
+      "fully_incorrect": 0.0,
+      "correct_with_excessive_answers": 0.0,
+      "official_parity_verified": false
+    },
+    "agent": {
+      "platform": "codex",
+      "model": "inherited",
+      "reasoning_effort": "inherited",
+      "worker_prompt_version": "1.0",
+      "context_mode": "none"
+    },
+    "measurement": {
+      "action_count_source": "agent_self_reported",
+      "gold_isolation": "instruction_only",
+      "local_file_access_prohibited": true
+    },
+    "run_id": "codex-dsqa85-20260818-v1",
+    "evaluated_at": "2026-08-18T04:41:47Z",
+    "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0103.json"
+  },
+  "difficulty_rationale": {
+    "schema_version": "1.0",
+    "summary": "Medium: the worker produced a locally correct or partially correct answer in 12 actions, within the 5–15 action range (fully_correct, F1=1.000).",
+    "decision_basis": {
+      "termination_reason": "completed",
+      "research_action_count": 12,
+      "research_action_limit": 15,
+      "answer_outcome": "fully_correct",
+      "grader_valid": 1.0,
+      "f1_score": 1.0
+    },
+    "research_process": {
+      "action_type_counts": {
+        "open": 1,
+        "search": 11
+      },
+      "representative_actions": [
+        "Located OCTA's official February 2024 Bus Book PDF.",
+        "Retrieved the indexed February 2024 Route 47 timetable.",
+        "Cross-checked additional Fullerton-origin routes against OCTA's indexed February 2024 material."
+      ],
+      "source_count": 2,
+      "action_log_detail": "descriptive",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0103.json"
+    },
+    "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+  }
+}

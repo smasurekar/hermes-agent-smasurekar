@@ -1,0 +1,165 @@
+{
+  "task_id": "deepsearchqa-0545",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788805720.9310224,
+  "finished_at": 1788806441.5776658,
+  "latency_total_seconds": 720.647,
+  "prompt": "I am performing research into best practices for low birth weight births. In 2017, which Canadian provinces had a Proportion of low birth weight births (<2500 grams at birth) above 6.0 but an Infant Mortality rate (per 1000 live births) below 4.5? Source all data from Statistics Canada Table: 13-10-0368-01 and Table: 13-10-0404-01. Ensure that all values are for both sexes.",
+  "prompt_prefix": "",
+  "instruction": "I am performing research into best practices for low birth weight births. In 2017, which Canadian provinces had a Proportion of low birth weight births (<2500 grams at birth) above 6.0 but an Infant Mortality rate (per 1000 live births) below 4.5? Source all data from Statistics Canada Table: 13-10-0368-01 and Table: 13-10-0404-01. Ensure that all values are for both sexes.",
+  "answer": "Based on my analysis of Statistics Canada Tables 13-10-0404-01 and 13-10-0368-01 for 2017 (both sexes), the following Canadian provinces had a proportion of low birth weight births (<2,500 grams) above 6.0% AND an infant mortality rate below 4.5 per 1,000 live births:\n\n**Prince Edward Island**\n- Low birth weight proportion: 6.9%\n- Infant mortality rate: 3.0 per 1,000 live births\n\n**Nova Scotia**\n- Low birth weight proportion: 6.9%\n- Infant mortality rate: 4.1 per 1,000 live births\n\n**New Brunswick**\n- Low birth weight proportion: 6.5%\n- Infant mortality rate: 2.8 per 1,000 live births\n\n**Quebec**\n- Low birth weight proportion: 6.1%\n- Infant mortality rate: 4.0 per 1,000 live births\n\nThese four provinces meet both criteria simultaneously. The data was sourced directly from the full table CSV downloads:\n- Table 13-10-0404-01 (Low birth weight babies, by province and territory)\n- Table 13-10-0368-01 (Infant mortality, by birth weight)",
+  "answer_chars": 945,
+  "expected_answer": "Prince Edward Island, Nova Scotia, New Brunswick, Quebec.",
+  "answer_type": "Set Answer",
+  "category": "Health",
+  "metrics": {
+    "latency_total_seconds": 720.647,
+    "token_usage_input": 1074243,
+    "token_usage_output": 19811,
+    "llm_calls": 85,
+    "subagents_invoked": 0,
+    "tool_calls_total": 86,
+    "token_usage_input_root": 1074243,
+    "token_usage_output_root": 19811,
+    "llm_calls_root": 85,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 86,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 42,
+      "terminal": 28,
+      "web_extract": 16
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 85,
+    "turns_with_reasoning": 85,
+    "sessions_total": 1,
+    "cache_read_tokens": 9091584,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 9709,
+    "total_tokens": 1094054,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_182846_f6533d",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_182846_f6533d",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788805726.8101182,
+        "ended_at": 1788806441.5539973,
+        "end_reason": "agent_close",
+        "message_count": 172,
+        "tool_call_count": 86,
+        "api_call_count": 85,
+        "input_tokens": 1074243,
+        "output_tokens": 19811,
+        "cache_read_tokens": 9091584,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 9709,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0545/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "I am performing research into best practices for low birth weight births. In 2017, which Canadian provinces had a Proportion of low birth weight births (<2500 grams at birth) above 6.0 but an Infant Mortality rate (per 1000 live births) below 4.5? Source all data from Statistics Canada Table: 13-10-0368-01 and Table: 13-10-0404-01. Ensure that all values are for both sexes.",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0545/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0545/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 965775
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 873474
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 172,
+  "agent_cwd_files": []
+}

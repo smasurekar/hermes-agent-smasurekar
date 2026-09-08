@@ -1,0 +1,164 @@
+{
+  "task_id": "deepsearchqa-0129",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788800845.5413427,
+  "finished_at": 1788800925.465386,
+  "latency_total_seconds": 79.924,
+  "prompt": "According to the ACT, for 2023 identify of all the states to have an estimated at least 90% of their grads tested using the ACT, which of those states had a composite average score of at least 18.5, had at least 42% of test takers meet the English benchmark, had at least 19% meet the math benchmark, and at least 30% meet the reading benchmark.",
+  "prompt_prefix": "",
+  "instruction": "According to the ACT, for 2023 identify of all the states to have an estimated at least 90% of their grads tested using the ACT, which of those states had a composite average score of at least 18.5, had at least 42% of test takers meet the English benchmark, had at least 19% meet the math benchmark, and at least 30% meet the reading benchmark.",
+  "answer": "Based on the official ACT 2023 \"Average ACT Scores by State\" report, here are the states that meet all your criteria:\n\n**States with ≥90% of graduates tested that also meet all four benchmarks:**\n1. **Kentucky** – 100% tested, Composite 18.7, English 49%, Math 23%, Reading 36%\n2. **Wyoming** – 100% tested, Composite 19.0, English 48%, Math 25%, Reading 37%\n3. **Montana** – 98% tested, Composite 18.8, English 44%, Math 26%, Reading 36%\n4. **Arkansas** – 96% tested, Composite 18.6, English 48%, Math 21%, Reading 33%\n5. **Nebraska** – 96% tested, Composite 19.2, English 50%, Math 29%, Reading 36%\n6. **Wisconsin** – 95% tested, Composite 19.4, English 51%, Math 31%, Reading 38%\n7. **Utah** – 90% tested, Composite 19.9, English 55%, Math 32%, Reading 44%\n\n**Total: 7 states**\n\n*Source: ACT \"Average ACT Scores by State Graduating Class of 2023\" (PDF)*",
+  "answer_chars": 856,
+  "expected_answer": "Kentucky, Wyoming, Montana, Arkansas, Nebraska, Wisconsin, Utah",
+  "answer_type": "Set Answer",
+  "category": "Education",
+  "metrics": {
+    "latency_total_seconds": 79.924,
+    "token_usage_input": 89101,
+    "token_usage_output": 2765,
+    "llm_calls": 8,
+    "subagents_invoked": 0,
+    "tool_calls_total": 7,
+    "token_usage_input_root": 89101,
+    "token_usage_output_root": 2765,
+    "llm_calls_root": 8,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 7,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 5,
+      "web_extract": 2
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 8,
+    "turns_with_reasoning": 8,
+    "sessions_total": 1,
+    "cache_read_tokens": 97664,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 2048,
+    "total_tokens": 91866,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_170729_fdaf15",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_170729_fdaf15",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788800849.7175329,
+        "ended_at": 1788800925.443749,
+        "end_reason": "agent_close",
+        "message_count": 16,
+        "tool_call_count": 7,
+        "api_call_count": 8,
+        "input_tokens": 89101,
+        "output_tokens": 2765,
+        "cache_read_tokens": 97664,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 2048,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0129/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "According to the ACT, for 2023 identify of all the states to have an estimated at least 90% of their grads tested using the ACT, which of those states had a composite average score of at least 18.5, had at least 42% of test takers meet the English benchmark, had at least 19% meet the math benchmark, and at least 30% meet the reading benchmark.",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0129/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0129/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 120615
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 100888
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 16,
+  "agent_cwd_files": []
+}

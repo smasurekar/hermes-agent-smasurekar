@@ -1,0 +1,166 @@
+{
+  "task_id": "deepsearchqa-0532",
+  "experiment": "auto-skill",
+  "run_id": "20260907-234403__dsqa90__auto-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788831773.9256797,
+  "finished_at": 1788832249.6531303,
+  "latency_total_seconds": 475.727,
+  "prompt": "Identify the five countries that had the greatest share of reduction in reported TB cases in 2021 compared to 2019. Of these countries, which reported the lowest number of TB cases in 2023?",
+  "prompt_prefix": "",
+  "instruction": "Identify the five countries that had the greatest share of reduction in reported TB cases in 2021 compared to 2019. Of these countries, which reported the lowest number of TB cases in 2023?",
+  "answer": "Based on my research, I can now provide a clear answer.\n\n**The five countries with the greatest share of reduction in reported TB cases in 2021 compared to 2019:**\n\nAccording to the WHO Global TB Report 2022 slides, **5 countries accounted for 90% of the global reduction** in newly diagnosed TB notifications in 2021 versus 2019. The top three — **India, Indonesia, and the Philippines** — alone contributed **60% of the total global reduction**. The other two countries in the top five were **China** and **Bangladesh**, based on their high TB burden and the pattern of absolute notification drops shown in the WHO data.\n\n**Which of these five reported the lowest number of TB cases in 2023?**\n\nFrom the WHO Global TB Report 2024/2025 data on 2023 TB incidence:\n- India: 26% of global cases\n- Indonesia: 10%  \n- China: 6.8%\n- Philippines: 6.8%\n- **Bangladesh: 3.5%**\n\n**Answer: Bangladesh** reported the lowest number of TB cases in 2023 among these five countries.",
+  "answer_chars": 967,
+  "expected_answer": "Myanmar",
+  "answer_type": "Single Answer",
+  "category": "Science",
+  "metrics": {
+    "latency_total_seconds": 475.727,
+    "token_usage_input": 477169,
+    "token_usage_output": 7497,
+    "llm_calls": 47,
+    "subagents_invoked": 0,
+    "tool_calls_total": 46,
+    "token_usage_input_root": 477169,
+    "token_usage_output_root": 7497,
+    "llm_calls_root": 47,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 46,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 32,
+      "web_extract": 10,
+      "terminal": 4
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 47,
+    "turns_with_reasoning": 47,
+    "sessions_total": 1,
+    "cache_read_tokens": 3697536,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 4680,
+    "total_tokens": 484666,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260908_014257_37971d",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260908_014257_37971d",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788831777.9652507,
+        "ended_at": 1788832249.5854373,
+        "end_reason": "agent_close",
+        "message_count": 94,
+        "tool_call_count": 46,
+        "api_call_count": 47,
+        "input_tokens": 477169,
+        "output_tokens": 7497,
+        "cache_read_tokens": 3697536,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 4680,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0532/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation",
+      "skills"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": true,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Identify the five countries that had the greatest share of reduction in reported TB cases in 2021 compared to 2019. Of these countries, which reported the lowest number of TB cases in 2023?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0532/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation,skills",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0532/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 672579
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 613860
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 94,
+  "agent_cwd_files": []
+}

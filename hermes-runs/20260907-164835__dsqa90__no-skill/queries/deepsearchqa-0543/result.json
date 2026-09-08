@@ -1,0 +1,165 @@
+{
+  "task_id": "deepsearchqa-0543",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788805677.1985803,
+  "finished_at": 1788805719.8965151,
+  "latency_total_seconds": 42.698,
+  "prompt": "NASA has a reference guide for The Space Shuttle that features a detailed look at all the previous Shuttles. Note the shuttle that has the second fewest number of construction milestones listed before 2024. From the flights of the shuttle, create a list of the missions where its landing site was EAFB.",
+  "prompt_prefix": "",
+  "instruction": "NASA has a reference guide for The Space Shuttle that features a detailed look at all the previous Shuttles. Note the shuttle that has the second fewest number of construction milestones listed before 2024. From the flights of the shuttle, create a list of the missions where its landing site was EAFB.",
+  "answer": "From the NASA Space Shuttle reference guide, I counted the construction milestones for each shuttle:\n\n- **Enterprise (OV-101)**: 9 milestones\n- **Endeavour (OV-105)**: 11 milestones\n- **Atlantis (OV-104)**: 12 milestones  \n- **Challenger (OV-099)**: 19 milestones\n- **Discovery (OV-103)**: 28 milestones\n- **Columbia (OV-102)**: 30 milestones\n\nThe shuttle with the **second fewest** construction milestones is **Endeavour (OV-105)** with 11 milestones.\n\nFrom the NASA \"Flights of Endeavour\" document, the missions where Endeavour landed at **EAFB (Edwards Air Force Base)** are:\n\n1. **STS-49** (May 16, 1992) – Maiden flight; rescue, repair, redeploy INTELSAT VI\n2. **STS-59** (April 20, 1994) – Space Radar Laboratory-1 (SRL-1)\n3. **STS-68** (October 11, 1994) – Space Radar Laboratory-2 (SRL-2)\n4. **STS-67** (March 18, 1995) – Astro-2\n5. **STS-100** (May 1, 2001) – 9th ISS Mission; SSRMS; MPLM Raffaello; UHF Antenna\n6. **STS-111** (June 19, 2002) – 14th ISS Mission; Mobile Remote Service Base System; MPLM Leonardo\n7. **STS-126** (November 30, 2008) – 27th ISS Mission; MPLM Leonardo\n\n**Total: 7 missions landed at EAFB.**",
+  "answer_chars": 1128,
+  "expected_answer": "STS-49, STS-59, STS-68, STS-67, STS-100, STS-111, STS-126",
+  "answer_type": "Set Answer",
+  "category": "History",
+  "metrics": {
+    "latency_total_seconds": 42.698,
+    "token_usage_input": 91294,
+    "token_usage_output": 2636,
+    "llm_calls": 6,
+    "subagents_invoked": 0,
+    "tool_calls_total": 5,
+    "token_usage_input_root": 91294,
+    "token_usage_output_root": 2636,
+    "llm_calls_root": 6,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 5,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "read_file": 2,
+      "web_extract": 2,
+      "web_search": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 6,
+    "turns_with_reasoning": 6,
+    "sessions_total": 1,
+    "cache_read_tokens": 42112,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 1613,
+    "total_tokens": 93930,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_182801_9b0c3b",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_182801_9b0c3b",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788805682.1219745,
+        "ended_at": 1788805719.8746796,
+        "end_reason": "agent_close",
+        "message_count": 12,
+        "tool_call_count": 5,
+        "api_call_count": 6,
+        "input_tokens": 91294,
+        "output_tokens": 2636,
+        "cache_read_tokens": 42112,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 1613,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0543/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "NASA has a reference guide for The Space Shuttle that features a detailed look at all the previous Shuttles. Note the shuttle that has the second fewest number of construction milestones listed before 2024. From the flights of the shuttle, create a list of the missions where its landing site was EAFB.",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0543/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0543/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 144324
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 127980
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 12,
+  "agent_cwd_files": []
+}

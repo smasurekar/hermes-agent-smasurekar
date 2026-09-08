@@ -1,0 +1,106 @@
+{
+  "run_id": "20260907-191629__dsqa90__forced-skill",
+  "task_id": "deepsearchqa-0256",
+  "experiment": "forced-skill",
+  "instruction": "WolfeyVGC has a mainstay pick for his championship teams despite it being one of his most hated Pokémon. How would that Pokémon stack up to Pachirisu, listing and comparing all of their base stats from when both Pokémon each respectively first appeared on a 1st place Pokémon Videogame World Championships team?",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0256",
+    "source_id": "256",
+    "source_index": 256,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "WolfeyVGC has a mainstay pick for his championship teams despite it being one of his most hated Pokémon. How would that Pokémon stack up to Pachirisu, listing and comparing all of their base stats from when both Pokémon each respectively first appeared on a 1st place Pokémon Videogame World Championships team?",
+    "problem_category": "Media & Entertainment",
+    "answer": "Incineror (2018): HP 95 (Win), Attack 115 (Win), Defense 90 (Win), Sp. Atk 80 (Win), Sp. Def 90 (Tie), Speed 60 (Lose), Total 530 (Win); Pachirisu (2014) HP 60 (Lose), Attack 45 (Lose), Defense 70 (Lose), Sp. Atk 45 (Lose), Sp. Def 90 (Tie), Speed 95 (Win), Total 405 (Lose)",
+    "answer_type": "Set Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "hard",
+      "termination_reason": "action_limit_reached",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "fully_incorrect",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": true,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "fully_correct": false,
+        "fully_incorrect": true,
+        "correct_with_excessive_answers": false,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-rerun-20260818-v2",
+      "evaluated_at": "2026-08-18T06:01:40Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0256.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Hard: the worker used the full 15-action budget and returned a bounded best-effort answer (fully_incorrect, F1=0.000).",
+      "decision_basis": {
+        "termination_reason": "action_limit_reached",
+        "research_action_count": 15,
+        "research_action_limit": 15,
+        "answer_outcome": "fully_incorrect",
+        "grader_valid": true,
+        "f1_score": 0.0
+      },
+      "research_process": {
+        "action_type_counts": {
+          "open": 1,
+          "search": 14
+        },
+        "representative_actions": [
+          "Searched WolfeyVGC's official YouTube presence for references to his most-hated Pokémon and championship teams.",
+          "Searched Pokémon.com Worlds pages for Pachirisu alongside Division Champion results.",
+          "Retrieved Pachirisu's base-stat record from Pokémon Database."
+        ],
+        "source_count": 3,
+        "action_log_detail": "descriptive",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0256.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-191629__dsqa90__forced-skill/queries/deepsearchqa-0256",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation",
+    "skills"
+  ],
+  "skills": [
+    "deep-research"
+  ],
+  "prompt_prefix": "/deep-research ",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

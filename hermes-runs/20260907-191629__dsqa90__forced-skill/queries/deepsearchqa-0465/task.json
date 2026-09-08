@@ -1,0 +1,74 @@
+{
+  "example_id": "deepsearchqa-0465",
+  "source_id": "465",
+  "source_index": 465,
+  "source_dataset": "google/deepsearchqa",
+  "source_file": "DSQA-full.csv",
+  "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+  "problem": "Which authors contributed articles to the NAWE's Writing in Education journal, vol 33 'Writing & Location'?",
+  "problem_category": "Education",
+  "answer": "Bryan Podmore, Sarah Wardle, Martin Goodman, Fred Sedgwick, Paul Munden, Maggie Butt, Keith Bennett, Carl Tighe",
+  "answer_type": "Set Answer",
+  "codex_difficulty": {
+    "schema_version": "1.0",
+    "method": "bounded-research-v1",
+    "label": "hard",
+    "termination_reason": "action_limit_reached",
+    "research_action_count": 15,
+    "research_action_limit": 15,
+    "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+    "answer_outcome": "fully_correct",
+    "grader": {
+      "name": "deterministic-gold-item-comparison",
+      "grader_valid": true,
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fully_correct": true,
+      "fully_incorrect": false,
+      "correct_with_excessive_answers": false,
+      "official_parity_verified": false
+    },
+    "agent": {
+      "platform": "codex",
+      "model": "inherited",
+      "reasoning_effort": "inherited",
+      "worker_prompt_version": "1.0",
+      "context_mode": "none"
+    },
+    "measurement": {
+      "action_count_source": "agent_self_reported",
+      "gold_isolation": "instruction_only",
+      "local_file_access_prohibited": true
+    },
+    "run_id": "codex-dsqa85-20260818-v1",
+    "evaluated_at": "2026-08-18T06:17:00Z",
+    "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0465.json"
+  },
+  "difficulty_rationale": {
+    "schema_version": "1.0",
+    "summary": "Hard: the worker used the full 15-action budget and returned a bounded best-effort answer (fully_correct, F1=1.000).",
+    "decision_basis": {
+      "termination_reason": "action_limit_reached",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "answer_outcome": "fully_correct",
+      "grader_valid": true,
+      "f1_score": 1.0
+    },
+    "research_process": {
+      "action_type_counts": {
+        "reported": 15
+      },
+      "representative_actions": [
+        "Worker self-reported atomic research action 1; the action log was compacted during batch persistence.",
+        "Worker self-reported atomic research action 8; the action log was compacted during batch persistence.",
+        "Worker self-reported atomic research action 15; the action log was compacted during batch persistence."
+      ],
+      "source_count": 1,
+      "action_log_detail": "compacted",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0465.json"
+    },
+    "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+  }
+}

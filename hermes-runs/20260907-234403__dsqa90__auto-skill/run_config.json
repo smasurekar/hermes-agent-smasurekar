@@ -1,0 +1,70 @@
+{
+  "run_id": "20260907-234403__dsqa90__auto-skill",
+  "started_at": "2026-09-07T23:44:04",
+  "dataset": "/home/ubuntu/smasurekar/datasets/dsqa90",
+  "dataset_name": "dsqa90",
+  "experiment": {
+    "name": "auto-skill",
+    "description": "The skill is available and discoverable, but nothing forces it. The agent decides per query whether to load and follow deep-research.",
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation",
+      "skills"
+    ],
+    "skills": [],
+    "prompt_prefix": "",
+    "max_turns": 500,
+    "run_budget_seconds": 1680
+  },
+  "concurrency": 2,
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "reasoning": null,
+  "timeout_seconds": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true,
+  "task_count": 90,
+  "environment": {
+    "hostname": "brev-rxr433of5",
+    "python": "3.12.14",
+    "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+    "hermes_version": "Hermes Agent v0.21.0 (2026.8.31) · upstream 9fc80ac7 · local 5d99961c (+3 carried commits)\nInstall directory: /home/ubuntu/smasurekar/hermes-agent-smasurekar\nInstall method: git\nPython: 3.12.14\nOpenAI",
+    "source_hermes_home": "/home/ubuntu/.hermes",
+    "git": {
+      "commit": "5d99961c5b1bb584324982def5f20056df4334e6",
+      "branch": "dev/smasurekar/hermes-skill",
+      "dirty": true
+    },
+    "model_config": {
+      "provider": "inference-hub",
+      "default_model": "nvidia/nvidia/nemotron-3-ultra",
+      "base_url": "https://inference-api.nvidia.com/v1",
+      "api_mode": "chat_completions"
+    },
+    "web_backend": "tavily",
+    "skills_listed": 56,
+    "env_keys_present": [
+      "CLAUDE_CODE_MESSAGING_TOKEN",
+      "IH_KEY",
+      "TAVILY_API_KEY",
+      "VSCODE_GIT_IPC_AUTH_TOKEN"
+    ]
+  },
+  "argv": [
+    "dsqa_runner.py",
+    "--dataset",
+    "dsqa90",
+    "--experiment",
+    "all",
+    "--concurrency",
+    "2",
+    "--timeout",
+    "1800"
+  ],
+  "wall_clock_seconds": 10217.936,
+  "finished_at": "2026-09-08T02:34:22"
+}

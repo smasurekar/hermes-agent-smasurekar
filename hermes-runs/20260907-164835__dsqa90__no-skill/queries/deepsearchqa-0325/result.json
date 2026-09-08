@@ -1,0 +1,166 @@
+{
+  "task_id": "deepsearchqa-0325",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788802838.1189878,
+  "finished_at": 1788803101.7162578,
+  "latency_total_seconds": 263.597,
+  "prompt": "Of the top 5 countries with the biggest economy in 2020, according to Madison Trust, which had coronary artery disease as the number one cause of death for males in both 2020 and 2021, according to the World Health Organization?",
+  "prompt_prefix": "",
+  "instruction": "Of the top 5 countries with the biggest economy in 2020, according to Madison Trust, which had coronary artery disease as the number one cause of death for males in both 2020 and 2021, according to the World Health Organization?",
+  "answer": "Based on my research, here's the answer:\n\n**Top 5 economies in 2020 (Madison Trust):**\n1. United States ($20.9T)\n2. China ($14.7T)\n3. Japan ($5.1T)\n4. Germany ($3.8T)\n5. United Kingdom ($2.7T)\n\n**Countries with coronary artery disease (ischaemic heart disease) as #1 cause of death for males in both 2020 and 2021 (WHO):**\n\n**United States, Germany, and United Kingdom** — 3 of the 5 countries.\n\n**Evidence:**\n\n- **United States**: CDC and WHO data confirm heart disease (ischaemic heart disease) remained the leading cause of death for males in both 2020 and 2021.\n\n- **Germany**: German Federal Statistical Office (Destatis) and WHO data show coronary heart disease (CHD/ischaemic heart disease) is the leading cause of death, including for males in 2020/2021.\n\n- **United Kingdom**: ONS/WHO data show ischaemic heart disease was the leading cause of death for males in 2021 and 2022, with the same pattern in 2020 (COVID-19 was the leading cause *overall* but not for males specifically).\n\n**Countries that did NOT meet the criteria:**\n\n- **China**: Stroke is consistently the #1 cause of death; ischaemic heart disease ranks #2 for males (WHO GHE, GBD studies).\n- **Japan**: Alzheimer's/dementia and stroke rank above ischaemic heart disease for males in 2021 (WHO GHE/GBD 2021 data).",
+  "answer_chars": 1288,
+  "expected_answer": "United States, Japan, Germany",
+  "answer_type": "Set Answer",
+  "category": "Health",
+  "metrics": {
+    "latency_total_seconds": 263.597,
+    "token_usage_input": 876843,
+    "token_usage_output": 7844,
+    "llm_calls": 31,
+    "subagents_invoked": 0,
+    "tool_calls_total": 41,
+    "token_usage_input_root": 876843,
+    "token_usage_output_root": 7844,
+    "llm_calls_root": 31,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 41,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 22,
+      "terminal": 10,
+      "web_extract": 8,
+      "read_file": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 31,
+    "turns_with_reasoning": 31,
+    "sessions_total": 1,
+    "cache_read_tokens": 4190400,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 4346,
+    "total_tokens": 884687,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_174041_4b5bf2",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_174041_4b5bf2",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788802841.3245683,
+        "ended_at": 1788803101.6928425,
+        "end_reason": "agent_close",
+        "message_count": 73,
+        "tool_call_count": 41,
+        "api_call_count": 31,
+        "input_tokens": 876843,
+        "output_tokens": 7844,
+        "cache_read_tokens": 4190400,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 4346,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0325/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Of the top 5 countries with the biggest economy in 2020, according to Madison Trust, which had coronary artery disease as the number one cause of death for males in both 2020 and 2021, according to the World Health Organization?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0325/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0325/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 723350
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 677842
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 73,
+  "agent_cwd_files": []
+}

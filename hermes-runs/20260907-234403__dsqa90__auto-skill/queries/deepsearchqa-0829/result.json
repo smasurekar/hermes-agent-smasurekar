@@ -1,0 +1,166 @@
+{
+  "task_id": "deepsearchqa-0829",
+  "experiment": "auto-skill",
+  "run_id": "20260907-234403__dsqa90__auto-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788833733.300708,
+  "finished_at": 1788833783.384543,
+  "latency_total_seconds": 50.084,
+  "prompt": "Who has won a Ripple of Hope Award before the year 2017 and has also won a Nobel Prize before the year 2010?",
+  "prompt_prefix": "",
+  "instruction": "Who has won a Ripple of Hope Award before the year 2017 and has also won a Nobel Prize before the year 2010?",
+  "answer": "Based on the Ripple of Hope Award laureates list from Wikipedia, the individuals who won the Ripple of Hope Award **before 2017** AND won a Nobel Prize **before 2010** are:\n\n1. **Muhammad Yunus** — Ripple of Hope Award (2013), Nobel Peace Prize (2006)\n2. **Al Gore** — Ripple of Hope Award (2011), Nobel Peace Prize (2007)\n3. **Desmond Tutu** — Ripple of Hope Award (2008), Nobel Peace Prize (1984)\n\nThese three are the only laureates from the pre-2017 Ripple of Hope list who also received a Nobel Prize prior to 2010.",
+  "answer_chars": 519,
+  "expected_answer": "Al Gore, Muhammad Yunus, Desmond Tutu",
+  "answer_type": "Set Answer",
+  "category": "History",
+  "metrics": {
+    "latency_total_seconds": 50.084,
+    "token_usage_input": 65480,
+    "token_usage_output": 1075,
+    "llm_calls": 4,
+    "subagents_invoked": 0,
+    "tool_calls_total": 3,
+    "token_usage_input_root": 65480,
+    "token_usage_output_root": 1075,
+    "llm_calls_root": 4,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 3,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "read_file": 1,
+      "web_extract": 1,
+      "web_search": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 4,
+    "turns_with_reasoning": 4,
+    "sessions_total": 1,
+    "cache_read_tokens": 11264,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 693,
+    "total_tokens": 66555,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260908_021538_a1695f",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260908_021538_a1695f",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788833738.7031288,
+        "ended_at": 1788833783.3641024,
+        "end_reason": "agent_close",
+        "message_count": 8,
+        "tool_call_count": 3,
+        "api_call_count": 4,
+        "input_tokens": 65480,
+        "output_tokens": 1075,
+        "cache_read_tokens": 11264,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 693,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0829/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation",
+      "skills"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": true,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Who has won a Ripple of Hope Award before the year 2017 and has also won a Nobel Prize before the year 2010?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0829/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation,skills",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0829/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 126691
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 107140
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 8,
+  "agent_cwd_files": []
+}

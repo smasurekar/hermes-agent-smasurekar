@@ -1,0 +1,166 @@
+{
+  "task_id": "deepsearchqa-0056",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788799715.7949038,
+  "finished_at": 1788799821.5586576,
+  "latency_total_seconds": 105.764,
+  "prompt": "Among Saia, Inc., Matson, Inc., and ArcBest Corporation, which company had the greatest reduction in operating expenses for the fiscal year ended December 31, 2023? Use the SEC website and filings.",
+  "prompt_prefix": "",
+  "instruction": "Among Saia, Inc., Matson, Inc., and ArcBest Corporation, which company had the greatest reduction in operating expenses for the fiscal year ended December 31, 2023? Use the SEC website and filings.",
+  "answer": "Based on the SEC filings and earnings releases for the fiscal year ended December 31, 2023:\n\n**Saia, Inc.** — Operating expenses **increased** from $2,321.6M (2022) to $2,420.9M (2023), a **+$99.4M change** (negative reduction).\n\n**Matson, Inc.** — Operating costs and expenses decreased from $2,989.4M (2022) to $2,751.8M (2023), a **$237.6M reduction**.\n\n**ArcBest Corporation** — Total consolidated operating expenses decreased from $4,634.5M (2022) to $4,254.8M (2023), a **$379.7M reduction**.\n\n**ArcBest Corporation had the greatest reduction in operating expenses** at **$379.7 million**.",
+  "answer_chars": 595,
+  "expected_answer": "ArcBest Corporation",
+  "answer_type": "Single Answer",
+  "category": "Finance & Economics",
+  "metrics": {
+    "latency_total_seconds": 105.764,
+    "token_usage_input": 410633,
+    "token_usage_output": 5623,
+    "llm_calls": 16,
+    "subagents_invoked": 0,
+    "tool_calls_total": 19,
+    "token_usage_input_root": 410633,
+    "token_usage_output_root": 5623,
+    "llm_calls_root": 16,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 19,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "search_files": 6,
+      "web_search": 6,
+      "web_extract": 5,
+      "read_file": 2
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 16,
+    "turns_with_reasoning": 16,
+    "sessions_total": 1,
+    "cache_read_tokens": 923520,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 3590,
+    "total_tokens": 416256,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_164840_d4759f",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_164840_d4759f",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788799720.880141,
+        "ended_at": 1788799821.5371323,
+        "end_reason": "agent_close",
+        "message_count": 36,
+        "tool_call_count": 19,
+        "api_call_count": 16,
+        "input_tokens": 410633,
+        "output_tokens": 5623,
+        "cache_read_tokens": 923520,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 3590,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0056/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Among Saia, Inc., Matson, Inc., and ArcBest Corporation, which company had the greatest reduction in operating expenses for the fiscal year ended December 31, 2023? Use the SEC website and filings.",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0056/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0056/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 325935
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 294460
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 36,
+  "agent_cwd_files": []
+}

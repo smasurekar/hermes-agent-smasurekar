@@ -1,0 +1,168 @@
+{
+  "task_id": "deepsearchqa-0364",
+  "experiment": "auto-skill",
+  "run_id": "20260907-234403__dsqa90__auto-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788829040.0209486,
+  "finished_at": 1788829310.7874885,
+  "latency_total_seconds": 270.767,
+  "prompt": "According to 2023 data from Autism Speaks, how do the 10 states with the oldest average age of first autism intervention rank (highest to lowest) in terms of percentage of population below the poverty line that same year, based on Census.gov data?",
+  "prompt_prefix": "",
+  "instruction": "According to 2023 data from Autism Speaks, how do the 10 states with the oldest average age of first autism intervention rank (highest to lowest) in terms of percentage of population below the poverty line that same year, based on Census.gov data?",
+  "answer": "Based on the 2023 Autism Speaks \"Autism by the Numbers\" report and 2023 U.S. Census Bureau poverty data (via Wikipedia's sourced table), here are the **10 states with the oldest average age of first autism intervention**, ranked by their **percentage of population below the poverty line (highest to lowest)**:\n\n| Rank | State | Avg. Age of First Intervention (2016–2019 NSCH) | 2023 Poverty Rate (%) |\n|------|-------|--------------------------------------------------|------------------------|\n| 1 | Mississippi | 5.5 years | 18.0 |\n| 2 | West Virginia | 7.2 years | 16.7 |\n| 3 | Oklahoma | 5.3 years | 15.9 |\n| 4 | Alabama | 4.9 years | 15.6 |\n| 5 | Ohio | 5.6 years | 13.3 |\n| 6 | Montana | 5.9 years | 11.7 |\n| 7 | Iowa | 5.0 years | 11.3 |\n| 8 | Connecticut | 5.0 years | 10.3 |\n| 9 | North Dakota | 6.0 years | 9.8 |\n| 10 | Colorado | 5.0 years | 9.3 |\n\n**Sources**\n- Autism Speaks 2023 Annual Report (NSCH 2016–2019) — average age of first intervention by state: [autismspeaks.org/sites/default/files/ABN_Annual_Report_2023.pdf](https://www.autismspeaks.org/sites/default/files/ABN_Annual_Report_2023.pdf)\n- U.S. Census Bureau 2023 poverty rates (American Community Survey 1-year estimates) as compiled by Wikipedia: [en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate](https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate#2023_U.S._Census_Bureau_table)\n\n**Note**: The Autism Speaks report uses parent-reported data from the 2016–2019 National Survey of Children's Health; the poverty rates are official 2023 Census Bureau estimates. Several states (Alaska, Kansas, Louisiana, Maine, Nebraska) also reported 4.9 years; Alabama is shown here as the next-highest-poverty state among those tied at 4.9 years.",
+  "answer_chars": 1765,
+  "expected_answer": "1. Mississippi\n2. West Virginia\n3. Oklahoma\n4. Ohio\n5. Missouri\n6. Montana\n7. Iowa\n8. Wisconsin\n9. Connecticut\n10. North Dakota",
+  "answer_type": "Set Answer",
+  "category": "Finance & Economics",
+  "metrics": {
+    "latency_total_seconds": 270.767,
+    "token_usage_input": 400468,
+    "token_usage_output": 9559,
+    "llm_calls": 32,
+    "subagents_invoked": 0,
+    "tool_calls_total": 32,
+    "token_usage_input_root": 400468,
+    "token_usage_output_root": 9559,
+    "llm_calls_root": 32,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 32,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "read_file": 24,
+      "web_extract": 3,
+      "search_files": 2,
+      "web_search": 2,
+      "skill_view": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 32,
+    "turns_with_reasoning": 32,
+    "sessions_total": 1,
+    "cache_read_tokens": 1000960,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 5530,
+    "total_tokens": 410027,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260908_005726_49d4ed",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260908_005726_49d4ed",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788829046.8508072,
+        "ended_at": 1788829310.7518811,
+        "end_reason": "agent_close",
+        "message_count": 65,
+        "tool_call_count": 32,
+        "api_call_count": 32,
+        "input_tokens": 400468,
+        "output_tokens": 9559,
+        "cache_read_tokens": 1000960,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 5530,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0364/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation",
+      "skills"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": true,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "According to 2023 data from Autism Speaks, how do the 10 states with the oldest average age of first autism intervention rank (highest to lowest) in terms of percentage of population below the poverty line that same year, based on Census.gov data?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0364/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation,skills",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0364/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 306955
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 249366
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 65,
+  "agent_cwd_files": []
+}

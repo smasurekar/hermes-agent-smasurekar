@@ -1,0 +1,171 @@
+{
+  "task_id": "deepsearchqa-0216",
+  "experiment": "forced-skill",
+  "run_id": "20260907-191629__dsqa90__forced-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788811679.6012146,
+  "finished_at": 1788811939.8904157,
+  "latency_total_seconds": 260.289,
+  "prompt": "/deep-research According to BRFSS, what states had a prevalence below 45% of adults who have had at least one drink of alcohol within the past 30 days, between 2019 and 2022",
+  "prompt_prefix": "/deep-research ",
+  "instruction": "According to BRFSS, what states had a prevalence below 45% of adults who have had at least one drink of alcohol within the past 30 days, between 2019 and 2022",
+  "answer": "Based on my research, I have found the relevant BRFSS data from SAMHSA reports that compare BRFSS and NSDUH state estimates for past month alcohol use (defined as \"at least one drink of any alcoholic beverage in the past 30 days\"). The data comes from two pooled periods: 2018-2019 and 2021-2022, which cover the requested 2019-2022 timeframe.\n\n## Summary\n\nAccording to BRFSS data from SAMHSA's \"Other Sources of State-Level Data\" reports, the following states had a prevalence **below 45%** of adults who had at least one drink of alcohol within the past 30 days:\n\n### States consistently below 45% in both 2018-2019 and 2021-2022:\n\n| State | 2018-2019 BRFSS Estimate | 2021-2022 BRFSS Estimate |\n|-------|--------------------------|--------------------------|\n| Utah | 30.46% | 33.19% |\n| West Virginia | 35.95% | 38.15% |\n| Kentucky | 41.59% | 37.50% |\n| Alabama | 42.56% | 41.93% |\n| Arkansas | 42.75% | 43.66% |\n| Oklahoma | 42.31% | 42.48% |\n| Mississippi | 38.78% | 41.10% |\n\n### State below 45% in 2018-2019 but above in 2021-2022:\n- **Tennessee**: 44.85% (2018-2019) → 47.09% (2021-2022)\n\n## Key Details\n\n- **Data Source**: SAMHSA's \"National Survey on Drug Use and Health: Other Sources of State-Level Data\" reports, which present BRFSS state design-based estimates for \"past month alcohol use\" — defined identically to the BRFSS question: \"During the past 30 days, how many days per week or per month did you have at least one drink of any alcoholic beverage such as beer, wine, a malt beverage or liquor?\"\n\n- **Time Periods**: The reports use pooled two-year estimates:\n  - 2018-2019 (includes 2019 data)\n  - 2021-2022 (covers 2021-2022; 2020 data was affected by COVID-19 disruptions)\n\n- **Notes**: \n  - New Jersey was excluded from 2019 BRFSS data due to insufficient sample\n  - Florida was excluded from 2021 BRFSS data due to insufficient sample\n  - All estimates are for adults aged 18+\n\n## Sources\n\n1. **2018-2019 BRFSS State Estimates** — SAMHSA, \"2018-2019 NSDUH: Other Sources of State-Level Data,\" Table 1 (Alcohol Use in the Past Month): https://www.samhsa.gov/data/sites/default/files/reports/rpt32880/NSDUHsaeOtherSources2019/2019NSDUHsaeOtherSources.pdf\n\n2. **2021-2022 BRFSS State Estimates** — SAMHSA, \"2021-2022 NSDUH: Other Sources of State-Level Data,\" Table 1 (Alcohol Use in the Past Month): https://www.samhsa.gov/data/sites/default/files/reports/rpt44487/2022-nsduh-sae-other-sources/2022-nsduh-sae-other-sources.htm",
+  "answer_chars": 2451,
+  "expected_answer": "Alabama, Arkansas, Mississippi, Oklahoma, Utah, West Virginia",
+  "answer_type": "Set Answer",
+  "category": "Health",
+  "metrics": {
+    "latency_total_seconds": 260.289,
+    "token_usage_input": 143948,
+    "token_usage_output": 8967,
+    "llm_calls": 29,
+    "subagents_invoked": 0,
+    "tool_calls_total": 28,
+    "token_usage_input_root": 143948,
+    "token_usage_output_root": 8967,
+    "llm_calls_root": 29,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 28,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 11,
+      "read_file": 8,
+      "web_extract": 8,
+      "terminal": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 29,
+    "turns_with_reasoning": 29,
+    "sessions_total": 1,
+    "cache_read_tokens": 2148096,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 5736,
+    "total_tokens": 152915,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_200804_808514",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_200804_808514",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788811685.1457007,
+        "ended_at": 1788811939.8338125,
+        "end_reason": "agent_close",
+        "message_count": 58,
+        "tool_call_count": 28,
+        "api_call_count": 29,
+        "input_tokens": 143948,
+        "output_tokens": 8967,
+        "cache_read_tokens": 2148096,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 5736,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-191629__dsqa90__forced-skill/queries/deepsearchqa-0216/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation",
+      "skills"
+    ],
+    "skills_preloaded": [
+      "deep-research"
+    ],
+    "skills_toolset_enabled": true,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "/deep-research According to BRFSS, what states had a prevalence below 45% of adults who have had at least one drink of alcohol within the past 30 days, between 2019 and 2022",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-191629__dsqa90__forced-skill/queries/deepsearchqa-0216/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation,skills",
+      "-s",
+      "deep-research",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-191629__dsqa90__forced-skill/queries/deepsearchqa-0216/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 476991
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 425914
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 58,
+  "agent_cwd_files": []
+}

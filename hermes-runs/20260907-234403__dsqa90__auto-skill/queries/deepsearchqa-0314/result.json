@@ -1,0 +1,166 @@
+{
+  "task_id": "deepsearchqa-0314",
+  "experiment": "auto-skill",
+  "run_id": "20260907-234403__dsqa90__auto-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788828088.3144066,
+  "finished_at": 1788828167.1831224,
+  "latency_total_seconds": 78.869,
+  "prompt": "Exhaustive list of all types of the genus Tyrannosaurus as of May 2024",
+  "prompt_prefix": "",
+  "instruction": "Exhaustive list of all types of the genus Tyrannosaurus as of May 2024",
+  "answer": "Based on the Wikipedia article (last updated with 2024-2025 sources) and the taxonomic summary in the infobox, here is the exhaustive list of *Tyrannosaurus* species as of **May 2024**:\n\n---\n\n### **Universally accepted (1 species)**\n| Species | Author, Year | Status |\n|---------|--------------|--------|\n| ***Tyrannosaurus rex*** | Osborn, 1905 | **Type species** — only universally recognized valid species |\n\n---\n\n### **Formally named in 2024, validity contested (1 species)**\n| Species | Author, Year | Status |\n|---------|--------------|--------|\n| ***Tyrannosaurus mcraeensis*** | Dalman *et al.*, 2024 | Described Jan 2024 (Hall Lake Formation, New Mexico). Validity **disputed** — Morrison *et al.* (2025) and Voris *et al.* (2025) argue it falls within *T. rex* variation; Carr (2025) agrees. Taxonomy box lists it with a \"?\" |\n\n---\n\n### **Proposed in 2022, not accepted by consensus (2 species)**\n| Species | Author, Year | Status |\n|---------|--------------|--------|\n| ***Tyrannosaurus imperator*** | Paul *et al.*, 2022 | Based on \"robust\" morph (holotype = \"Sue\"). **Rejected** by Brusatte, Carr, Holtz, Hone, O'Connor, Zanno (2022) as intraspecific variation. Paul reiterated in 2025; still not accepted. |\n| ***Tyrannosaurus regina*** | Paul *et al.*, 2022 | Based on \"gracile\" morph (holotype = \"Wankel rex\"). Same criticism as *T. imperator*; not accepted. |\n\n---\n\n### **Historically proposed, now synonymized or invalid (nomen nudum / nomen dubium)**\n| Name | Author, Year | Current disposition |\n|------|--------------|---------------------|\n| *T. bataar* | Maleev, 1955 | → ***Tarbosaurus bataar*** (1965) |\n| *T. \"lanpingensis\"* | — , 1975 | *Nomen nudum* (no description) |\n| *T. \"turpanensis\"* | — , 1978 | *Nomen nudum*; later listed as jr. synonym of *Tarbosaurus* |\n| *T. luanchuanensis* | — , 1979–80 | *Nomen dubium*; jr. synonym of *Tarbosaurus* |\n| *T. zhuchengensis* | Hu, 2001 | *Nomen dubium* (holotype lacks diagnostic features); possibly = *Zhuchengtyrannus* |\n| *T. amplus* | (Marsh, 1892) Hay, 1930 | Synonym of *T. rex* |\n| *T. cristatus* | (Marsh, 1892) | Synonym of *T. rex* |\n| *T. imperiosus* | Osborn, 1905 | Synonym of *T. rex* (originally *Dynamosaurus imperiosus*) |\n| *T. \"vannus\"*, *\"megagracilis\"*, *\"gigantus\"*, *\"stanwinstonorum\"* | various | *Nomina nuda* (never formally published) |\n\n---\n\n### **Bottom line for May 2024**\n- **1 undisputed species**: *T. rex*\n- **1 newly named but contested**: *T. mcraeensis* (with \"?\" in formal taxonomy)\n- **2 proposed but rejected by the community**: *T. imperator*, *T. regina*\n\nNo other species of *Tyrannosaurus* were considered valid by the paleontological mainstream as of May 2024.",
+  "answer_chars": 2679,
+  "expected_answer": "Tyrannosaurus Rex, Tyrannosaurus Mcraeensis",
+  "answer_type": "Set Answer",
+  "category": "Science",
+  "metrics": {
+    "latency_total_seconds": 78.869,
+    "token_usage_input": 140237,
+    "token_usage_output": 2238,
+    "llm_calls": 7,
+    "subagents_invoked": 0,
+    "tool_calls_total": 6,
+    "token_usage_input_root": 140237,
+    "token_usage_output_root": 2238,
+    "llm_calls_root": 7,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 6,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "read_file": 4,
+      "web_extract": 1,
+      "web_search": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 7,
+    "turns_with_reasoning": 7,
+    "sessions_total": 1,
+    "cache_read_tokens": 183040,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 782,
+    "total_tokens": 142475,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260908_004133_d108c0",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260908_004133_d108c0",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788828093.7607112,
+        "ended_at": 1788828167.159657,
+        "end_reason": "agent_close",
+        "message_count": 14,
+        "tool_call_count": 6,
+        "api_call_count": 7,
+        "input_tokens": 140237,
+        "output_tokens": 2238,
+        "cache_read_tokens": 183040,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 782,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0314/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation",
+      "skills"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": true,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Exhaustive list of all types of the genus Tyrannosaurus as of May 2024",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0314/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation,skills",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0314/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 359000
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 337640
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 14,
+  "agent_cwd_files": []
+}

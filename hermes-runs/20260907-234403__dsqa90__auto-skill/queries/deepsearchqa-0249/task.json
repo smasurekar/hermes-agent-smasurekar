@@ -1,0 +1,75 @@
+{
+  "example_id": "deepsearchqa-0249",
+  "source_id": "249",
+  "source_index": 249,
+  "source_dataset": "google/deepsearchqa",
+  "source_file": "DSQA-full.csv",
+  "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+  "problem": "Using FDIC information, of the failed banks closed in Wisconsin in 2011, which one has the highest “Total Paid” percentage for dividends marked as final?",
+  "problem_category": "Finance & Economics",
+  "answer": "Evergreen State Bank",
+  "answer_type": "Single Answer",
+  "codex_difficulty": {
+    "schema_version": "1.0",
+    "method": "bounded-research-v1",
+    "label": "hard",
+    "termination_reason": "action_limit_reached",
+    "research_action_count": 15,
+    "research_action_limit": 15,
+    "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+    "answer_outcome": "fully_correct",
+    "grader": {
+      "name": "deterministic-gold-item-comparison",
+      "grader_valid": true,
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fully_correct": true,
+      "fully_incorrect": false,
+      "correct_with_excessive_answers": false,
+      "official_parity_verified": false
+    },
+    "agent": {
+      "platform": "codex",
+      "model": "inherited",
+      "reasoning_effort": "inherited",
+      "worker_prompt_version": "1.0",
+      "context_mode": "none"
+    },
+    "measurement": {
+      "action_count_source": "agent_self_reported",
+      "gold_isolation": "instruction_only",
+      "local_file_access_prohibited": true
+    },
+    "run_id": "codex-dsqa85-20260818-v1",
+    "evaluated_at": "2026-08-18T05:06:00Z",
+    "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0249.json"
+  },
+  "difficulty_rationale": {
+    "schema_version": "1.0",
+    "summary": "Hard: the worker used the full 15-action budget and returned a bounded best-effort answer (fully_correct, F1=1.000).",
+    "decision_basis": {
+      "termination_reason": "action_limit_reached",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "answer_outcome": "fully_correct",
+      "grader_valid": true,
+      "f1_score": 1.0
+    },
+    "research_process": {
+      "action_type_counts": {
+        "open": 3,
+        "search": 12
+      },
+      "representative_actions": [
+        "Identified Wisconsin's 2011 failed banks.",
+        "Searched Evergreen's dividend percentage.",
+        "Searched the final row for fund 10348."
+      ],
+      "source_count": 2,
+      "action_log_detail": "descriptive",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0249.json"
+    },
+    "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+  }
+}

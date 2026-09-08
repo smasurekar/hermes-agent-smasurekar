@@ -1,0 +1,5204 @@
+[
+  {
+    "scientificName": "Sinosturio sinensis",
+    "japaneseName": "Karachozame",
+    "order": "Acipenseriformes",
+    "family": "Acipenseridae"
+  },
+  {
+    "scientificName": "Sinosturio medirostris",
+    "japaneseName": "Chozame",
+    "order": "Acipenseriformes",
+    "family": "Acipenseridae"
+  },
+  {
+    "scientificName": "Sinosturio schrenckii",
+    "japaneseName": "Amuruchozame",
+    "order": "Acipenseriformes",
+    "family": "Acipenseridae"
+  },
+  {
+    "scientificName": "Sinosturio dauricus",
+    "japaneseName": "Dauriachozame",
+    "order": "Acipenseriformes",
+    "family": "Acipenseridae"
+  },
+  {
+    "scientificName": "Lethrinus harak",
+    "japaneseName": "Matofuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Lethrinus longirostris",
+    "japaneseName": "Tachigamifuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Albula koreana",
+    "japaneseName": "Kisujisotoiwashi",
+    "order": "Albuliformes",
+    "family": "Albulidae"
+  },
+  {
+    "scientificName": "Lethrinus microdon",
+    "japaneseName": "Ofuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Albula argentea",
+    "japaneseName": "Sotoiwashi",
+    "order": "Albuliformes",
+    "family": "Albulidae"
+  },
+  {
+    "scientificName": "Lethrinus miniatus",
+    "japaneseName": "Amamifuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Lethrinus atkinsoni",
+    "japaneseName": "Isofuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Pterothrissus gissu",
+    "japaneseName": "Gisu",
+    "order": "Albuliformes",
+    "family": "Albulidae"
+  },
+  {
+    "scientificName": "Pempheris oualensis",
+    "japaneseName": "Yumehatampo",
+    "order": "Acropomatiformes",
+    "family": "Pempheridae"
+  },
+  {
+    "scientificName": "Lethrinus nebulosus",
+    "japaneseName": "Hamafuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Albula glossodonta",
+    "japaneseName": "Marukuchisotoiwashi",
+    "order": "Albuliformes",
+    "family": "Albulidae"
+  },
+  {
+    "scientificName": "Albula oligolepis",
+    "japaneseName": "Aramesotoiwashi",
+    "order": "Albuliformes",
+    "family": "Albulidae"
+  },
+  {
+    "scientificName": "Lethrinus ornatus",
+    "japaneseName": "Hanafuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Parapriacanthus ransonneti",
+    "japaneseName": "Kimmemodoki",
+    "order": "Acropomatiformes",
+    "family": "Pempheridae"
+  },
+  {
+    "scientificName": "Gymnocranius microdon",
+    "japaneseName": "Nagameichi",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Pempheris ufuagari",
+    "japaneseName": "Daitohatampo",
+    "order": "Acropomatiformes",
+    "family": "Pempheridae"
+  },
+  {
+    "scientificName": "Gymnocranius euanus",
+    "japaneseName": "Shirodai",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Pempheris schwenkii",
+    "japaneseName": "Minamihatampo",
+    "order": "Acropomatiformes",
+    "family": "Pempheridae"
+  },
+  {
+    "scientificName": "Lethrinus olivaceus",
+    "japaneseName": "Kitsunefuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Gymnocranius satoi",
+    "japaneseName": "Tamameichi",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Pempheris familia",
+    "japaneseName": "Boninhatampo",
+    "order": "Acropomatiformes",
+    "family": "Pempheridae"
+  },
+  {
+    "scientificName": "Maulisia acuticeps",
+    "japaneseName": "Ochibahanameiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Platytroctidae"
+  },
+  {
+    "scientificName": "Lethrinus rubrioperculatus",
+    "japaneseName": "Hoakakuchibi",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Pempheris adusta",
+    "japaneseName": "Ryukyuhatampo",
+    "order": "Acropomatiformes",
+    "family": "Pempheridae"
+  },
+  {
+    "scientificName": "Holtbyrnia innesi",
+    "japaneseName": "Kitanohanameiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Platytroctidae"
+  },
+  {
+    "scientificName": "Lethrinus lentjan",
+    "japaneseName": "Shimofurifuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Pempheris japonica",
+    "japaneseName": "Tsumagurohatampo",
+    "order": "Acropomatiformes",
+    "family": "Pempheridae"
+  },
+  {
+    "scientificName": "Sagamichthys abei",
+    "japaneseName": "Hanameiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Platytroctidae"
+  },
+  {
+    "scientificName": "Gymnocranius griseus",
+    "japaneseName": "Meichidai",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Pempheris vanicolensis",
+    "japaneseName": "Kibirehatampo",
+    "order": "Acropomatiformes",
+    "family": "Pempheridae"
+  },
+  {
+    "scientificName": "Maulisia argipalla",
+    "japaneseName": "Kuzuboshihanameiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Platytroctidae"
+  },
+  {
+    "scientificName": "Lethrinus variegatus",
+    "japaneseName": "Hosofuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Pempheris xanthoptera",
+    "japaneseName": "Mizuhohatampo",
+    "order": "Acropomatiformes",
+    "family": "Pempheridae"
+  },
+  {
+    "scientificName": "Mentodus facilis",
+    "japaneseName": "Nettaihanameiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Platytroctidae"
+  },
+  {
+    "scientificName": "Wattsia mossambica",
+    "japaneseName": "Kokenokogiri",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Pempheris sasakii",
+    "japaneseName": "Miehatampo",
+    "order": "Acropomatiformes",
+    "family": "Pempheridae"
+  },
+  {
+    "scientificName": "Lethrinus genivittatus",
+    "japaneseName": "Itofuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Monotaxis heterodon",
+    "japaneseName": "Kagutsuchiyokoshimakurodai",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Alepocephalus australis",
+    "japaneseName": "Aramekon-nyakuiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Gymnocranius superciliosus",
+    "japaneseName": "Hikimayumeichi",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Rouleina squamilatera",
+    "japaneseName": "Sekitoriiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Gymnocranius grandoculis",
+    "japaneseName": "Sazanamidai",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Rouleina attrita",
+    "japaneseName": "Hososekitoriiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Champsodon sagittus",
+    "japaneseName": "Yajiriwanigisu",
+    "order": "Acropomatiformes",
+    "family": "Champsodontidae"
+  },
+  {
+    "scientificName": "Lethrinus erythracanthus",
+    "japaneseName": "Amakuchibi",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Talismania brachycephala",
+    "japaneseName": "Itoiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Lethrinus ravus",
+    "japaneseName": "Minsafuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Bajacalifornia megalops",
+    "japaneseName": "Ukeguchiiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Champsodon snyderi",
+    "japaneseName": "Wanigisu",
+    "order": "Acropomatiformes",
+    "family": "Champsodontidae"
+  },
+  {
+    "scientificName": "Lethrinus xanthochilus",
+    "japaneseName": "Muneakakuchibi",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Alepocephalus umbriceps",
+    "japaneseName": "Kon-nyakuiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Gymnocranius obesus",
+    "japaneseName": "Tsukinowameichidai",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Champsodon guentheri",
+    "japaneseName": "Kurowanigisu",
+    "order": "Acropomatiformes",
+    "family": "Champsodontidae"
+  },
+  {
+    "scientificName": "Alepocephalus longirostris",
+    "japaneseName": "Marukon-nyakuiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Monotaxis grandoculis",
+    "japaneseName": "Yokoshimakurodai",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Alepocephalus bicolor",
+    "japaneseName": "Hosomekon-nyakuiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Champsodon longipinnis",
+    "japaneseName": "Minamiwanigisu",
+    "order": "Acropomatiformes",
+    "family": "Champsodontidae"
+  },
+  {
+    "scientificName": "Gnathodentex aureolineatus",
+    "japaneseName": "Nokogiridai",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Alepocephalus owstoni",
+    "japaneseName": "Hageiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Lethrinus reticulatus",
+    "japaneseName": "Yaeyamafuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Champsodon pantolepis",
+    "japaneseName": "Yoroiwanigisu",
+    "order": "Acropomatiformes",
+    "family": "Champsodontidae"
+  },
+  {
+    "scientificName": "Lethrinus semicinctus",
+    "japaneseName": "Amifuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Photostylus pycnopterus",
+    "japaneseName": "Ukeguchitsubuiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Rouleina guentheri",
+    "japaneseName": "Tanakasekitoriiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Lethrinus haematopterus",
+    "japaneseName": "Fuefukidai",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Lethrinus obsoletus",
+    "japaneseName": "Tateshimafuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Bathyprion danae",
+    "japaneseName": "Sokonokogiriiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Lethrinus amboinensis",
+    "japaneseName": "Yokoshimafuefuki",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Narcetes kamoharai",
+    "japaneseName": "Kuromasukuiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Gymnocranius elongatus",
+    "japaneseName": "Onagameichidai",
+    "order": "Acanthuriformes",
+    "family": "Lethrinidae"
+  },
+  {
+    "scientificName": "Narcetes stomias",
+    "japaneseName": "Sokokuroguchiiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Lateolabrax japonicus",
+    "japaneseName": "Suzuki",
+    "order": "Acropomatiformes",
+    "family": "Lateolabracidae"
+  },
+  {
+    "scientificName": "Alepocephalus triangularis",
+    "japaneseName": "Okinawakon-nyakuiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Conocara kreffti",
+    "japaneseName": "Yajiriiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Lateolabrax latus",
+    "japaneseName": "Hirasuzuki",
+    "order": "Acropomatiformes",
+    "family": "Lateolabracidae"
+  },
+  {
+    "scientificName": "Chaetodon wiebeli",
+    "japaneseName": "Tsukichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Leptoderma lubricum",
+    "japaneseName": "Nameraiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Chaetodon argentatus",
+    "japaneseName": "Kagamichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Leptoderma retropinnum",
+    "japaneseName": "Yasenameraiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Chaetodon rafflesii",
+    "japaneseName": "Amichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Histiopterus typus",
+    "japaneseName": "Kawabisha",
+    "order": "Acropomatiformes",
+    "family": "Pentacerotidae"
+  },
+  {
+    "scientificName": "Narcetes lloydi",
+    "japaneseName": "Kuroguchiiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Conocara fiolenti",
+    "japaneseName": "Marukuchiyajiriiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Heniochus varius",
+    "japaneseName": "Tsunohatatatedai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Evistias acutirostris",
+    "japaneseName": "Tengudai",
+    "order": "Acropomatiformes",
+    "family": "Pentacerotidae"
+  },
+  {
+    "scientificName": "Forcipiger longirostris",
+    "japaneseName": "Ofueyakkodai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Leptochilichthys microlepis",
+    "japaneseName": "Oniiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Pentaceros japonicus",
+    "japaneseName": "Tsubodai",
+    "order": "Acropomatiformes",
+    "family": "Pentacerotidae"
+  },
+  {
+    "scientificName": "Chaetodon mertensii",
+    "japaneseName": "Beniochochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Talismania longifilis",
+    "japaneseName": "Mizuhikiiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Pentaceros wheeleri",
+    "japaneseName": "Kusakaritsubodai",
+    "order": "Acropomatiformes",
+    "family": "Pentacerotidae"
+  },
+  {
+    "scientificName": "Narcetes shonanmaruae",
+    "japaneseName": "Yokozunaiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Prognathodes guyotensis",
+    "japaneseName": "Urashimachochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Xenodermichthys nodulosus",
+    "japaneseName": "Tsubuiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Chaetodon quadrimaculatus",
+    "japaneseName": "Shitenchochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Alepocephalus longiceps",
+    "japaneseName": "Togarikon-nyakuiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Talismania antillarum",
+    "japaneseName": "Nokobaiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Chaetodon oxycephalus",
+    "japaneseName": "Himefuraichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Conocara werneri",
+    "japaneseName": "Sedakayajiriiwashi",
+    "order": "Alepocephaliformes",
+    "family": "Alepocephalidae"
+  },
+  {
+    "scientificName": "Howella zina",
+    "japaneseName": "Togekushisumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Howellidae"
+  },
+  {
+    "scientificName": "Chaetodon plebeius",
+    "japaneseName": "Sumitsukitonosamadai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Howella parini",
+    "japaneseName": "Kushisumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Howellidae"
+  },
+  {
+    "scientificName": "Chaetodon kleinii",
+    "japaneseName": "Mizorechochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Howella sherborni",
+    "japaneseName": "Namitogesumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Howellidae"
+  },
+  {
+    "scientificName": "Chaetodon reticulatus",
+    "japaneseName": "Hakutenkatagi",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Macropodus ocellatus",
+    "japaneseName": "Chosembuna",
+    "order": "Anabantiformes",
+    "family": "Osphronemidae"
+  },
+  {
+    "scientificName": "Howella simplex",
+    "japaneseName": "Togesumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Howellidae"
+  },
+  {
+    "scientificName": "Roa modesta",
+    "japaneseName": "Genrokudai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Macropodus opercularis",
+    "japaneseName": "Taiwankingyo",
+    "order": "Anabantiformes",
+    "family": "Osphronemidae"
+  },
+  {
+    "scientificName": "Chaetodon lunula",
+    "japaneseName": "Chohan",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon guentheri",
+    "japaneseName": "Kokutenkatagi",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Bathyclupea nikparini",
+    "japaneseName": "",
+    "order": "Acropomatiformes",
+    "family": "Bathyclupeidae"
+  },
+  {
+    "scientificName": "Chaetodon speculum",
+    "japaneseName": "Tonosamadai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Neobathyclupea japanotaiwana",
+    "japaneseName": "Sokonishin",
+    "order": "Acropomatiformes",
+    "family": "Bathyclupeidae"
+  },
+  {
+    "scientificName": "Channa maculata",
+    "japaneseName": "Taiwandojo",
+    "order": "Anabantiformes",
+    "family": "Channidae"
+  },
+  {
+    "scientificName": "Chaetodon octofasciatus",
+    "japaneseName": "Yasujichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Channa asiatica",
+    "japaneseName": "Kotai",
+    "order": "Anabantiformes",
+    "family": "Channidae"
+  },
+  {
+    "scientificName": "Heniochus singularius",
+    "japaneseName": "Shimahatatatedai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Channa argus",
+    "japaneseName": "Kamuruchi",
+    "order": "Anabantiformes",
+    "family": "Channidae"
+  },
+  {
+    "scientificName": "Myopsaron nelsoni",
+    "japaneseName": "Nezusunagimpo",
+    "order": "Acropomatiformes",
+    "family": "Creediidae"
+  },
+  {
+    "scientificName": "Chaetodon adiergastos",
+    "japaneseName": "Kurakakechochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon bennetti",
+    "japaneseName": "Umizukichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon baronessa",
+    "japaneseName": "Mikadochochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Limnichthys orientalis",
+    "japaneseName": "Sangotobigimpo",
+    "order": "Acropomatiformes",
+    "family": "Creediidae"
+  },
+  {
+    "scientificName": "Chaetodon daedalma",
+    "japaneseName": "Yuzen",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon lineolatus",
+    "japaneseName": "Nisefuraichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon trifascialis",
+    "japaneseName": "Yarikatagi",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Heniochus monoceros",
+    "japaneseName": "Onihatatatedai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Heniochus acuminatus",
+    "japaneseName": "Hatatatedai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon ornatissimus",
+    "japaneseName": "Hanagurochochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Limnichthys fasciatus",
+    "japaneseName": "Tobigimpo",
+    "order": "Acropomatiformes",
+    "family": "Creediidae"
+  },
+  {
+    "scientificName": "Chelmon rostratus",
+    "japaneseName": "Hashinagachochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Limnichthys nitidus",
+    "japaneseName": "Minamitobigimpo",
+    "order": "Acropomatiformes",
+    "family": "Creediidae"
+  },
+  {
+    "scientificName": "Heniochus diphreutes",
+    "japaneseName": "Murehatatatedai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Creedia bilineata",
+    "japaneseName": "Futasujisunagimpo",
+    "order": "Acropomatiformes",
+    "family": "Creediidae"
+  },
+  {
+    "scientificName": "Hemitaurichthys polylepis",
+    "japaneseName": "Kasumichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon auriga",
+    "japaneseName": "Togechochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon selene",
+    "japaneseName": "Tenguchochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Parascombrops philippinensis",
+    "japaneseName": "Himesumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Synagropidae"
+  },
+  {
+    "scientificName": "Chaetodon melannotus",
+    "japaneseName": "Akebonochochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Parascombrops serratospinosus",
+    "japaneseName": "Tsumarihimesumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Synagropidae"
+  },
+  {
+    "scientificName": "Coradion altivelis",
+    "japaneseName": "Takigenrokudai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Parascombrops mochizukii",
+    "japaneseName": "Nokobasumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Synagropidae"
+  },
+  {
+    "scientificName": "Chaetodon vagabundus",
+    "japaneseName": "Furaichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Heniochus chrysostomus",
+    "japaneseName": "Minamihatatatedai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Synagrops japonicus",
+    "japaneseName": "Sumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Synagropidae"
+  },
+  {
+    "scientificName": "Chaetodon citrinellus",
+    "japaneseName": "Gomachochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Parascombrops analis",
+    "japaneseName": "Bakesumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Synagropidae"
+  },
+  {
+    "scientificName": "Chaetodon ulietensis",
+    "japaneseName": "Sudarechochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Parascombrops nakayamai",
+    "japaneseName": "Oribuhimesumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Synagropidae"
+  },
+  {
+    "scientificName": "Chaetodon xanthurus",
+    "japaneseName": "Amimechochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Parascombrops yamanouei",
+    "japaneseName": "Sedakahimesumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Synagropidae"
+  },
+  {
+    "scientificName": "Chaetodon semeion",
+    "japaneseName": "Remonchochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Parascombrops ohei",
+    "japaneseName": "Sarashihimesumikuiuo",
+    "order": "Acropomatiformes",
+    "family": "Synagropidae"
+  },
+  {
+    "scientificName": "Chaetodon nippon",
+    "japaneseName": "Shirakodai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon punctatofasciatus",
+    "japaneseName": "Shichisenchochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon meyeri",
+    "japaneseName": "Ogichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Eurypharynx pelecanoides",
+    "japaneseName": "Fukuronagi",
+    "order": "Anguilliformes",
+    "family": "Eurypharyngidae"
+  },
+  {
+    "scientificName": "Chaetodon auripes",
+    "japaneseName": "Chochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon lunulatus",
+    "japaneseName": "Misujichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Symphysanodon katayamai",
+    "japaneseName": "Kawarihanadai",
+    "order": "Acropomatiformes",
+    "family": "Symphysanodontidae"
+  },
+  {
+    "scientificName": "Chaetodon unimaculatus",
+    "japaneseName": "Ittenchochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Coradion chrysozonus",
+    "japaneseName": "Kisujigenrokudai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Anguilla luzonensis",
+    "japaneseName": "Ugumaunagi",
+    "order": "Anguilliformes",
+    "family": "Anguillidae"
+  },
+  {
+    "scientificName": "Forcipiger flavissimus",
+    "japaneseName": "Fueyakkodai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Symphysanodon typus",
+    "japaneseName": "Tsukihihanadai",
+    "order": "Acropomatiformes",
+    "family": "Symphysanodontidae"
+  },
+  {
+    "scientificName": "Hemitaurichthys thompsoni",
+    "japaneseName": "Tompusonchochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Anguilla japonica",
+    "japaneseName": "Nihon-unagi",
+    "order": "Anguilliformes",
+    "family": "Anguillidae"
+  },
+  {
+    "scientificName": "Symphysanodon maunaloae",
+    "japaneseName": "Paraohanadai",
+    "order": "Acropomatiformes",
+    "family": "Symphysanodontidae"
+  },
+  {
+    "scientificName": "Roa haraguchiae",
+    "japaneseName": "Pandagenrokudai",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon ephippium",
+    "japaneseName": "Segurochochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Chaetodon oligacanthus",
+    "japaneseName": "Tentsukichochouo",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae"
+  },
+  {
+    "scientificName": "Anguilla marmorata",
+    "japaneseName": "Ounagi",
+    "order": "Anguilliformes",
+    "family": "Anguillidae"
+  },
+  {
+    "scientificName": "Acanthopagrus taiwanensis",
+    "japaneseName": "Iwatsukikurodai",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Doederleinia berycoides",
+    "japaneseName": "Akamutsu",
+    "order": "Acropomatiformes",
+    "family": "Acropomatidae"
+  },
+  {
+    "scientificName": "Pagrus major",
+    "japaneseName": "Madai",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Acropoma hanedai",
+    "japaneseName": "Hanedahotarujako",
+    "order": "Acropomatiformes",
+    "family": "Acropomatidae"
+  },
+  {
+    "scientificName": "Dentex hypselosomus",
+    "japaneseName": "Kidai",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Acropoma japonicum",
+    "japaneseName": "Hotarujako",
+    "order": "Acropomatiformes",
+    "family": "Acropomatidae"
+  },
+  {
+    "scientificName": "Amamiichthys matsubarai",
+    "japaneseName": "Hoshirenko",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Acropoma lecorneti",
+    "japaneseName": "Okinawahotarujako",
+    "order": "Acropomatiformes",
+    "family": "Acropomatidae"
+  },
+  {
+    "scientificName": "Evynnis cardinalis",
+    "japaneseName": "Hirekodai",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Nessorhamphus danae",
+    "japaneseName": "Heraanago",
+    "order": "Anguilliformes",
+    "family": "Derichthyidae"
+  },
+  {
+    "scientificName": "Argyrops bleekeri",
+    "japaneseName": "Taiwandai",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Derichthys serpentinus",
+    "japaneseName": "Kubinagaanago",
+    "order": "Anguilliformes",
+    "family": "Derichthyidae"
+  },
+  {
+    "scientificName": "Lagodon rhomboides",
+    "japaneseName": "Pinfisshu",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Acanthopagrus pacificus",
+    "japaneseName": "Nan-yochinu",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Rhabdosargus sarba",
+    "japaneseName": "Hedai",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Muraenesox bagio",
+    "japaneseName": "Suzuhamo",
+    "order": "Anguilliformes",
+    "family": "Muraenesocidae"
+  },
+  {
+    "scientificName": "Acanthopagrus schlegelii",
+    "japaneseName": "Kurodai",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Gavialiceps taiwanensis",
+    "japaneseName": "Watakuzuhamo",
+    "order": "Anguilliformes",
+    "family": "Muraenesocidae"
+  },
+  {
+    "scientificName": "Acanthopagrus chinshira",
+    "japaneseName": "Okinawakichinu",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Muraenesox cinereus",
+    "japaneseName": "Hamo",
+    "order": "Anguilliformes",
+    "family": "Muraenesocidae"
+  },
+  {
+    "scientificName": "Acanthopagrus sivicolus",
+    "japaneseName": "Minamikurodai",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Acanthopagrus latus",
+    "japaneseName": "Kichinu",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Oxyconger leptognathus",
+    "japaneseName": "Hashinagaanago",
+    "order": "Anguilliformes",
+    "family": "Muraenesocidae"
+  },
+  {
+    "scientificName": "Evynnis tumifrons",
+    "japaneseName": "Chidai",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Dentex abei",
+    "japaneseName": "Kibireakarenko",
+    "order": "Acanthuriformes",
+    "family": "Sparidae"
+  },
+  {
+    "scientificName": "Coloconger japonicus",
+    "japaneseName": "Bakefusaanago",
+    "order": "Anguilliformes",
+    "family": "Colocongridae"
+  },
+  {
+    "scientificName": "Ostracoberyx fowleri",
+    "japaneseName": "Onigashira",
+    "order": "Acropomatiformes",
+    "family": "Ostracoberycidae"
+  },
+  {
+    "scientificName": "Coloconger raniceps",
+    "japaneseName": "Fusaanago",
+    "order": "Anguilliformes",
+    "family": "Colocongridae"
+  },
+  {
+    "scientificName": "Lutjanus stellatus",
+    "japaneseName": "Fuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Ostracoberyx dorygenys",
+    "japaneseName": "Mameonigashira",
+    "order": "Acropomatiformes",
+    "family": "Ostracoberycidae"
+  },
+  {
+    "scientificName": "Caesio caerulaurea",
+    "japaneseName": "Sasamuro",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Lutjanus kasmira",
+    "japaneseName": "Yosujifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Kaupichthys atronasus",
+    "japaneseName": "Kurohigeiwaanago",
+    "order": "Anguilliformes",
+    "family": "Chlopsidae"
+  },
+  {
+    "scientificName": "Scombrops gilberti",
+    "japaneseName": "Kuromutsu",
+    "order": "Acropomatiformes",
+    "family": "Scombropidae"
+  },
+  {
+    "scientificName": "Lutjanus bohar",
+    "japaneseName": "Barafuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Kaupichthys japonicus",
+    "japaneseName": "Iwaanago",
+    "order": "Anguilliformes",
+    "family": "Chlopsidae"
+  },
+  {
+    "scientificName": "Scombrops boops",
+    "japaneseName": "Mutsu",
+    "order": "Acropomatiformes",
+    "family": "Scombropidae"
+  },
+  {
+    "scientificName": "Lutjanus sebae",
+    "japaneseName": "Sennendai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Robinsia catherinae",
+    "japaneseName": "Kawarianago",
+    "order": "Anguilliformes",
+    "family": "Chlopsidae"
+  },
+  {
+    "scientificName": "Pinjalo lewisi",
+    "japaneseName": "Sedakatakasago",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Bathylychnops exilis",
+    "japaneseName": "Mukashidemenigisu",
+    "order": "Argentiniformes",
+    "family": "Opisthoproctidae"
+  },
+  {
+    "scientificName": "Etelis radiosus",
+    "japaneseName": "Okuchihamadai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Winteria telescopa",
+    "japaneseName": "Kurodemenigisu",
+    "order": "Argentiniformes",
+    "family": "Opisthoproctidae"
+  },
+  {
+    "scientificName": "Chilorhinus platyrhynchus",
+    "japaneseName": "Hashihiroanago",
+    "order": "Anguilliformes",
+    "family": "Chlopsidae"
+  },
+  {
+    "scientificName": "Symphorus nematophorus",
+    "japaneseName": "Itohikifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Xenoconger fryeri",
+    "japaneseName": "Umbukianago",
+    "order": "Anguilliformes",
+    "family": "Chlopsidae"
+  },
+  {
+    "scientificName": "Dolichopteryx parini",
+    "japaneseName": "Kitahinademenigisu",
+    "order": "Argentiniformes",
+    "family": "Opisthoproctidae"
+  },
+  {
+    "scientificName": "Lutjanus ophuysenii",
+    "japaneseName": "Yokosujifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Rhynchohyalus natalensis",
+    "japaneseName": "Yotsumenigisu",
+    "order": "Argentiniformes",
+    "family": "Opisthoproctidae"
+  },
+  {
+    "scientificName": "Pinjalo pinjalo",
+    "japaneseName": "Chikametakasago",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Dolichopteryx andriashevi",
+    "japaneseName": "Issenhinademenigisu",
+    "order": "Argentiniformes",
+    "family": "Opisthoproctidae"
+  },
+  {
+    "scientificName": "Pristipomoides flavipinnis",
+    "japaneseName": "Kimmehimedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Heteroconger fugax",
+    "japaneseName": "Nigemizuchin-anago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Pristipomoides amoenus",
+    "japaneseName": "Usuhanafuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Duolentops minuscula",
+    "japaneseName": "Hinademenigisu",
+    "order": "Argentiniformes",
+    "family": "Opisthoproctidae"
+  },
+  {
+    "scientificName": "Gorgasia preclara",
+    "japaneseName": "Nishikianago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Lutjanus rivulatus",
+    "japaneseName": "Namifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Macropinna microstoma",
+    "japaneseName": "Demenigisu",
+    "order": "Argentiniformes",
+    "family": "Opisthoproctidae"
+  },
+  {
+    "scientificName": "Malakichthys barbatus",
+    "japaneseName": "Higeomehata",
+    "order": "Acropomatiformes",
+    "family": "Malakichthyidae"
+  },
+  {
+    "scientificName": "Pterocaesio digramma",
+    "japaneseName": "Takasago",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Conger myriaster",
+    "japaneseName": "Maanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Etelis boweni",
+    "japaneseName": "Oakamutsu",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Malakichthys elegans",
+    "japaneseName": "Nagaomehata",
+    "order": "Acropomatiformes",
+    "family": "Malakichthyidae"
+  },
+  {
+    "scientificName": "Ariosoma major",
+    "japaneseName": "Oshiroanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Pterocaesio pisang",
+    "japaneseName": "",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Verilus pacificus",
+    "japaneseName": "Bakemutsu",
+    "order": "Acropomatiformes",
+    "family": "Malakichthyidae"
+  },
+  {
+    "scientificName": "Lutjanus xanthopinnis",
+    "japaneseName": "Imotofuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Ariosoma shiroanago",
+    "japaneseName": "Shiroanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Malakichthys wakiyae",
+    "japaneseName": "Wakiyahata",
+    "order": "Acropomatiformes",
+    "family": "Malakichthyidae"
+  },
+  {
+    "scientificName": "Lutjanus biguttatus",
+    "japaneseName": "Futahoshifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Glossanodon microcephalus",
+    "japaneseName": "Tsumarinigisu",
+    "order": "Argentiniformes",
+    "family": "Argentinidae"
+  },
+  {
+    "scientificName": "Heteroconger hassi",
+    "japaneseName": "Chin-anago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Lutjanus bengalensis",
+    "japaneseName": "Bengarufuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Malakichthys griseus",
+    "japaneseName": "Omehata",
+    "order": "Acropomatiformes",
+    "family": "Malakichthyidae"
+  },
+  {
+    "scientificName": "Glossanodon kotakamaru",
+    "japaneseName": "Kotakanigisu",
+    "order": "Argentiniformes",
+    "family": "Argentinidae"
+  },
+  {
+    "scientificName": "Gymnocaesio gymnoptera",
+    "japaneseName": "Hosotakasago",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Gorgasia taiwanensis",
+    "japaneseName": "Akianago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Glossanodon lineatus",
+    "japaneseName": "Ichimonjiiwashi",
+    "order": "Argentiniformes",
+    "family": "Argentinidae"
+  },
+  {
+    "scientificName": "Pristipomoides argyrogrammicus",
+    "japaneseName": "Hanafuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Congriscus maldivensis",
+    "japaneseName": "Nan-yookianago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Argentina kagoshimae",
+    "japaneseName": "Kagoshimanigisu",
+    "order": "Argentiniformes",
+    "family": "Argentinidae"
+  },
+  {
+    "scientificName": "Symphorichthys spilurus",
+    "japaneseName": "Irezumifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Glossanodon semifasciatus",
+    "japaneseName": "Nigisu",
+    "order": "Argentiniformes",
+    "family": "Argentinidae"
+  },
+  {
+    "scientificName": "Conger erebennus",
+    "japaneseName": "Dainan-anago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Pristipomoides zonatus",
+    "japaneseName": "Shimachibiki",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Pteropsaron springeri",
+    "japaneseName": "",
+    "order": "Acropomatiformes",
+    "family": "Hemerocoetidae"
+  },
+  {
+    "scientificName": "Aphareus furca",
+    "japaneseName": "Ishifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Blachea xenobranchialis",
+    "japaneseName": "Kazarieraanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Acanthaphritis barbata",
+    "japaneseName": "Higetoragisu",
+    "order": "Acropomatiformes",
+    "family": "Hemerocoetidae"
+  },
+  {
+    "scientificName": "Aphareus rutilans",
+    "japaneseName": "Oguchiishichibiki",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Heteroconger polyzona",
+    "japaneseName": "Zeburaanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Bathylagus pacificus",
+    "japaneseName": "Yasesokoiwashi",
+    "order": "Argentiniformes",
+    "family": "Bathylagidae"
+  },
+  {
+    "scientificName": "Acanthaphritis unoorum",
+    "japaneseName": "Futahoshihigetoragisu",
+    "order": "Acropomatiformes",
+    "family": "Hemerocoetidae"
+  },
+  {
+    "scientificName": "Lutjanus timorensis",
+    "japaneseName": "Wakiguroakafuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Leuroglossus schmidti",
+    "japaneseName": "Togariichimonjiiwashi",
+    "order": "Argentiniformes",
+    "family": "Bathylagidae"
+  },
+  {
+    "scientificName": "Congriscus megastomus",
+    "japaneseName": "Okianago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Pteropsaron evolans",
+    "japaneseName": "Hokaketoragisu",
+    "order": "Acropomatiformes",
+    "family": "Hemerocoetidae"
+  },
+  {
+    "scientificName": "Aprion virescens",
+    "japaneseName": "Aochibiki",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Gnathophis ginanago",
+    "japaneseName": "Nisegin-anago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Paracaesio sordida",
+    "japaneseName": "Yogoreaodai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Dolicholagus longirostris",
+    "japaneseName": "Ginsokoiwashi",
+    "order": "Argentiniformes",
+    "family": "Bathylagidae"
+  },
+  {
+    "scientificName": "Matsubaraea fusiformis",
+    "japaneseName": "Matsubaratoragisu",
+    "order": "Acropomatiformes",
+    "family": "Hemerocoetidae"
+  },
+  {
+    "scientificName": "Ariosoma meeki",
+    "japaneseName": "Goten-anago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Paracaesio caerulea",
+    "japaneseName": "Aodai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Lipolagus ochotensis",
+    "japaneseName": "Sokoiwashi",
+    "order": "Argentiniformes",
+    "family": "Bathylagidae"
+  },
+  {
+    "scientificName": "Gnathophis heterognathos",
+    "japaneseName": "Gin-anago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Osopsaron formosense",
+    "japaneseName": "Usagitoragisu",
+    "order": "Acropomatiformes",
+    "family": "Hemerocoetidae"
+  },
+  {
+    "scientificName": "Paracaesio stonei",
+    "japaneseName": "Yambarushimaaodai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Pseudobathylagus milleri",
+    "japaneseName": "Kurosokoiwashi",
+    "order": "Argentiniformes",
+    "family": "Bathylagidae"
+  },
+  {
+    "scientificName": "Bathyuroconger parvibranchialis",
+    "japaneseName": "Kibaanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Osopsaron verecundum",
+    "japaneseName": "Himetoragisu",
+    "order": "Acropomatiformes",
+    "family": "Hemerocoetidae"
+  },
+  {
+    "scientificName": "Lutjanus gibbus",
+    "japaneseName": "Himefuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Melanolagus bericoides",
+    "japaneseName": "Nettaisokoiwashi",
+    "order": "Argentiniformes",
+    "family": "Bathylagidae"
+  },
+  {
+    "scientificName": "Macolor macularis",
+    "japaneseName": "Hohosujitarumi",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Bathycongrus wallacei",
+    "japaneseName": "Nisetsumaguroanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Lutjanus malabaricus",
+    "japaneseName": "Yokofuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Epigonus glossodontus",
+    "japaneseName": "Horaanahisuiyasemutsu",
+    "order": "Acropomatiformes",
+    "family": "Epigonidae"
+  },
+  {
+    "scientificName": "Parabathymyrus macrophthalmus",
+    "japaneseName": "Medamaanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Lipocheilus carnolabrum",
+    "japaneseName": "Kibirefuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Nansenia ardesiaca",
+    "japaneseName": "Ginzakeiwashi",
+    "order": "Argentiniformes",
+    "family": "Microstomatidae"
+  },
+  {
+    "scientificName": "Epigonus fragilis",
+    "japaneseName": "Ibushigin-yasemutsu",
+    "order": "Acropomatiformes",
+    "family": "Epigonidae"
+  },
+  {
+    "scientificName": "Lutjanus monostigma",
+    "japaneseName": "Ittenfuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Rhynchoconger ectenurus",
+    "japaneseName": "Kitsuneanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Nansenia candida",
+    "japaneseName": "Kurosakeiwashi",
+    "order": "Argentiniformes",
+    "family": "Microstomatidae"
+  },
+  {
+    "scientificName": "Lutjanus fulvus",
+    "japaneseName": "Okifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Epigonus ctenolepis",
+    "japaneseName": "Nagayasemutsu",
+    "order": "Acropomatiformes",
+    "family": "Epigonidae"
+  },
+  {
+    "scientificName": "Japonoconger sivicolus",
+    "japaneseName": "Minamianago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Lutjanus lutjanus",
+    "japaneseName": "Kinsenfuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Conger cinereus",
+    "japaneseName": "Kirianago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Brephostoma carpenteri",
+    "japaneseName": "Urokoyasemutsu",
+    "order": "Acropomatiformes",
+    "family": "Epigonidae"
+  },
+  {
+    "scientificName": "Etelis carbunculus",
+    "japaneseName": "Hachijoakamutsu",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Gorgasia japonica",
+    "japaneseName": "Shinjuanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Pterocaesio chrysozona",
+    "japaneseName": "",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Epigonus denticulatus",
+    "japaneseName": "Hageyasemutsu",
+    "order": "Acropomatiformes",
+    "family": "Epigonidae"
+  },
+  {
+    "scientificName": "Pterocaesio tile",
+    "japaneseName": "Kumasasahanamuro",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Bathycongrus castlei",
+    "japaneseName": "Heritsumaguroanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Epigonus elongatus",
+    "japaneseName": "Kogemeyasemutsu",
+    "order": "Acropomatiformes",
+    "family": "Epigonidae"
+  },
+  {
+    "scientificName": "Lutjanus johnii",
+    "japaneseName": "Kadogawafuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Ateleopus japonicus",
+    "japaneseName": "Shachiburi",
+    "order": "Ateleopodiformes",
+    "family": "Ateleopodidae"
+  },
+  {
+    "scientificName": "Sphyraenops bairdianus",
+    "japaneseName": "Togemeokimutsu",
+    "order": "Acropomatiformes",
+    "family": "Epigonidae"
+  },
+  {
+    "scientificName": "Conger jordani",
+    "japaneseName": "Kuroanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Caesio cuning",
+    "japaneseName": "Yumeumeiro",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Guentherus katoi",
+    "japaneseName": "Hyomonshachiburi",
+    "order": "Ateleopodiformes",
+    "family": "Ateleopodidae"
+  },
+  {
+    "scientificName": "Epigonus atherinoides",
+    "japaneseName": "Hirayasemutsu",
+    "order": "Acropomatiformes",
+    "family": "Epigonidae"
+  },
+  {
+    "scientificName": "Lutjanus ehrenbergii",
+    "japaneseName": "Minamifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Ateleopus edentatus",
+    "japaneseName": "Shiroguchishachiburi",
+    "order": "Ateleopodiformes",
+    "family": "Ateleopodidae"
+  },
+  {
+    "scientificName": "Bathyuroconger vicinus",
+    "japaneseName": "Sokoaianago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Pristipomoides filamentosus",
+    "japaneseName": "Ohime",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Epigonus pectinifer",
+    "japaneseName": "Yasemutsu",
+    "order": "Acropomatiformes",
+    "family": "Epigonidae"
+  },
+  {
+    "scientificName": "Ijimaia dofleini",
+    "japaneseName": "Oshachiburi",
+    "order": "Ateleopodiformes",
+    "family": "Ateleopodidae"
+  },
+  {
+    "scientificName": "Lutjanus decussatus",
+    "japaneseName": "Amimefuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Bathycongrus retrotinctus",
+    "japaneseName": "Tsumaguroanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Paracaesio kusakarii",
+    "japaneseName": "Shimaaodai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Uroconger lepturus",
+    "japaneseName": "Aianago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Glaucosoma buergeri",
+    "japaneseName": "Aobadai",
+    "order": "Acropomatiformes",
+    "family": "Glaucosomatidae"
+  },
+  {
+    "scientificName": "Etelis coruscans",
+    "japaneseName": "Hamadai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Ariosoma anago",
+    "japaneseName": "Hanaanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Pristipomoides sieboldii",
+    "japaneseName": "Himedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Iso flosmaris",
+    "japaneseName": "Naminohana",
+    "order": "Atheriniformes",
+    "family": "Notocheiridae"
+  },
+  {
+    "scientificName": "Acromycter nezumi",
+    "japaneseName": "Himoanago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Paracaesio xanthura",
+    "japaneseName": "Umeiro",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Stereolepis doederleini",
+    "japaneseName": "Okuchiishinagi",
+    "order": "Acropomatiformes",
+    "family": "Stereolepididae"
+  },
+  {
+    "scientificName": "Dipterygonotus balteatus",
+    "japaneseName": "Himetakasago",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Gnathophis xenica",
+    "japaneseName": "Himegin-anago",
+    "order": "Anguilliformes",
+    "family": "Congridae"
+  },
+  {
+    "scientificName": "Atherion elymus",
+    "japaneseName": "Mugiiwashi",
+    "order": "Atheriniformes",
+    "family": "Atherionidae"
+  },
+  {
+    "scientificName": "Stereolepis gigas",
+    "japaneseName": "Kokuchiishinagi",
+    "order": "Acropomatiformes",
+    "family": "Stereolepididae"
+  },
+  {
+    "scientificName": "Caesio lunaris",
+    "japaneseName": "Hanatakasago",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Lutjanus vitta",
+    "japaneseName": "Tatefuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Lutjanus goldiei",
+    "japaneseName": "Urauchifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Pterocaesio marri",
+    "japaneseName": "Nisetakasago",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Cyema atrum",
+    "japaneseName": "Yabaneunagi",
+    "order": "Anguilliformes",
+    "family": "Cyematidae"
+  },
+  {
+    "scientificName": "Lutjanus russellii",
+    "japaneseName": "Kurohoshifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Odontesthes bonariensis",
+    "japaneseName": "Peherei",
+    "order": "Atheriniformes",
+    "family": "Atherinopsidae"
+  },
+  {
+    "scientificName": "Lutjanus dodecacanthoides",
+    "japaneseName": "Hasujimatarumi",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Macolor niger",
+    "japaneseName": "Madaratarumi",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Pristipomoides typus",
+    "japaneseName": "Barahimedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Pristipomoides multidens",
+    "japaneseName": "Nagasakifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Hypoatherina lunata",
+    "japaneseName": "Okinawatogoro",
+    "order": "Atheriniformes",
+    "family": "Atherinidae"
+  },
+  {
+    "scientificName": "Lutjanus quinquelineatus",
+    "japaneseName": "Rokusenfuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Hypoatherina temminckii",
+    "japaneseName": "Minamigin-isoiwashi",
+    "order": "Atheriniformes",
+    "family": "Atherinidae"
+  },
+  {
+    "scientificName": "Caesio teres",
+    "japaneseName": "Umeiromodoki",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Atherinomorus lacunosus",
+    "japaneseName": "Yakushimaiwashi",
+    "order": "Atheriniformes",
+    "family": "Atherinidae"
+  },
+  {
+    "scientificName": "Lutjanus rufolineatus",
+    "japaneseName": "Kyusenfuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Synaphobranchus brevidorsalis",
+    "japaneseName": "Motosodeanago",
+    "order": "Anguilliformes",
+    "family": "Synaphobranchidae"
+  },
+  {
+    "scientificName": "Lutjanus argentimaculatus",
+    "japaneseName": "Gomafuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Hypoatherina tsurugae",
+    "japaneseName": "Gin-isoiwashi",
+    "order": "Atheriniformes",
+    "family": "Atherinidae"
+  },
+  {
+    "scientificName": "Dysommina orientalis",
+    "japaneseName": "Surugaanago",
+    "order": "Anguilliformes",
+    "family": "Synaphobranchidae"
+  },
+  {
+    "scientificName": "Pristipomoides auricilla",
+    "japaneseName": "Kimadarahimedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Doboatherina bleekeri",
+    "japaneseName": "Togoroiwashi",
+    "order": "Atheriniformes",
+    "family": "Atherinidae"
+  },
+  {
+    "scientificName": "Randallichthys filamentosus",
+    "japaneseName": "Bakeakamutsu",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Atherinomorus pinguis",
+    "japaneseName": "Hosobiyakushimaiwashi",
+    "order": "Atheriniformes",
+    "family": "Atherinidae"
+  },
+  {
+    "scientificName": "Meadia abyssalis",
+    "japaneseName": "Hirejiroanago",
+    "order": "Anguilliformes",
+    "family": "Synaphobranchidae"
+  },
+  {
+    "scientificName": "Lutjanus fulviflamma",
+    "japaneseName": "Nisekurohoshifuedai",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Simenchelys parasitica",
+    "japaneseName": "Kongoanago",
+    "order": "Anguilliformes",
+    "family": "Synaphobranchidae"
+  },
+  {
+    "scientificName": "Pterocaesio trilineata",
+    "japaneseName": "Issentakasago",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae"
+  },
+  {
+    "scientificName": "Hypoatherina barnesi",
+    "japaneseName": "Osujiisoiwashi",
+    "order": "Atheriniformes",
+    "family": "Atherinidae"
+  },
+  {
+    "scientificName": "Ilyophis brunneus",
+    "japaneseName": "Ryukyuhoraanago",
+    "order": "Anguilliformes",
+    "family": "Synaphobranchidae"
+  },
+  {
+    "scientificName": "Hypoatherina panatela",
+    "japaneseName": "Togariisoiwashi",
+    "order": "Atheriniformes",
+    "family": "Atherinidae"
+  },
+  {
+    "scientificName": "Doboatherina yoshinoi",
+    "japaneseName": "Nettaiisoiwashi",
+    "order": "Atheriniformes",
+    "family": "Atherinidae"
+  },
+  {
+    "scientificName": "Nemipterus japonicus",
+    "japaneseName": "Nihon-itoyori",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Histiobranchus bathybius",
+    "japaneseName": "Sokoanago",
+    "order": "Anguilliformes",
+    "family": "Synaphobranchidae"
+  },
+  {
+    "scientificName": "Doboatherina woodwardi",
+    "japaneseName": "Ryukyuisoiwashi",
+    "order": "Atheriniformes",
+    "family": "Atherinidae"
+  },
+  {
+    "scientificName": "Parascolopsis tosensis",
+    "japaneseName": "Kisujitamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Ilyophis nigeli",
+    "japaneseName": "Yukihoraanago",
+    "order": "Anguilliformes",
+    "family": "Synaphobranchidae"
+  },
+  {
+    "scientificName": "Nemipterus peronii",
+    "japaneseName": "Shamuitoyori",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Pentapodus nagasakiensis",
+    "japaneseName": "Itotamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Synaphobranchus kaupii",
+    "japaneseName": "Irakoanago",
+    "order": "Anguilliformes",
+    "family": "Synaphobranchidae"
+  },
+  {
+    "scientificName": "Parascolopsis akatamae",
+    "japaneseName": "Akatamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Scolopsis monogramma",
+    "japaneseName": "Hitosujitamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Scolopsis xenochrous",
+    "japaneseName": "Kamentamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Nemipterus thosaporni",
+    "japaneseName": "Tonkinitoyori",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Synaphobranchus affinis",
+    "japaneseName": "Horaanago",
+    "order": "Anguilliformes",
+    "family": "Synaphobranchidae"
+  },
+  {
+    "scientificName": "Nemipterus tambuloides",
+    "japaneseName": "Jabaitoyori",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Nemipterus furcosus",
+    "japaneseName": "Momoitoyori",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Pentapodus aureofasciatus",
+    "japaneseName": "Yakushimakitsuneuo",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Scolopsis bilineata",
+    "japaneseName": "Futasujitamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Nemipterus virgatus",
+    "japaneseName": "Itoyoridai",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Parascolopsis inermis",
+    "japaneseName": "Tamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Scolopsis vosmeri",
+    "japaneseName": "Taiwantamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Scolopsis ciliata",
+    "japaneseName": "Hakusentamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Haptenchelys parviocularis",
+    "japaneseName": "Ankokuhoraanago",
+    "order": "Anguilliformes",
+    "family": "Synaphobranchidae"
+  },
+  {
+    "scientificName": "Scolopsis lineata",
+    "japaneseName": "Yokoshimatamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Nemipterus aurora",
+    "japaneseName": "ヒライトヨリ",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Dysomma anguillare",
+    "japaneseName": "Asabahoraanago",
+    "order": "Anguilliformes",
+    "family": "Synaphobranchidae"
+  },
+  {
+    "scientificName": "Scolopsis margaritifera",
+    "japaneseName": "Shinjutamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Nemipterus bathybius",
+    "japaneseName": "Sokoitoyori",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Nemipterus zysron",
+    "japaneseName": "Himeitoyori",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Scolopsis affinis",
+    "japaneseName": "Himetamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Myroconger gracilis",
+    "japaneseName": "Hireutsubo",
+    "order": "Anguilliformes",
+    "family": "Myrocongridae"
+  },
+  {
+    "scientificName": "Pentapodus caninus",
+    "japaneseName": "Kitsuneuo",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Parascolopsis eriomma",
+    "japaneseName": "Embiakatamagashira",
+    "order": "Acanthuriformes",
+    "family": "Nemipteridae"
+  },
+  {
+    "scientificName": "Hoplolatilus cuniculus",
+    "japaneseName": "Okinawasangoamadai",
+    "order": "Acanthuriformes",
+    "family": "Malacanthidae"
+  },
+  {
+    "scientificName": "Monognathus ozawai",
+    "japaneseName": "Ozawatangakunagi",
+    "order": "Anguilliformes",
+    "family": "Monognathidae"
+  },
+  {
+    "scientificName": "Hoplolatilus fourmanoiri",
+    "japaneseName": "Hotarubisangoamadai",
+    "order": "Acanthuriformes",
+    "family": "Malacanthidae"
+  },
+  {
+    "scientificName": "Hoplolatilus marcosi",
+    "japaneseName": "Akaobisangoamadai",
+    "order": "Acanthuriformes",
+    "family": "Malacanthidae"
+  },
+  {
+    "scientificName": "Gymnothorax kidako",
+    "japaneseName": "Utsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Hoplolatilus chlupatyi",
+    "japaneseName": "Tamamushisangoamadai",
+    "order": "Acanthuriformes",
+    "family": "Malacanthidae"
+  },
+  {
+    "scientificName": "Gymnothorax ypsilon",
+    "japaneseName": "Okinoshimautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Malacanthus brevirostris",
+    "japaneseName": "Yaseamadai",
+    "order": "Acanthuriformes",
+    "family": "Malacanthidae"
+  },
+  {
+    "scientificName": "Gymnothorax niphostigmus",
+    "japaneseName": "Watayukiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Hoplolatilus randalli",
+    "japaneseName": "",
+    "order": "Acanthuriformes",
+    "family": "Malacanthidae"
+  },
+  {
+    "scientificName": "Echidna polyzona",
+    "japaneseName": "Shimaarashiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Malacanthus latovittatus",
+    "japaneseName": "Kitsuneamadai",
+    "order": "Acanthuriformes",
+    "family": "Malacanthidae"
+  },
+  {
+    "scientificName": "Gymnothorax polyuranodon",
+    "japaneseName": "Kokuhankawautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gymnothorax shaoi",
+    "japaneseName": "Tapiokautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres erythrourus",
+    "japaneseName": "Sedakakurosagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Pseudechidna brummeri",
+    "japaneseName": "Moyotakeutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres akazakii",
+    "japaneseName": "Sedakadaimyosagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Gymnothorax pictus",
+    "japaneseName": "Aseutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres equulus",
+    "japaneseName": "Kurosagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Gymnomuraena zebra",
+    "japaneseName": "Zeburautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres ryukyuensis",
+    "japaneseName": "Yambarusagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Gymnothorax prionodon",
+    "japaneseName": "Yuriutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres shima",
+    "japaneseName": "Shimakurosagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Uropterygius xanthopterus",
+    "japaneseName": "Kakeromakikaiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Pentaprion longimanus",
+    "japaneseName": "Taiwansagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Scuticaria tigrina",
+    "japaneseName": "Moyokikaiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres microphthalmus",
+    "japaneseName": "Yamatoitohikisagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Gymnothorax fuscomaculatus",
+    "japaneseName": "Suzuranhimeutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres macracanthus",
+    "japaneseName": "Hosoitohikisagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Gymnothorax meleagris",
+    "japaneseName": "Wakautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres japonicus",
+    "japaneseName": "Daimyosagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Gerres longirostris",
+    "japaneseName": "Tsupparisagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Gymnothorax reevesii",
+    "japaneseName": "Mameutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres baconensis",
+    "japaneseName": "Ogasawarakurosagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Uropterygius mactanensis",
+    "japaneseName": "",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres oblongus",
+    "japaneseName": "Nagasagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Gymnothorax albimarginatus",
+    "japaneseName": "Herishiroutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Enchelycore kamara",
+    "japaneseName": "Azukiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres oyena",
+    "japaneseName": "Minamikurosagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Gymnothorax javanicus",
+    "japaneseName": "Dokuutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gerres filamentosus",
+    "japaneseName": "Itohikisagi",
+    "order": "Acanthuriformes",
+    "family": "Gerreidae"
+  },
+  {
+    "scientificName": "Gymnothorax minor",
+    "japaneseName": "Amiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gymnothorax sagmacephalus",
+    "japaneseName": "Kuroeriutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Uropterygius oligospondylus",
+    "japaneseName": "Kobukikaiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Siganus corallinus",
+    "japaneseName": "Sangoaigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Siganus guttatus",
+    "japaneseName": "Gomaaigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Enchelynassa canina",
+    "japaneseName": "Oniutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Siganus puellus",
+    "japaneseName": "Majiriaigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Gymnothorax chlamydatus",
+    "japaneseName": "Kurumautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Siganus punctatissimus",
+    "japaneseName": "Chirimenaigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Uropterygius hades",
+    "japaneseName": "Kogeutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Siganus woodlandi",
+    "japaneseName": "Sedakahanaaigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Echidna rhodochilus",
+    "japaneseName": "Namidakawautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gymnothorax zonipectis",
+    "japaneseName": "Hireobiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Siganus fuscescens",
+    "japaneseName": "Aigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Siganus vermiculatus",
+    "japaneseName": "Mushikuiaigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Gymnothorax intesi",
+    "japaneseName": "Minamimizoreutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Siganus punctatus",
+    "japaneseName": "Buchiaigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Enchelycore pardalis",
+    "japaneseName": "Torautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Siganus virgatus",
+    "japaneseName": "Himeaigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Gymnothorax richardsonii",
+    "japaneseName": "Mobautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Siganus spinus",
+    "japaneseName": "Amiaigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Siganus unimaculatus",
+    "japaneseName": "Hifukiaigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Gymnothorax chlorostigma",
+    "japaneseName": "Hanabirautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Siganus argenteus",
+    "japaneseName": "Hanaaigo",
+    "order": "Acanthuriformes",
+    "family": "Siganidae"
+  },
+  {
+    "scientificName": "Gymnothorax elegans",
+    "japaneseName": "Okinawanokogiriutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Uropterygius nagoensis",
+    "japaneseName": "Nagokikaiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Leptaulopus damasi",
+    "japaneseName": "Esodamashi",
+    "order": "Aulopiformes",
+    "family": "Aulopidae"
+  },
+  {
+    "scientificName": "Gymnothorax ryukyuensis",
+    "japaneseName": "Ryukyuutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Emmelichthys struhsakeri",
+    "japaneseName": "Rosokuchibiki",
+    "order": "Acanthuriformes",
+    "family": "Emmelichthyidae"
+  },
+  {
+    "scientificName": "Gymnothorax monochrous",
+    "japaneseName": "Yamiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Hime formosana",
+    "japaneseName": "Itohikihime",
+    "order": "Aulopiformes",
+    "family": "Aulopidae"
+  },
+  {
+    "scientificName": "Emmelichthys karnellai",
+    "japaneseName": "Togenashichibiki",
+    "order": "Acanthuriformes",
+    "family": "Emmelichthyidae"
+  },
+  {
+    "scientificName": "Gymnothorax isingteena",
+    "japaneseName": "Nisegoishiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Hime japonica",
+    "japaneseName": "Hime",
+    "order": "Aulopiformes",
+    "family": "Aulopidae"
+  },
+  {
+    "scientificName": "Strophidon sathete",
+    "japaneseName": "Onagautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Erythrocles scintillans",
+    "japaneseName": "Hawaichibiki",
+    "order": "Acanthuriformes",
+    "family": "Emmelichthyidae"
+  },
+  {
+    "scientificName": "Gymnothorax pseudoherrei",
+    "japaneseName": "Hanajirotsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Erythrocles microceps",
+    "japaneseName": "Hichibiki",
+    "order": "Acanthuriformes",
+    "family": "Emmelichthyidae"
+  },
+  {
+    "scientificName": "Erythrocles schlegelii",
+    "japaneseName": "Hachibiki",
+    "order": "Acanthuriformes",
+    "family": "Emmelichthyidae"
+  },
+  {
+    "scientificName": "Enchelycore schismatorhynchus",
+    "japaneseName": "Hidautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gymnothorax rueppellii",
+    "japaneseName": "Kurakakeutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gymnothorax berndti",
+    "japaneseName": "Hawaiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Anotopterus nikparini",
+    "japaneseName": "Mizuodamashi",
+    "order": "Aulopiformes",
+    "family": "Anotopteridae"
+  },
+  {
+    "scientificName": "Gymnothorax nudivomer",
+    "japaneseName": "Adeutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Photopectoralis aureus",
+    "japaneseName": "Kibirehiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Anarchias seychellensis",
+    "japaneseName": "Takamayuutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gazza minuta",
+    "japaneseName": "Kobanhiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Scopelosaurus adleri",
+    "japaneseName": "Sankakufudeso",
+    "order": "Aulopiformes",
+    "family": "Notosudidae"
+  },
+  {
+    "scientificName": "Equulites popei",
+    "japaneseName": "Himehiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Gymnothorax thyrsoideus",
+    "japaneseName": "Sabiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Scopelosaurus smithii",
+    "japaneseName": "Fudeso",
+    "order": "Aulopiformes",
+    "family": "Notosudidae"
+  },
+  {
+    "scientificName": "Uropterygius marmoratus",
+    "japaneseName": "Shizukukikaiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Equulites berbis",
+    "japaneseName": "Itohikihiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Scopelosaurus harryi",
+    "japaneseName": "Harifudeso",
+    "order": "Aulopiformes",
+    "family": "Notosudidae"
+  },
+  {
+    "scientificName": "Uropterygius micropterus",
+    "japaneseName": "Amikikaiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Equulites rivulatus",
+    "japaneseName": "Okihiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Scopelosaurus hoedti",
+    "japaneseName": "Hikarifudeso",
+    "order": "Aulopiformes",
+    "family": "Notosudidae"
+  },
+  {
+    "scientificName": "Strophidon ui",
+    "japaneseName": "Takeutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Scopelosaurus mauli",
+    "japaneseName": "Maorufudeso",
+    "order": "Aulopiformes",
+    "family": "Notosudidae"
+  },
+  {
+    "scientificName": "Scuticaria okinawae",
+    "japaneseName": "Kikaiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Aurigequula fasciata",
+    "japaneseName": "Shimahiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Ahliesaurus brevis",
+    "japaneseName": "Fukamifudeso",
+    "order": "Aulopiformes",
+    "family": "Notosudidae"
+  },
+  {
+    "scientificName": "Gymnothorax neglectus",
+    "japaneseName": "Mizoreutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Nuchequula nuchalis",
+    "japaneseName": "Hiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Gymnothorax flavimarginatus",
+    "japaneseName": "Gomautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Deveximentum indicium",
+    "japaneseName": "Hosokeguchihiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Photopectoralis bindus",
+    "japaneseName": "Nettaihiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Arctozenus risso",
+    "japaneseName": "Hikarieso",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Rhinomuraena quaesita",
+    "japaneseName": "Hanahigeutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gazza achlamys",
+    "japaneseName": "Omekobanhiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Stemonosudis rothschildi",
+    "japaneseName": "Kuranosenamehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Gymnothorax pindae",
+    "japaneseName": "Nokogiriutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Deveximentum interruptum",
+    "japaneseName": "Kadogawaukeguchihiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Uropterygius xenodontus",
+    "japaneseName": "Iriomotehebiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Leiognathus equula",
+    "japaneseName": "Seitakahiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Stemonosudis macrura",
+    "japaneseName": "Sayorinamehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Magnisudis indica",
+    "japaneseName": "Indorokoeso",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Gymnothorax pseudoprolatus",
+    "japaneseName": "Chairoutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Equulites leuciscus",
+    "japaneseName": "Nankaiitohikihiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Uncisudis advena",
+    "japaneseName": "Ittenhirenaga",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Gymnothorax mucifer",
+    "japaneseName": "Takanohautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Eubleekeria splendens",
+    "japaneseName": "Taiwanhiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Magnisudis atlantica",
+    "japaneseName": "Kusabiurokoeso",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Equulites oblongus",
+    "japaneseName": "Wamon-itohikihiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Echidna nebulosa",
+    "japaneseName": "Kumoutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Gazza rhombea",
+    "japaneseName": "Hishikobanhiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Stemonosudis fumea",
+    "japaneseName": "Ibushikuranosenamehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Gymnothorax margaritophorus",
+    "japaneseName": "Shinjutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Deveximentum megalolepis",
+    "japaneseName": "Yambarukeguchihiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Lestrolepis philippina",
+    "japaneseName": "Hadakaeso",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Equulites ryukyuensis",
+    "japaneseName": "Okinawaitohikihiiragi",
+    "order": "Acanthuriformes",
+    "family": "Leiognathidae"
+  },
+  {
+    "scientificName": "Lestrolepis pofi",
+    "japaneseName": "Minamihadakaeso",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Gymnothorax fimbriatus",
+    "japaneseName": "Herigoishiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Lestidiops sphyraenopsis",
+    "japaneseName": "Yasehadakaeso",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Gymnothorax melatremus",
+    "japaneseName": "Himeutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Lestidiops indopacifica",
+    "japaneseName": "Nettainamehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Gymnothorax breedeni",
+    "japaneseName": "Hachimonjiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Scatophagus argus",
+    "japaneseName": "Kurohoshimanjudai",
+    "order": "Acanthuriformes",
+    "family": "Scatophagidae"
+  },
+  {
+    "scientificName": "Lestidium bigelowi",
+    "japaneseName": "Botan-namehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Uropterygius fasciolatus",
+    "japaneseName": "Murakumokikaiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Enchelycore lichenosa",
+    "japaneseName": "Kokeutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Dolichosudis fuliginosa",
+    "japaneseName": "Hashinaganamehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Gymnothorax buroensis",
+    "japaneseName": "Sangoutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Sudis atrox",
+    "japaneseName": "Munabirehadakaeso",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Owstonia totomiensis",
+    "japaneseName": "Sokoamadai",
+    "order": "Acanthuriformes",
+    "family": "Cepolidae"
+  },
+  {
+    "scientificName": "Gymnothorax undulatus",
+    "japaneseName": "Namiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Uncisudis posteropelvis",
+    "japaneseName": "Ushirohirenagahadakaeso",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Owstonia melanoptera",
+    "japaneseName": "Mitsubasokoamadai",
+    "order": "Acanthuriformes",
+    "family": "Cepolidae"
+  },
+  {
+    "scientificName": "Strophidon tetraporus",
+    "japaneseName": "Goboutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Zenarchopterus dunckeri",
+    "japaneseName": "Komochisayori",
+    "order": "Beloniformes",
+    "family": "Zenarchopteridae"
+  },
+  {
+    "scientificName": "Gymnothorax phasmatodes",
+    "japaneseName": "Shinobiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Lestidium prolixum",
+    "japaneseName": "Namehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Cepola schlegelii",
+    "japaneseName": "Sumitsukiakatachi",
+    "order": "Acanthuriformes",
+    "family": "Cepolidae"
+  },
+  {
+    "scientificName": "Zenarchopterus dispar",
+    "japaneseName": "Futatsusayori",
+    "order": "Beloniformes",
+    "family": "Zenarchopteridae"
+  },
+  {
+    "scientificName": "Gymnothorax chilospilus",
+    "japaneseName": "Minamiutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Uncisudis quadrimaculata",
+    "japaneseName": "Hirenagahadakaeso",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Gymnothorax pseudothyrsoideus",
+    "japaneseName": "Amimeutsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Lestidium atlanticum",
+    "japaneseName": "Hitosujinamehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Acanthocepola limbata",
+    "japaneseName": "Ittenakatachi",
+    "order": "Acanthuriformes",
+    "family": "Cepolidae"
+  },
+  {
+    "scientificName": "Enchelycore bayeri",
+    "japaneseName": "Yashautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Lestrolepis japonica",
+    "japaneseName": "Futasujinamehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Gymnothorax enigmaticus",
+    "japaneseName": "Shimautsubo",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Owstonia tosaensis",
+    "japaneseName": "Okiamadai",
+    "order": "Acanthuriformes",
+    "family": "Cepolidae"
+  },
+  {
+    "scientificName": "Lestidiops jayakari",
+    "japaneseName": "Shironamehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Gymnothorax bacalladoi",
+    "japaneseName": "",
+    "order": "Anguilliformes",
+    "family": "Muraenidae"
+  },
+  {
+    "scientificName": "Owstonia taeniosoma",
+    "japaneseName": "Akatachimodoki",
+    "order": "Acanthuriformes",
+    "family": "Cepolidae"
+  },
+  {
+    "scientificName": "Lestidiops mirabilis",
+    "japaneseName": "Kuronamehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Oryzias latipes",
+    "japaneseName": "Minamimedaka",
+    "order": "Beloniformes",
+    "family": "Adrianichthyidae"
+  },
+  {
+    "scientificName": "Owstonia kamoharai",
+    "japaneseName": "Osokoamadai",
+    "order": "Acanthuriformes",
+    "family": "Cepolidae"
+  },
+  {
+    "scientificName": "Lestidiops ringens",
+    "japaneseName": "Kitanamehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Oryzias sakaizumii",
+    "japaneseName": "Kitanomedaka",
+    "order": "Beloniformes",
+    "family": "Adrianichthyidae"
+  },
+  {
+    "scientificName": "Acanthocepola indica",
+    "japaneseName": "Indoakatachi",
+    "order": "Acanthuriformes",
+    "family": "Cepolidae"
+  },
+  {
+    "scientificName": "Stemonosudis miscella",
+    "japaneseName": "Minamikuranose",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Owstonia japonica",
+    "japaneseName": "Sokoamadaimodoki",
+    "order": "Acanthuriformes",
+    "family": "Cepolidae"
+  },
+  {
+    "scientificName": "Stemonosudis elegans",
+    "japaneseName": "Oguronamehadaka",
+    "order": "Aulopiformes",
+    "family": "Paralepididae"
+  },
+  {
+    "scientificName": "Serrivomer lanceolatoides",
+    "japaneseName": "Nokobaunagi",
+    "order": "Anguilliformes",
+    "family": "Serrivomeridae"
+  },
+  {
+    "scientificName": "Acanthocepola krusensternii",
+    "japaneseName": "Akatachi",
+    "order": "Acanthuriformes",
+    "family": "Cepolidae"
+  },
+  {
+    "scientificName": "Hemiramphus far",
+    "japaneseName": "Hoshizayori",
+    "order": "Beloniformes",
+    "family": "Hemiramphidae"
+  },
+  {
+    "scientificName": "Stemonidium hypomelas",
+    "japaneseName": "Himenokobaunagi",
+    "order": "Anguilliformes",
+    "family": "Serrivomeridae"
+  },
+  {
+    "scientificName": "Hyporhamphus sajori",
+    "japaneseName": "Sayori",
+    "order": "Beloniformes",
+    "family": "Hemiramphidae"
+  },
+  {
+    "scientificName": "Alepisaurus ferox",
+    "japaneseName": "Mizuo",
+    "order": "Aulopiformes",
+    "family": "Alepisauridae"
+  },
+  {
+    "scientificName": "Callanthias japonicus",
+    "japaneseName": "Shikishimahanadai",
+    "order": "Acanthuriformes",
+    "family": "Callanthiidae"
+  },
+  {
+    "scientificName": "Euleptorhamphus viridis",
+    "japaneseName": "Tozayori",
+    "order": "Beloniformes",
+    "family": "Hemiramphidae"
+  },
+  {
+    "scientificName": "Grammatonotus macrophthalmus",
+    "japaneseName": "Omehanadai",
+    "order": "Acanthuriformes",
+    "family": "Callanthiidae"
+  },
+  {
+    "scientificName": "Hyporhamphus dussumieri",
+    "japaneseName": "Marusayori",
+    "order": "Beloniformes",
+    "family": "Hemiramphidae"
+  },
+  {
+    "scientificName": "Avocettina infans",
+    "japaneseName": "Kuroshigiunagi",
+    "order": "Anguilliformes",
+    "family": "Nemichthyidae"
+  },
+  {
+    "scientificName": "Grammatonotus surugaensis",
+    "japaneseName": "Tenjikuhanadai",
+    "order": "Acanthuriformes",
+    "family": "Callanthiidae"
+  },
+  {
+    "scientificName": "Hyporhamphus quoyi",
+    "japaneseName": "Senninsayori",
+    "order": "Beloniformes",
+    "family": "Hemiramphidae"
+  },
+  {
+    "scientificName": "Nemichthys scolopaceus",
+    "japaneseName": "Shigiunagi",
+    "order": "Anguilliformes",
+    "family": "Nemichthyidae"
+  },
+  {
+    "scientificName": "Hemiramphus lutkei",
+    "japaneseName": "Nan-yosayori",
+    "order": "Beloniformes",
+    "family": "Hemiramphidae"
+  },
+  {
+    "scientificName": "Synodus doaki",
+    "japaneseName": "Dokieso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Avocettina paucipora",
+    "japaneseName": "Kuroshigiunagimodoki",
+    "order": "Anguilliformes",
+    "family": "Nemichthyidae"
+  },
+  {
+    "scientificName": "Synodus variegatus",
+    "japaneseName": "Hitosujieso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Synodus ulae",
+    "japaneseName": "Akaeso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Zanclus cornutus",
+    "japaneseName": "Tsunodashi",
+    "order": "Acanthuriformes",
+    "family": "Zanclidae"
+  },
+  {
+    "scientificName": "Hyporhamphus intermedius",
+    "japaneseName": "Kurumesayori",
+    "order": "Beloniformes",
+    "family": "Hemiramphidae"
+  },
+  {
+    "scientificName": "Synodus dermatogenys",
+    "japaneseName": "Minamiakaeso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Synodus lobeli",
+    "japaneseName": "Minamiaosujieso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Hyporhamphus yuri",
+    "japaneseName": "Yurisayori",
+    "order": "Beloniformes",
+    "family": "Hemiramphidae"
+  },
+  {
+    "scientificName": "Trachinocephalus trachinus",
+    "japaneseName": "Okieso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Synodus autumnus",
+    "japaneseName": "Irohaeso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Synodus hoshinonis",
+    "japaneseName": "Hoshinoeso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Ophichthus tomioi",
+    "japaneseName": "Kamahireumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Sillaginops macrolepis",
+    "japaneseName": "Atokugisu",
+    "order": "Acanthuriformes",
+    "family": "Sillaginidae"
+  },
+  {
+    "scientificName": "Synodus kaianus",
+    "japaneseName": "Hanatogoeso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Muraenichthys sibogae",
+    "japaneseName": "Shirasumimizuanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Sillago aeolus",
+    "japaneseName": "Hoshigisu",
+    "order": "Acanthuriformes",
+    "family": "Sillaginidae"
+  },
+  {
+    "scientificName": "Synodus orientalis",
+    "japaneseName": "Aosujieso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Strongylura anastomella",
+    "japaneseName": "Datsu",
+    "order": "Beloniformes",
+    "family": "Belonidae"
+  },
+  {
+    "scientificName": "Xyrias revulsus",
+    "japaneseName": "Boumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Synodus oculeus",
+    "japaneseName": "Irezumiomeso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Sillago japonica",
+    "japaneseName": "Shirogisu",
+    "order": "Acanthuriformes",
+    "family": "Sillaginidae"
+  },
+  {
+    "scientificName": "Ablennes hians",
+    "japaneseName": "Hamadatsu",
+    "order": "Beloniformes",
+    "family": "Belonidae"
+  },
+  {
+    "scientificName": "Apterichtus australis",
+    "japaneseName": "Hojirogomaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Synodus lautus",
+    "japaneseName": "Haregieso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Sillago parvisquamis",
+    "japaneseName": "Aogisu",
+    "order": "Acanthuriformes",
+    "family": "Sillaginidae"
+  },
+  {
+    "scientificName": "Strongylura incisa",
+    "japaneseName": "Ryukyudatsu",
+    "order": "Beloniformes",
+    "family": "Belonidae"
+  },
+  {
+    "scientificName": "Ophichthus multidentis",
+    "japaneseName": "Azukiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Synodus fuscus",
+    "japaneseName": "Sunaeso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Scolecenchelys laticaudata",
+    "japaneseName": "Futomimizuanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Synodus macrops",
+    "japaneseName": "Chochoeso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Monodactylus argenteus",
+    "japaneseName": "Himetsubameuo",
+    "order": "Acanthuriformes",
+    "family": "Monodactylidae"
+  },
+  {
+    "scientificName": "Synodus mundyi",
+    "japaneseName": "Kaedeeso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Neenchelys mccoskeri",
+    "japaneseName": "Tsurugimukashiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Synodus pacificus",
+    "japaneseName": "Omegaeso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Muraenichthys hattae",
+    "japaneseName": "Wakaunagi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Cololabis saira",
+    "japaneseName": "Samma",
+    "order": "Beloniformes",
+    "family": "Belonidae"
+  },
+  {
+    "scientificName": "Synodus binotatus",
+    "japaneseName": "Niten-eso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Strongylura strongylura",
+    "japaneseName": "Kokutendatsu",
+    "order": "Beloniformes",
+    "family": "Belonidae"
+  },
+  {
+    "scientificName": "Echelus uropterus",
+    "japaneseName": "Hireanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Naso minor",
+    "japaneseName": "Kibirebozuhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Ophichthus oligosteus",
+    "japaneseName": "Tsumariumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Synodus jaculum",
+    "japaneseName": "Oguroeso",
+    "order": "Aulopiformes",
+    "family": "Synodontidae"
+  },
+  {
+    "scientificName": "Acanthurus xanthopterus",
+    "japaneseName": "Kurohagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Cirrhimuraena chinensis",
+    "japaneseName": "Gotembaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Acanthurus nigricans",
+    "japaneseName": "Meganekurohagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Ophichthus kusanagi",
+    "japaneseName": "Kusanagiumihabi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Acanthurus blochii",
+    "japaneseName": "Osujikurohagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Hirundichthys speculiger",
+    "japaneseName": "Ninojitobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Ophichthus zophistius",
+    "japaneseName": "Hotateumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Bathysaurus mollis",
+    "japaneseName": "Shinkaieso",
+    "order": "Aulopiformes",
+    "family": "Bathysauridae"
+  },
+  {
+    "scientificName": "Ophichthus asakusae",
+    "japaneseName": "Inakaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Acanthurus chronixis",
+    "japaneseName": "Namerahagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Ophichthus polyophthalmus",
+    "japaneseName": "Wanukemongaradoshi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Acanthurus auranticavus",
+    "japaneseName": "Majinaikurohagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Cheilopogon suttoni",
+    "japaneseName": "Oakatobi",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Acanthurus triostegus",
+    "japaneseName": "Shimahagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Ophichthus macrochir",
+    "japaneseName": "Kuronagaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Cheilopogon cyanopterus",
+    "japaneseName": "Karasutobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Neenchelys similis",
+    "japaneseName": "Mukashiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Naso lituratus",
+    "japaneseName": "Miyakotenguhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Pseudotrichonotus altivelis",
+    "japaneseName": "Hotateso",
+    "order": "Aulopiformes",
+    "family": "Pseudotrichonotidae"
+  },
+  {
+    "scientificName": "Cheilopogon furcatus",
+    "japaneseName": "Shirofuchitobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Zebrasoma flavescens",
+    "japaneseName": "Kiirohagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Scolecenchelys iredalei",
+    "japaneseName": "Sangomimizuanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Prognichthys sealei",
+    "japaneseName": "Darumatobi",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Naso brevirostris",
+    "japaneseName": "Tsumaritenguhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Apterichtus klazingai",
+    "japaneseName": "",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Prognichthys brevipinnis",
+    "japaneseName": "Zakatobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Acanthurus bariene",
+    "japaneseName": "Kanranhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Brachysomophis crocodilinus",
+    "japaneseName": "Tatsumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Hirundichthys gilberti",
+    "japaneseName": "Okitobi",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Acanthurus guttatus",
+    "japaneseName": "Gomaniza",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Scolecenchelys fuscapenis",
+    "japaneseName": "Tsumaguromimizuanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Paracanthurus hepatus",
+    "japaneseName": "Nan-yohagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Naso brachycentron",
+    "japaneseName": "Onitenguhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Chlorophthalmus borealis",
+    "japaneseName": "Maruaomeeso",
+    "order": "Aulopiformes",
+    "family": "Chlorophthalmidae"
+  },
+  {
+    "scientificName": "Leiuranus versicolor",
+    "japaneseName": "Toranooumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Naso maculatus",
+    "japaneseName": "Gomatenguhagimodoki",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Cheilopogon arcticeps",
+    "japaneseName": "Imaitobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Cirrhimuraena playfairii",
+    "japaneseName": "Shokiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Naso tonganus",
+    "japaneseName": "Tosakahagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Cypselurus hiraii",
+    "japaneseName": "Hosotobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Callechelys catostoma",
+    "japaneseName": "Himoumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Ctenochaetus hawaiiensis",
+    "japaneseName": "Meikyusazanamihagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Parexocoetus brachypterus",
+    "japaneseName": "Tsumaritobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Chlorophthalmus acutifrons",
+    "japaneseName": "Tomomehikari",
+    "order": "Aulopiformes",
+    "family": "Chlorophthalmidae"
+  },
+  {
+    "scientificName": "Ophichthus cephalozona",
+    "japaneseName": "Kataguroumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Naso tergus",
+    "japaneseName": "Shinobitenguhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Exocoetus volitans",
+    "japaneseName": "Idatentobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Chlorophthalmus nigromarginatus",
+    "japaneseName": "Tsumaguroaomeeso",
+    "order": "Aulopiformes",
+    "family": "Chlorophthalmidae"
+  },
+  {
+    "scientificName": "Ctenochaetus binotatus",
+    "japaneseName": "Kokutensazanamihagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Ophisurus macrorhynchos",
+    "japaneseName": "Dainanumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Cheilopogon spilopterus",
+    "japaneseName": "Matotobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Ctenochaetus cyanocheilus",
+    "japaneseName": "Kinrinsazanamihagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Chlorophthalmus albatrossis",
+    "japaneseName": "Aomeeso",
+    "order": "Aulopiformes",
+    "family": "Chlorophthalmidae"
+  },
+  {
+    "scientificName": "Ophichthus megalops",
+    "japaneseName": "Medamaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Naso fageni",
+    "japaneseName": "Moaitenguhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Chlorophthalmus pectoralis",
+    "japaneseName": "Hirenagaaomeeso",
+    "order": "Aulopiformes",
+    "family": "Chlorophthalmidae"
+  },
+  {
+    "scientificName": "Apterichtus hatookai",
+    "japaneseName": "Daidaimadaraumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Acanthurus nigros",
+    "japaneseName": "Nangokukurohagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Ophichthus aphotistos",
+    "japaneseName": "Yoiyamiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Hirundichthys albimaculatus",
+    "japaneseName": "Omeokitobi",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Acanthurus japonicus",
+    "japaneseName": "Namidakurohagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Omosudis lowii",
+    "japaneseName": "Kibahadaka",
+    "order": "Aulopiformes",
+    "family": "Omosudidae"
+  },
+  {
+    "scientificName": "Naso vlamingii",
+    "japaneseName": "Sazanamitosakahagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Scolecenchelys aoki",
+    "japaneseName": "Misakiunagi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Cheilopogon atrisignis",
+    "japaneseName": "Akatobi",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Ctenochaetus striatus",
+    "japaneseName": "Sazanamihagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Chauligenion camelopardalis",
+    "japaneseName": "Kirinumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Hirundichthys oxycephalus",
+    "japaneseName": "Hosoaotobi",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Acanthurus dussumieri",
+    "japaneseName": "Nisekanranhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Gigantura indica",
+    "japaneseName": "Kogashiraboengyo",
+    "order": "Aulopiformes",
+    "family": "Giganturidae"
+  },
+  {
+    "scientificName": "Exocoetus monocirrhus",
+    "japaneseName": "Hagoromotobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Ophichthus lithinus",
+    "japaneseName": "Horaiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Zebrasoma velifer",
+    "japaneseName": "Hirenagahagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Cheilopogon abei",
+    "japaneseName": "Sannojidamashi",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Ophichthus bonaparti",
+    "japaneseName": "Irezumiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Acanthurus nigrofuscus",
+    "japaneseName": "Naganiza",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Cheilopogon exsiliens",
+    "japaneseName": "Ojirotobi",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Muraenichthys thompsoni",
+    "japaneseName": "Shinomimizuanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Acanthurus achilles",
+    "japaneseName": "Akatsukihagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Cheilopogon spilonotopterus",
+    "japaneseName": "Chabanetobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Ophichthus yamakawai",
+    "japaneseName": "Monosashiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Coccorella atrata",
+    "japaneseName": "Minamiyarieso",
+    "order": "Aulopiformes",
+    "family": "Evermannellidae"
+  },
+  {
+    "scientificName": "Naso lopezi",
+    "japaneseName": "Nagatenguhagimodoki",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Cheilopogon unicolor",
+    "japaneseName": "Omenatsutobi",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Acanthurus leucopareius",
+    "japaneseName": "Sujikurohagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Lamnostoma mindorum",
+    "japaneseName": "Kawaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Coccorella atlantica",
+    "japaneseName": "Yarieso",
+    "order": "Aulopiformes",
+    "family": "Evermannellidae"
+  },
+  {
+    "scientificName": "Cypselurus starksi",
+    "japaneseName": "Ariaketobiuo",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Acanthurus olivaceus",
+    "japaneseName": "Montsukihagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Apterichtus moseri",
+    "japaneseName": "Gomaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Cypselurus persimilis",
+    "japaneseName": "",
+    "order": "Beloniformes",
+    "family": "Exocoetidae"
+  },
+  {
+    "scientificName": "Evermannella indica",
+    "japaneseName": "Madarayarieso",
+    "order": "Aulopiformes",
+    "family": "Evermannellidae"
+  },
+  {
+    "scientificName": "Naso annulatus",
+    "japaneseName": "Himetenguhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Ophichthus urolophus",
+    "japaneseName": "Susoumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Acanthurus pyroferus",
+    "japaneseName": "Kuroguchiniza",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Odontostomops normalops",
+    "japaneseName": "Mukashiyarieso",
+    "order": "Aulopiformes",
+    "family": "Evermannellidae"
+  },
+  {
+    "scientificName": "Apterichtus soyoae",
+    "japaneseName": "Soyogomaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Naso unicornis",
+    "japaneseName": "Tenguhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Ichthyapus keramanus",
+    "japaneseName": "Keramaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Prionurus scalprum",
+    "japaneseName": "Nizadai",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Lamnostoma polyophthalmum",
+    "japaneseName": "Hakutenumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Rondeletia loricata",
+    "japaneseName": "Akachokkikujirauo",
+    "order": "Beryciformes",
+    "family": "Rondeletiidae"
+  },
+  {
+    "scientificName": "Saurida fortis",
+    "japaneseName": "Dorozomeeso",
+    "order": "Aulopiformes",
+    "family": "Harpadontidae"
+  },
+  {
+    "scientificName": "Naso thynnoides",
+    "japaneseName": "Bozuhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Ophichthus lupus",
+    "japaneseName": "Yamainuumihabi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Saurida macrolepis",
+    "japaneseName": "Maeso",
+    "order": "Aulopiformes",
+    "family": "Harpadontidae"
+  },
+  {
+    "scientificName": "Acanthurus nigricauda",
+    "japaneseName": "Kuromontsuki",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Acanthurus thompsoni",
+    "japaneseName": "Ohagurohagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Saurida undosquamis",
+    "japaneseName": "Tsukeageeso",
+    "order": "Aulopiformes",
+    "family": "Harpadontidae"
+  },
+  {
+    "scientificName": "Muraenichthys schultzei",
+    "japaneseName": "Minamimimizuanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Acanthurus maculiceps",
+    "japaneseName": "Irezuminiza",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Scolecenchelys gymnota",
+    "japaneseName": "Mimizuanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Harpadon microchir",
+    "japaneseName": "Mizutengu",
+    "order": "Aulopiformes",
+    "family": "Harpadontidae"
+  },
+  {
+    "scientificName": "Poromitra unicornis",
+    "japaneseName": "Futozunokabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Zebrasoma scopas",
+    "japaneseName": "Gomahagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Callechelys marmorata",
+    "japaneseName": "Monhimoumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Saurida nebulosa",
+    "japaneseName": "Uchiumimadaraeso",
+    "order": "Aulopiformes",
+    "family": "Harpadontidae"
+  },
+  {
+    "scientificName": "Acanthurus mata",
+    "japaneseName": "Hiraniza",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Myrichthys colubrinus",
+    "japaneseName": "Shimaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Acanthurus lineatus",
+    "japaneseName": "Nijihagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Saurida eso",
+    "japaneseName": "Tokageso",
+    "order": "Aulopiformes",
+    "family": "Harpadontidae"
+  },
+  {
+    "scientificName": "Melamphaes suborbitalis",
+    "japaneseName": "Togekabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Naso caesius",
+    "japaneseName": "Yumiharitenguhagimodoki",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Melamphaes longivelis",
+    "japaneseName": "Marukabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Harpadon nehereus",
+    "japaneseName": "Tenagamizutengu",
+    "order": "Aulopiformes",
+    "family": "Harpadontidae"
+  },
+  {
+    "scientificName": "Naso hexacanthus",
+    "japaneseName": "Tenguhagimodoki",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Poromitra cristiceps",
+    "japaneseName": "Kabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Saurida elongata",
+    "japaneseName": "Wanieso",
+    "order": "Aulopiformes",
+    "family": "Harpadontidae"
+  },
+  {
+    "scientificName": "Myrichthys maculosus",
+    "japaneseName": "Moyomongaradoshi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Naso mcdadei",
+    "japaneseName": "Masakaritenguhagi",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae"
+  },
+  {
+    "scientificName": "Scopeloberyx opisthopterus",
+    "japaneseName": "Himetatekabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Saurida umeyoshii",
+    "japaneseName": "Kuroeso",
+    "order": "Aulopiformes",
+    "family": "Harpadontidae"
+  },
+  {
+    "scientificName": "Scolecenchelys macroptera",
+    "japaneseName": "Kurimimizuanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Scopeloberyx robustus",
+    "japaneseName": "Minamitatekabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Saurida micropectoralis",
+    "japaneseName": "Kosodeso",
+    "order": "Aulopiformes",
+    "family": "Harpadontidae"
+  },
+  {
+    "scientificName": "Ophichthus exourus",
+    "japaneseName": "Gumbaiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Branchiostegus auratus",
+    "japaneseName": "Kiamadai",
+    "order": "Acanthuriformes",
+    "family": "Latilidae"
+  },
+  {
+    "scientificName": "Poromitra oscitans",
+    "japaneseName": "Chihirokabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Saurida gracilis",
+    "japaneseName": "Madaraeso",
+    "order": "Aulopiformes",
+    "family": "Harpadontidae"
+  },
+  {
+    "scientificName": "Branchiostegus argentatus",
+    "japaneseName": "Sumitsukiamadai",
+    "order": "Acanthuriformes",
+    "family": "Latilidae"
+  },
+  {
+    "scientificName": "Brachysomophis henshawi",
+    "japaneseName": "Hawaitatsuumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Branchiostegus albus",
+    "japaneseName": "Shiroamadai",
+    "order": "Acanthuriformes",
+    "family": "Latilidae"
+  },
+  {
+    "scientificName": "Callechelys kuro",
+    "japaneseName": "Kuroumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Melamphaes lugubris",
+    "japaneseName": "Honkabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Poromitra curilensis",
+    "japaneseName": "Chishimakabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Myrophis microchir",
+    "japaneseName": "Serebesuhireanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Branchiostegus japonicus",
+    "japaneseName": "Akaamadai",
+    "order": "Acanthuriformes",
+    "family": "Latilidae"
+  },
+  {
+    "scientificName": "Melamphaes polylepis",
+    "japaneseName": "Urokokabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Ophichthus erabo",
+    "japaneseName": "Mongaradoshi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Branchiostegus okinawaensis",
+    "japaneseName": "Hanaamadai",
+    "order": "Acanthuriformes",
+    "family": "Latilidae"
+  },
+  {
+    "scientificName": "Scopelarchus michaelsarsi",
+    "japaneseName": "Mikaerudemeso",
+    "order": "Aulopiformes",
+    "family": "Scopelarchidae"
+  },
+  {
+    "scientificName": "Scopeloberyx rossicus",
+    "japaneseName": "Tatekabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Scopelarchus analis",
+    "japaneseName": "Demesodamashi",
+    "order": "Aulopiformes",
+    "family": "Scopelarchidae"
+  },
+  {
+    "scientificName": "Poromitra macrophthalma",
+    "japaneseName": "Omekabutoo",
+    "order": "Beryciformes",
+    "family": "Melamphaidae"
+  },
+  {
+    "scientificName": "Platax pinnatus",
+    "japaneseName": "Akakukuri",
+    "order": "Acanthuriformes",
+    "family": "Ephippidae"
+  },
+  {
+    "scientificName": "Yirrkala misolensis",
+    "japaneseName": "Takenokoumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Ophichthus pallens",
+    "japaneseName": "Tarumiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Platax teira",
+    "japaneseName": "Tsubameuo",
+    "order": "Acanthuriformes",
+    "family": "Ephippidae"
+  },
+  {
+    "scientificName": "Scopelarchus guentheri",
+    "japaneseName": "Gyuntademeso",
+    "order": "Aulopiformes",
+    "family": "Scopelarchidae"
+  },
+  {
+    "scientificName": "Ophichthus celebicus",
+    "japaneseName": "Torinokoumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Ephippus orbis",
+    "japaneseName": "Manjudai",
+    "order": "Acanthuriformes",
+    "family": "Ephippidae"
+  },
+  {
+    "scientificName": "Scopelarchus stephensi",
+    "japaneseName": "Sutefuandemeso",
+    "order": "Aulopiformes",
+    "family": "Scopelarchidae"
+  },
+  {
+    "scientificName": "Barbourisia rufa",
+    "japaneseName": "Akakujirauodamashi",
+    "order": "Beryciformes",
+    "family": "Barbourisiidae"
+  },
+  {
+    "scientificName": "Ichthyapus acutirostris",
+    "japaneseName": "Togariumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Scopelarchoides signifer",
+    "japaneseName": "Minamidemeso",
+    "order": "Aulopiformes",
+    "family": "Scopelarchidae"
+  },
+  {
+    "scientificName": "Platax orbicularis",
+    "japaneseName": "Nan-yotsubameuo",
+    "order": "Acanthuriformes",
+    "family": "Ephippidae"
+  },
+  {
+    "scientificName": "Brachysomophis cirrocheilos",
+    "japaneseName": "Moyotatsuumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Scopelarchoides danae",
+    "japaneseName": "Shirodemeso",
+    "order": "Aulopiformes",
+    "family": "Scopelarchidae"
+  },
+  {
+    "scientificName": "Platax boersii",
+    "japaneseName": "Mikazukitsubameuo",
+    "order": "Acanthuriformes",
+    "family": "Ephippidae"
+  },
+  {
+    "scientificName": "Rosenblattichthys hubbsi",
+    "japaneseName": "Habusudemeso",
+    "order": "Aulopiformes",
+    "family": "Scopelarchidae"
+  },
+  {
+    "scientificName": "Ophichthus machidai",
+    "japaneseName": "Machidaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Rosenblattichthys alatus",
+    "japaneseName": "Hirenagademeso",
+    "order": "Aulopiformes",
+    "family": "Scopelarchidae"
+  },
+  {
+    "scientificName": "Hapalogenys analis",
+    "japaneseName": "Setodai",
+    "order": "Acanthuriformes",
+    "family": "Lobotidae"
+  },
+  {
+    "scientificName": "Apterichtus orientalis",
+    "japaneseName": "Kishugomaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Beryx mollis",
+    "japaneseName": "Fusenkimme",
+    "order": "Beryciformes",
+    "family": "Berycidae"
+  },
+  {
+    "scientificName": "Benthalbella linguidens",
+    "japaneseName": "Demeso",
+    "order": "Aulopiformes",
+    "family": "Scopelarchidae"
+  },
+  {
+    "scientificName": "Hapalogenys sennin",
+    "japaneseName": "Higedai",
+    "order": "Acanthuriformes",
+    "family": "Lobotidae"
+  },
+  {
+    "scientificName": "Phyllophichthus xenodontus",
+    "japaneseName": "Gettoumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Beryx decadactylus",
+    "japaneseName": "Nan-yokimme",
+    "order": "Beryciformes",
+    "family": "Berycidae"
+  },
+  {
+    "scientificName": "Benthalbella infans",
+    "japaneseName": "Hikaridemeso",
+    "order": "Aulopiformes",
+    "family": "Scopelarchidae"
+  },
+  {
+    "scientificName": "Scolecenchelys fuscogularis",
+    "japaneseName": "Nodoguromimizuanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Hapalogenys kishinouyei",
+    "japaneseName": "Shimasetodai",
+    "order": "Acanthuriformes",
+    "family": "Lobotidae"
+  },
+  {
+    "scientificName": "Beryx splendens",
+    "japaneseName": "Kimmedai",
+    "order": "Beryciformes",
+    "family": "Berycidae"
+  },
+  {
+    "scientificName": "Benthalbella dentata",
+    "japaneseName": "Tsumaridemeso",
+    "order": "Aulopiformes",
+    "family": "Scopelarchidae"
+  },
+  {
+    "scientificName": "Leiuranus semicinctus",
+    "japaneseName": "Soraumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Lobotes surinamensis",
+    "japaneseName": "Matsudai",
+    "order": "Acanthuriformes",
+    "family": "Lobotidae"
+  },
+  {
+    "scientificName": "Centroberyx druzhinini",
+    "japaneseName": "Kimmedamashi",
+    "order": "Beryciformes",
+    "family": "Berycidae"
+  },
+  {
+    "scientificName": "Myrichthys paleracio",
+    "japaneseName": "Madarashimaumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Hapalogenys nigripinnis",
+    "japaneseName": "Higesoridai",
+    "order": "Acanthuriformes",
+    "family": "Lobotidae"
+  },
+  {
+    "scientificName": "Pisodonophis cancrivorus",
+    "japaneseName": "Minamihotateumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Bascanichthys ryukyuensis",
+    "japaneseName": "Kazuraumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Gibberichthys latifrons",
+    "japaneseName": "Makafushigiuo",
+    "order": "Beryciformes",
+    "family": "Gibberichthyidae"
+  },
+  {
+    "scientificName": "Luvarus imperialis",
+    "japaneseName": "Amashiira",
+    "order": "Acanthuriformes",
+    "family": "Luvaridae"
+  },
+  {
+    "scientificName": "Bathysauroides gigas",
+    "japaneseName": "Oniaomeeso",
+    "order": "Aulopiformes",
+    "family": "Bathysauroididae"
+  },
+  {
+    "scientificName": "Brachysomophis porphyreus",
+    "japaneseName": "Murasakiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Muraenichthys gymnopterus",
+    "japaneseName": "Ushibamimizuanago",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Pristigenys refulgens",
+    "japaneseName": "Minamikurumadai",
+    "order": "Acanthuriformes",
+    "family": "Priacanthidae"
+  },
+  {
+    "scientificName": "Ophichthus altipennis",
+    "japaneseName": "Tongarihotateumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Ostichthys hypsipterygion",
+    "japaneseName": "Hiredakaebisu",
+    "order": "Beryciformes",
+    "family": "Holocentridae"
+  },
+  {
+    "scientificName": "Ipnops agassizii",
+    "japaneseName": "Chochinhadaka",
+    "order": "Aulopiformes",
+    "family": "Ipnopidae"
+  },
+  {
+    "scientificName": "Priacanthus hamrur",
+    "japaneseName": "Hosekikintoki",
+    "order": "Acanthuriformes",
+    "family": "Priacanthidae"
+  },
+  {
+    "scientificName": "Ophichthus sangjuensis",
+    "japaneseName": "Fuchinashiumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Myripristis chryseres",
+    "japaneseName": "Kibirematsukasa",
+    "order": "Beryciformes",
+    "family": "Holocentridae"
+  },
+  {
+    "scientificName": "Priacanthus alalaua",
+    "japaneseName": "Tsubasakintoki",
+    "order": "Acanthuriformes",
+    "family": "Priacanthidae"
+  },
+  {
+    "scientificName": "Bathytyphlops marionae",
+    "japaneseName": "Sokoeso",
+    "order": "Aulopiformes",
+    "family": "Ipnopidae"
+  },
+  {
+    "scientificName": "Ophichthus obtusus",
+    "japaneseName": "Shishigashiraumihebi",
+    "order": "Anguilliformes",
+    "family": "Ophichthidae"
+  },
+  {
+    "scientificName": "Sargocentron tiereoides",
+    "japaneseName": "Sakuraebisu",
+    "order": "Beryciformes",
+    "family": "Holocentridae"
+  },
+  {
+    "scientificName": "Priacanthus sagittarius",
+    "japaneseName": "Minamikintoki",
+    "order": "Acanthuriformes",
+    "family": "Priacanthidae"
+  },
+  {
+    "scientificName": "Bathypterois guentheri",
+    "japaneseName": "Nagazueso",
+    "order": "Aulopiformes",
+    "family": "Ipnopidae"
+  },
+  {
+    "scientificName": "Myripristis robusta",
+    "japaneseName": "Yuyakematsukasa",
+    "order": "Beryciformes",
+    "family": "Holocentridae"
+  },
+  {
+    "scientificName": "Heteropriacanthus carolinus",
+    "japaneseName": "Gomahirekintoki",
+    "order": "Acanthuriformes",
+    "family": "Priacanthidae"
+  },
+  {
+    "scientificName": "Ostichthys delta",
+    "japaneseName": "Churashimaebisu",
+    "order": "Beryciformes",
+    "family": "Holocentridae"
+  },
+  {
+    "scientificName": "Bathypterois grallator",
+    "japaneseName": "Oitohikiiwashi",
+    "order": "Aulopiformes",
+    "family": "Ipnopidae"
+  },
+  {
+    "scientificName": "Pristigenys niphonia",
+    "japaneseName": "Kurumadai",
+    "order": "Acanthuriformes",
+    "family": "Priacanthidae"
+  },
+  {
+    "scientificName": "Myripristis kuntee",
+    "japaneseName": "Kuroobimatsukasa",
+    "order": "Beryciformes",
+    "family": "Holocentridae"
+  },
+  {
+    "scientificName": "Cookeolus japonicus",
+    "japaneseName": "Chikamekintoki",
+    "order": "Acanthuriformes",
+    "family": "Priacanthidae"
+  },
+  {
+    "scientificName": "Bathypterois atricolor",
+    "japaneseName": "Itohikiiwashi",
+    "order": "Aulopiformes",
+    "family": "Ipnopidae"
+  },
+  {
+    "scientificName": "Moringua bicolor",
+    "japaneseName": "Segurohariganeumihebi",
+    "order": "Anguilliformes",
+    "family": "Moringuidae"
+  },
+  {
+    "scientificName": "Sargocentron dorsomaculatum",
+    "japaneseName": "Baraebisu",
+    "order": "Beryciformes",
+    "family": "Holocentridae"
+  },
+  {
+    "scientificName": "Priacanthus zaiserae",
+    "japaneseName": "Kibirekintoki",
+    "order": "Acanthuriformes",
+    "family": "Priacanthidae"
+  },
+  {
+    "scientificName": "Moringua microchir",
+    "japaneseName": "Hariganeumihebi",
+    "order": "Anguilliformes",
+    "family": "Moringuidae"
+  },
+  {
+    "scientificName": "Myripristis adusta",
+    "japaneseName": "Tsumaguromatsukasa",
+    "order": "Beryciformes",
+    "family": "Holocentridae"
+  },
+  {
+    "scientificName": "Priacanthus blochii",
+    "japaneseName": "Akanekintoki",
+    "order": "Acanthuriformes",
+    "family": "Priacanthidae"
+  },
+  {
+    "scientificName": "Moringua javanica",
+    "japaneseName": "Tobihariganeumihebi",
+    "order": "Anguilliformes",
+    "family": "Moringuidae"
+  },
+  {
+    "scientificName": "Sargocentron melanospilos",
+    "japaneseName": "Sumitsukikanoko",
+    "order": "Beryciformes",
+    "family": "Holocentridae"
+  }
+]

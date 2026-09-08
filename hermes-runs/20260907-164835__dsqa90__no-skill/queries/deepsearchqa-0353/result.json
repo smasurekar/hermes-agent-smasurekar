@@ -1,0 +1,165 @@
+{
+  "task_id": "deepsearchqa-0353",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788803061.274507,
+  "finished_at": 1788803099.6315584,
+  "latency_total_seconds": 38.357,
+  "prompt": "Which of the following are considered in the US to be non-alcoholic according to this article https://pmc.ncbi.nlm.nih.gov/articles/PMC9506306/ but, according to the UK government, would not be defined as being alcohol-free: Kopparberg Strawberry & Lime Alcohol Free, Sheppy's Low Alcohol Classic Cider, Gordon's Pink Gin & Tonic Can, Jack Daniel's Whiskey & Coca-Cola, Old Mout Berries & Cherries 0%ABV, Thatchers Zero English Cider, and Adnams Wild Wave Non-Alcoholic 0.5% Cider?",
+  "prompt_prefix": "",
+  "instruction": "Which of the following are considered in the US to be non-alcoholic according to this article https://pmc.ncbi.nlm.nih.gov/articles/PMC9506306/ but, according to the UK government, would not be defined as being alcohol-free: Kopparberg Strawberry & Lime Alcohol Free, Sheppy's Low Alcohol Classic Cider, Gordon's Pink Gin & Tonic Can, Jack Daniel's Whiskey & Coca-Cola, Old Mout Berries & Cherries 0%ABV, Thatchers Zero English Cider, and Adnams Wild Wave Non-Alcoholic 0.5% Cider?",
+  "answer": "Based on the article and my research on each product's ABV:\n\n**US definition (from article)**: Non-alcoholic = ≤0.5% ABV  \n**UK definition (from article)**: Alcohol-free = ≤0.05% ABV\n\n| Product | ABV | US \"Non-alcoholic\"? | UK \"Alcohol-free\"? |\n|---------|-----|---------------------|-------------------|\n| Kopparberg Strawberry & Lime Alcohol Free | 0.05% | Yes | **Yes** (at the limit) |\n| **Sheppy's Low Alcohol Classic Cider** | **0.5%** | **Yes** | **No** |\n| Gordon's Pink Gin & Tonic Can | 5–7% | No | No |\n| Jack Daniel's Whiskey & Coca-Cola | 5–7% | No | No |\n| Old Mout Berries & Cherries 0% ABV | 0.0% | Yes | Yes |\n| **Thatchers Zero English Cider** | **0.3%** | **Yes** | **No** |\n| **Adnams Wild Wave Non-Alcoholic 0.5% Cider** | **0.5%** | **Yes** | **No** |\n\n**Three products** meet the criteria (considered non-alcoholic in the US but NOT alcohol-free in the UK):\n\n1. **Sheppy's Low Alcohol Classic Cider** (0.5% ABV)\n2. **Thatchers Zero English Cider** (0.3% ABV)\n3. **Adnams Wild Wave Non-Alcoholic 0.5% Cider** (0.5% ABV)",
+  "answer_chars": 1041,
+  "expected_answer": "Sheppy's Low Alcohol Classic Cider, Thatchers Zero English Cider, Adnams Wild Wave Non-Alcoholic 0.5% Cider",
+  "answer_type": "Set Answer",
+  "category": "Health",
+  "metrics": {
+    "latency_total_seconds": 38.357,
+    "token_usage_input": 105473,
+    "token_usage_output": 2355,
+    "llm_calls": 6,
+    "subagents_invoked": 0,
+    "tool_calls_total": 9,
+    "token_usage_input_root": 105473,
+    "token_usage_output_root": 2355,
+    "llm_calls_root": 6,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 9,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 7,
+      "read_file": 1,
+      "web_extract": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 6,
+    "turns_with_reasoning": 6,
+    "sessions_total": 1,
+    "cache_read_tokens": 96896,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 1569,
+    "total_tokens": 107828,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_174424_e1c94f",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_174424_e1c94f",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788803064.5074103,
+        "ended_at": 1788803099.6090548,
+        "end_reason": "agent_close",
+        "message_count": 16,
+        "tool_call_count": 9,
+        "api_call_count": 6,
+        "input_tokens": 105473,
+        "output_tokens": 2355,
+        "cache_read_tokens": 96896,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 1569,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0353/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Which of the following are considered in the US to be non-alcoholic according to this article https://pmc.ncbi.nlm.nih.gov/articles/PMC9506306/ but, according to the UK government, would not be defined as being alcohol-free: Kopparberg Strawberry & Lime Alcohol Free, Sheppy's Low Alcohol Classic Cider, Gordon's Pink Gin & Tonic Can, Jack Daniel's Whiskey & Coca-Cola, Old Mout Berries & Cherries 0%ABV, Thatchers Zero English Cider, and Adnams Wild Wave Non-Alcoholic 0.5% Cider?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0353/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0353/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 170189
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 151727
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 16,
+  "agent_cwd_files": []
+}

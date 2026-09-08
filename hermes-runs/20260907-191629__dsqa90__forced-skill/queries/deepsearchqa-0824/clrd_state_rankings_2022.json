@@ -1,0 +1,261 @@
+{
+  "state_rankings": [
+    {
+      "state": "Alabama",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Stroke", "Chronic lower respiratory disease", "Accidents"]
+    },
+    {
+      "state": "Alaska",
+      "clrd_rank": 5,
+      "top5_list": ["Cancer", "Heart disease", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Arizona",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "Arkansas",
+      "clrd_rank": 3,
+      "top5_list": ["Heart disease", "Cancer", "Chronic lower respiratory disease", "Stroke", "Accidents"]
+    },
+    {
+      "state": "California",
+      "clrd_rank": 0,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Alzheimer's disease"]
+    },
+    {
+      "state": "Colorado",
+      "clrd_rank": 4,
+      "top5_list": ["Cancer", "Heart disease", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "Connecticut",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Delaware",
+      "clrd_rank": 5,
+      "top5_list": ["Cancer", "Heart disease", "Stroke", "Accidents", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "District of Columbia",
+      "clrd_rank": 0,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Homicide"]
+    },
+    {
+      "state": "Florida",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Stroke", "Accidents", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Georgia",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Hawaii",
+      "clrd_rank": 0,
+      "top5_list": ["Heart disease", "Cancer", "Stroke", "Accidents", "Alzheimer's disease"]
+    },
+    {
+      "state": "Idaho",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Alzheimer's disease"]
+    },
+    {
+      "state": "Illinois",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Stroke", "Accidents", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Indiana",
+      "clrd_rank": 3,
+      "top5_list": ["Heart disease", "Cancer", "Chronic lower respiratory disease", "Accidents", "Stroke"]
+    },
+    {
+      "state": "Iowa",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "Kansas",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "Kentucky",
+      "clrd_rank": 3,
+      "top5_list": ["Heart disease", "Cancer", "Chronic lower respiratory disease", "Accidents", "Stroke"]
+    },
+    {
+      "state": "Louisiana",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Maine",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "Maryland",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Stroke", "Accidents", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Massachusetts",
+      "clrd_rank": 5,
+      "top5_list": ["Cancer", "Heart disease", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Michigan",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Stroke", "Accidents", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Minnesota",
+      "clrd_rank": 0,
+      "top5_list": ["Cancer", "Heart disease", "Accidents", "Stroke", "Alzheimer's disease"]
+    },
+    {
+      "state": "Mississippi",
+      "clrd_rank": 3,
+      "top5_list": ["Heart disease", "Cancer", "Chronic lower respiratory disease", "Accidents", "Stroke"]
+    },
+    {
+      "state": "Missouri",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "Montana",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "Nebraska",
+      "clrd_rank": 3,
+      "top5_list": ["Heart disease", "Cancer", "Chronic lower respiratory disease", "Accidents", "Stroke"]
+    },
+    {
+      "state": "Nevada",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "New Hampshire",
+      "clrd_rank": 4,
+      "top5_list": ["Cancer", "Heart disease", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "New Jersey",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "New Mexico",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "New York",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "North Carolina",
+      "clrd_rank": 5,
+      "top5_list": ["Cancer", "Heart disease", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "North Dakota",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Alzheimer's disease", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Ohio",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Oklahoma",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "Oregon",
+      "clrd_rank": 5,
+      "top5_list": ["Cancer", "Heart disease", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Pennsylvania",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Rhode Island",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Alzheimer's disease", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "South Carolina",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "South Dakota",
+      "clrd_rank": 5,
+      "top5_list": ["Cancer", "Heart disease", "Accidents", "Alzheimer's disease", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Tennessee",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "Texas",
+      "clrd_rank": 0,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Alzheimer's disease"]
+    },
+    {
+      "state": "Utah",
+      "clrd_rank": 0,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Alzheimer's disease", "Stroke"]
+    },
+    {
+      "state": "Vermont",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Alzheimer's disease", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Virginia",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Stroke", "Accidents", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Washington",
+      "clrd_rank": 0,
+      "top5_list": ["Cancer", "Heart disease", "Accidents", "Stroke", "Alzheimer's disease"]
+    },
+    {
+      "state": "West Virginia",
+      "clrd_rank": 4,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Chronic lower respiratory disease", "Stroke"]
+    },
+    {
+      "state": "Wisconsin",
+      "clrd_rank": 5,
+      "top5_list": ["Heart disease", "Cancer", "Accidents", "Stroke", "Chronic lower respiratory disease"]
+    },
+    {
+      "state": "Wyoming",
+      "clrd_rank": 3,
+      "top5_list": ["Heart disease", "Cancer", "Chronic lower respiratory disease", "Accidents", "Stroke"]
+    }
+  ],
+  "source_url": "https://www.beckersoncology.com/oncology/leading-causes-of-death-in-every-state-cdc",
+  "notes": "Data sourced from Becker's Oncology article citing CDC NCHS 'Stats of the States' leading causes of death by state. Article published June 12, 2026, referencing CDC updated state data from 2024. CLRD rank shown as 0 when not in top 5. CLRD appears in top 5 for 44 of 51 jurisdictions (86%). Top 5 states where CLRD ranks 3rd: Arkansas, Indiana, Kentucky, Mississippi, Nebraska, Wyoming (6 states). States where CLRD not in top 5: California, DC, Hawaii, Minnesota, Texas, Utah, Washington (7 jurisdictions)."
+}

@@ -1,0 +1,164 @@
+{
+  "task_id": "deepsearchqa-0565",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788805778.1804674,
+  "finished_at": 1788805837.4715948,
+  "latency_total_seconds": 59.291,
+  "prompt": "From the Australian Census data, for all persons and all private dwellings, which state out of NSW, Victoria, and Queensland had the smallest decrease in proportion of median weekly rent to median weekly household income from 2016 to 2021?",
+  "prompt_prefix": "",
+  "instruction": "From the Australian Census data, for all persons and all private dwellings, which state out of NSW, Victoria, and Queensland had the smallest decrease in proportion of median weekly rent to median weekly household income from 2016 to 2021?",
+  "answer": "Based on the ABS Census QuickStats data for 2016 and 2021, here are the calculations for the proportion of median weekly rent to median weekly household income for each state:\n\n**2016 proportions:**\n- NSW: $380 / $1,486 = **25.57%**\n- Victoria: $325 / $1,419 = **22.90%**\n- Queensland: $330 / $1,402 = **23.54%**\n\n**2021 proportions:**\n- NSW: $420 / $1,829 = **22.96%**\n- Victoria: $370 / $1,759 = **21.03%**\n- Queensland: $365 / $1,675 = **21.79%**\n\n**Decrease from 2016 to 2021 (percentage points):**\n- NSW: 25.57% − 22.96% = **2.61 pp**\n- Victoria: 22.90% − 21.03% = **1.87 pp**\n- Queensland: 23.54% − 21.79% = **1.75 pp**\n\n**Queensland** had the smallest decrease in the proportion of median weekly rent to median weekly household income from 2016 to 2021, at **1.75 percentage points**.",
+  "answer_chars": 791,
+  "expected_answer": "Queensland",
+  "answer_type": "Single Answer",
+  "category": "Politics & Government",
+  "metrics": {
+    "latency_total_seconds": 59.291,
+    "token_usage_input": 88249,
+    "token_usage_output": 1703,
+    "llm_calls": 5,
+    "subagents_invoked": 0,
+    "tool_calls_total": 4,
+    "token_usage_input_root": 88249,
+    "token_usage_output_root": 1703,
+    "llm_calls_root": 5,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 4,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_extract": 2,
+      "web_search": 2
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 5,
+    "turns_with_reasoning": 5,
+    "sessions_total": 1,
+    "cache_read_tokens": 39936,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 1046,
+    "total_tokens": 89952,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_182942_660379",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_182942_660379",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788805782.5852528,
+        "ended_at": 1788805837.450982,
+        "end_reason": "agent_close",
+        "message_count": 10,
+        "tool_call_count": 4,
+        "api_call_count": 5,
+        "input_tokens": 88249,
+        "output_tokens": 1703,
+        "cache_read_tokens": 39936,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 1046,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0565/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "From the Australian Census data, for all persons and all private dwellings, which state out of NSW, Victoria, and Queensland had the smallest decrease in proportion of median weekly rent to median weekly household income from 2016 to 2021?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0565/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0565/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 151671
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 138448
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 10,
+  "agent_cwd_files": []
+}

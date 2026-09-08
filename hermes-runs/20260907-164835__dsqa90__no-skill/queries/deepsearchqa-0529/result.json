@@ -1,0 +1,166 @@
+{
+  "task_id": "deepsearchqa-0529",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788805361.2599344,
+  "finished_at": 1788805444.7056203,
+  "latency_total_seconds": 83.446,
+  "prompt": "According to data from the Australian Curriculum, Assessment and Reporting Authority (https://www.acara.edu.au/reporting/national-report-on-schooling-in-australia/naplan-national-report-archive), for the Australia-wide NAPLAN results for Year 7, which subject had the greatest improvement in average NAPLAN score (when comparing the years 2012 and 2022) and also had a 2022 participation rate equal to or greater than 91%?",
+  "prompt_prefix": "",
+  "instruction": "According to data from the Australian Curriculum, Assessment and Reporting Authority (https://www.acara.edu.au/reporting/national-report-on-schooling-in-australia/naplan-national-report-archive), for the Australia-wide NAPLAN results for Year 7, which subject had the greatest improvement in average NAPLAN score (when comparing the years 2012 and 2022) and also had a 2022 participation rate equal to or greater than 91%?",
+  "answer": "Based on the data from the ACARA NAPLAN national reports, I can now provide the answer.\n\n**2012 vs 2022 Year 7 Average Score Comparison (Australia-wide):**\n\n| Subject | 2012 Mean Score | 2022 Mean Score | Improvement | 2022 Participation Rate |\n|---------|-----------------|-----------------|-------------|-------------------------|\n| Reading | 541.3 | 542.6 | **+1.3** | 92.6% |\n| Writing | 517.9 | 529.8 | **+11.9** | 91.9% |\n| Numeracy | 537.9 | 546.3 | **+8.4** | 90.1% |\n\n**Analysis:**\n- **Writing** had the greatest improvement: **+11.9 points** (from 517.9 in 2012 to 529.8 in 2022)\n- Writing's 2022 participation rate was **91.9%** (≥ 91% threshold)\n- Reading improved only +1.3 points (participation 92.6%)\n- Numeracy improved +8.4 points but its participation rate was 90.1% (below the 91% threshold)\n\n**Answer: Writing**",
+  "answer_chars": 831,
+  "expected_answer": "Writing",
+  "answer_type": "Single Answer",
+  "category": "Education",
+  "metrics": {
+    "latency_total_seconds": 83.446,
+    "token_usage_input": 207415,
+    "token_usage_output": 6426,
+    "llm_calls": 15,
+    "subagents_invoked": 0,
+    "tool_calls_total": 14,
+    "token_usage_input_root": 207415,
+    "token_usage_output_root": 6426,
+    "llm_calls_root": 15,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 14,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "read_file": 6,
+      "search_files": 3,
+      "web_search": 3,
+      "web_extract": 2
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 15,
+    "turns_with_reasoning": 15,
+    "sessions_total": 1,
+    "cache_read_tokens": 753664,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 4714,
+    "total_tokens": 213841,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_182245_a020c5",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_182245_a020c5",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788805365.2242782,
+        "ended_at": 1788805444.6852803,
+        "end_reason": "agent_close",
+        "message_count": 30,
+        "tool_call_count": 14,
+        "api_call_count": 15,
+        "input_tokens": 207415,
+        "output_tokens": 6426,
+        "cache_read_tokens": 753664,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 4714,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0529/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "According to data from the Australian Curriculum, Assessment and Reporting Authority (https://www.acara.edu.au/reporting/national-report-on-schooling-in-australia/naplan-national-report-archive), for the Australia-wide NAPLAN results for Year 7, which subject had the greatest improvement in average NAPLAN score (when comparing the years 2012 and 2022) and also had a 2022 participation rate equal to or greater than 91%?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0529/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0529/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 257703
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 223177
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 30,
+  "agent_cwd_files": []
+}

@@ -1,0 +1,75 @@
+{
+  "example_id": "deepsearchqa-0398",
+  "source_id": "398",
+  "source_index": 398,
+  "source_dataset": "google/deepsearchqa",
+  "source_file": "DSQA-full.csv",
+  "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+  "problem": "From the school year 2015-2016 to the school year 2018-2019, identify all the school years in which Vinton County High School had a \"Gap Closing\" rating of D or lower, according to their state report card from the Ohio Department of Education. Format these school years chronologically in a comma-separated list.",
+  "problem_category": "Education",
+  "answer": "2015-2016, 2016-2017, 2018-2019",
+  "answer_type": "Set Answer",
+  "codex_difficulty": {
+    "schema_version": "1.0",
+    "method": "bounded-research-v1",
+    "label": "hard",
+    "termination_reason": "action_limit_reached",
+    "research_action_count": 15,
+    "research_action_limit": 15,
+    "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+    "answer_outcome": "partial",
+    "grader": {
+      "name": "deterministic-gold-item-comparison",
+      "grader_valid": true,
+      "f1_score": 0.8571428571,
+      "precision": 0.75,
+      "recall": 1.0,
+      "fully_correct": false,
+      "fully_incorrect": false,
+      "correct_with_excessive_answers": true,
+      "official_parity_verified": false
+    },
+    "agent": {
+      "platform": "codex",
+      "model": "inherited",
+      "reasoning_effort": "inherited",
+      "worker_prompt_version": "1.0",
+      "context_mode": "none"
+    },
+    "measurement": {
+      "action_count_source": "agent_self_reported",
+      "gold_isolation": "instruction_only",
+      "local_file_access_prohibited": true
+    },
+    "run_id": "codex-rerun-20260818-v2",
+    "evaluated_at": "2026-08-18T06:01:40Z",
+    "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0398.json"
+  },
+  "difficulty_rationale": {
+    "schema_version": "1.0",
+    "summary": "Hard: the worker used the full 15-action budget and returned a bounded best-effort answer (partial, F1=0.857).",
+    "decision_basis": {
+      "termination_reason": "action_limit_reached",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "answer_outcome": "partial",
+      "grader_valid": true,
+      "f1_score": 0.8571428571
+    },
+    "research_process": {
+      "action_type_counts": {
+        "open": 4,
+        "search": 11
+      },
+      "representative_actions": [
+        "Searched the official Ohio report-card domain for Vinton County High School's 2018-2019 Gap Closing rating.",
+        "Searched the official Ohio education domain for the school's IRN.",
+        "Searched the official report-card storage domain for the 2017 Gap Closing record using IRN 038471."
+      ],
+      "source_count": 2,
+      "action_log_detail": "descriptive",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0398.json"
+    },
+    "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+  }
+}

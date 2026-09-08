@@ -1,0 +1,164 @@
+{
+  "task_id": "deepsearchqa-0256",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788802357.1826458,
+  "finished_at": 1788802435.1374965,
+  "latency_total_seconds": 77.955,
+  "prompt": "WolfeyVGC has a mainstay pick for his championship teams despite it being one of his most hated Pokémon. How would that Pokémon stack up to Pachirisu, listing and comparing all of their base stats from when both Pokémon each respectively first appeared on a 1st place Pokémon Videogame World Championships team?",
+  "prompt_prefix": "",
+  "instruction": "WolfeyVGC has a mainstay pick for his championship teams despite it being one of his most hated Pokémon. How would that Pokémon stack up to Pachirisu, listing and comparing all of their base stats from when both Pokémon each respectively first appeared on a 1st place Pokémon Videogame World Championships team?",
+  "answer": "**WolfeyVGC's Pokémon**: Incineroar (his \"fourth most hated\" Pokémon, per his own video, but a mainstay on his championship teams)\n\n**Pachirisu's championship debut**: 2014 World Championships (Se Jun Park, Masters Division winner)\n\n**Incineroar's championship debut**: 2018 World Championships (Paul Ruiz, Masters Division winner)\n\n---\n\n### Base Stat Comparison\n\n| Stat | Pachirisu (2014) | Incineroar (2018) | Difference |\n|------|------------------|-------------------|------------|\n| **HP** | 60 | 95 | +35 Incineroar |\n| **Attack** | 45 | 115 | +70 Incineroar |\n| **Defense** | 70 | 90 | +20 Incineroar |\n| **Sp. Attack** | 45 | 80 | +35 Incineroar |\n| **Sp. Defense** | 90 | 90 | **Tied** |\n| **Speed** | 95 | 60 | +35 Pachirisu |\n| **Total** | **405** | **530** | +125 Incineroar |\n\n---\n\n### Key Takeaways\n\n- **Incineroar dominates offensively and in bulk** — +125 BST, crushing advantages in Attack (+70), HP (+35), and mixed offenses\n- **Pachirisu wins only on Speed** (95 vs 60) and ties Sp. Def (90)\n- **Role difference**: Pachirisu was a disruptive support (Follow Me redirect, Super Fang, Nuzzle) leveraging its Speed and Sp. Def; Incineroar is an offensive pivot with Intimidate, Fake Out, and massive Attack\n- **BST gap**: Incineroar's 530 vs Pachirisu's 405 reflects the \"pseudo-legendary-adjacent\" starter power level vs a regional rodent",
+  "answer_chars": 1355,
+  "expected_answer": "Incineror (2018): HP 95 (Win), Attack 115 (Win), Defense 90 (Win), Sp. Atk 80 (Win), Sp. Def 90 (Tie), Speed 60 (Lose), Total 530 (Win); Pachirisu (2014) HP 60 (Lose), Attack 45 (Lose), Defense 70 (Lose), Sp. Atk 45 (Lose), Sp. Def 90 (Tie), Speed 95 (Win), Total 405 (Lose)",
+  "answer_type": "Set Answer",
+  "category": "Media & Entertainment",
+  "metrics": {
+    "latency_total_seconds": 77.955,
+    "token_usage_input": 46673,
+    "token_usage_output": 1958,
+    "llm_calls": 9,
+    "subagents_invoked": 0,
+    "tool_calls_total": 10,
+    "token_usage_input_root": 46673,
+    "token_usage_output_root": 1958,
+    "llm_calls_root": 9,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 10,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 9,
+      "web_extract": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 9,
+    "turns_with_reasoning": 9,
+    "sessions_total": 1,
+    "cache_read_tokens": 80000,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 955,
+    "total_tokens": 48631,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_173239_454820",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_173239_454820",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788802360.093036,
+        "ended_at": 1788802435.1170628,
+        "end_reason": "agent_close",
+        "message_count": 20,
+        "tool_call_count": 10,
+        "api_call_count": 9,
+        "input_tokens": 46673,
+        "output_tokens": 1958,
+        "cache_read_tokens": 80000,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 955,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0256/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "WolfeyVGC has a mainstay pick for his championship teams despite it being one of his most hated Pokémon. How would that Pokémon stack up to Pachirisu, listing and comparing all of their base stats from when both Pokémon each respectively first appeared on a 1st place Pokémon Videogame World Championships team?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0256/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0256/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 88480
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 72468
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 20,
+  "agent_cwd_files": []
+}

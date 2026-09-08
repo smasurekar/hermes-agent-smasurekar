@@ -1,0 +1,104 @@
+{
+  "run_id": "20260907-234403__dsqa90__auto-skill",
+  "task_id": "deepsearchqa-0121",
+  "experiment": "auto-skill",
+  "instruction": "Tell me all of the candidates for Dublin South-West in the most recent Irish General Election, as of Jan 2024, who received 5% or less of the total \"First Preference\" vote, excluding candidates who ran as Independents with no political party.",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0121",
+    "source_id": "121",
+    "source_index": 121,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "Tell me all of the candidates for Dublin South-West in the most recent Irish General Election, as of Jan 2024, who received 5% or less of the total \"First Preference\" vote, excluding candidates who ran as Independents with no political party.",
+    "problem_category": "Politics & Government",
+    "answer": "Charlie O'Connor (5.0%, Fianna Fáil), Deirdre O'Donovan (4.9%, Fianna Fáil), Ellen O'Malley Dunlop (4.6%, Fine Gael), Carly Bailey (4.09%, Social Democrats), Sandra Fay (2.45%, Socialist Party), Anne Marie Condren (1.31%, Renua), Philip Dwyer (0.75%, National Party)",
+    "answer_type": "Set Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "medium",
+      "termination_reason": "completed",
+      "research_action_count": 8,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "fully_correct",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": 1.0,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fully_correct": 1.0,
+        "fully_incorrect": 0.0,
+        "correct_with_excessive_answers": 0.0,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-dsqa85-20260818-v1",
+      "evaluated_at": "2026-08-18T04:41:47Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0121.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Medium: the worker produced a locally correct or partially correct answer in 8 actions, within the 5–15 action range (fully_correct, F1=1.000).",
+      "decision_basis": {
+        "termination_reason": "completed",
+        "research_action_count": 8,
+        "research_action_limit": 15,
+        "answer_outcome": "fully_correct",
+        "grader_valid": 1.0,
+        "f1_score": 1.0
+      },
+      "research_process": {
+        "action_type_counts": {
+          "open": 3,
+          "search": 5
+        },
+        "representative_actions": [
+          "Searched for official 2020 Irish general-election results for Dublin South-West.",
+          "Opened the Dublin County Returning Officer's notice of poll to confirm candidates' full party names.",
+          "Confirmed the 2020 general-election date from an Irish government source and that the next election occurred after January 2024."
+        ],
+        "source_count": 3,
+        "action_log_detail": "descriptive",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0121.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0121",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation",
+    "skills"
+  ],
+  "skills": [],
+  "prompt_prefix": "",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

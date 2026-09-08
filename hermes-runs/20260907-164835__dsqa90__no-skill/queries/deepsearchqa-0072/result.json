@@ -1,0 +1,165 @@
+{
+  "task_id": "deepsearchqa-0072",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788799762.2303977,
+  "finished_at": 1788799865.803949,
+  "latency_total_seconds": 103.574,
+  "prompt": "According to the CDC, which US states had a death rate due to heart disease >191.5, a death rate due to cancer >161.9, and a death rate due to diabetes >33.1 in 2022?",
+  "prompt_prefix": "",
+  "instruction": "According to the CDC, which US states had a death rate due to heart disease >191.5, a death rate due to cancer >161.9, and a death rate due to diabetes >33.1 in 2022?",
+  "answer": "Based on the CDC's National Vital Statistics Report \"Deaths: Final Data for 2022\" (Table 17), four US states had age-adjusted death rates exceeding all three thresholds in 2022:\n\n| State | Heart Disease | Cancer | Diabetes |\n|-------|--------------|--------|----------|\n| **Arkansas** | 224.1 | 168.1 | 36.0 |\n| **Mississippi** | 248.0 | 178.4 | 34.7 |\n| **Oklahoma** | 257.1 | 171.6 | 33.8 |\n| **West Virginia** | 209.5 | 176.3 | 41.1 |\n\n**Thresholds:** Heart disease >191.5, Cancer >161.9, Diabetes >33.1 (all age-adjusted rates per 100,000 U.S. standard population).\n\nSource: CDC/NCHS, National Vital Statistics Reports Volume 74, Number 4 (June 10, 2025), Table 17 — age-adjusted death rates for 2022 by state for Diseases of heart (I00–I09,I11,I13,I20–I51), Malignant neoplasms (C00–C97), and Diabetes mellitus (E10–E14).",
+  "answer_chars": 826,
+  "expected_answer": "Arkansas, Mississippi, Oklahoma, West Virginia",
+  "answer_type": "Set Answer",
+  "category": "Health",
+  "metrics": {
+    "latency_total_seconds": 103.574,
+    "token_usage_input": 157219,
+    "token_usage_output": 5790,
+    "llm_calls": 19,
+    "subagents_invoked": 0,
+    "tool_calls_total": 18,
+    "token_usage_input_root": 157219,
+    "token_usage_output_root": 5790,
+    "llm_calls_root": 19,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 18,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 9,
+      "web_extract": 7,
+      "read_file": 2
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 19,
+    "turns_with_reasoning": 19,
+    "sessions_total": 1,
+    "cache_read_tokens": 688640,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 4284,
+    "total_tokens": 163009,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_164924_a26f6f",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_164924_a26f6f",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788799765.1338625,
+        "ended_at": 1788799865.7844281,
+        "end_reason": "agent_close",
+        "message_count": 38,
+        "tool_call_count": 18,
+        "api_call_count": 19,
+        "input_tokens": 157219,
+        "output_tokens": 5790,
+        "cache_read_tokens": 688640,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 4284,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0072/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "According to the CDC, which US states had a death rate due to heart disease >191.5, a death rate due to cancer >161.9, and a death rate due to diabetes >33.1 in 2022?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0072/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0072/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 404914
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 372806
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 38,
+  "agent_cwd_files": []
+}

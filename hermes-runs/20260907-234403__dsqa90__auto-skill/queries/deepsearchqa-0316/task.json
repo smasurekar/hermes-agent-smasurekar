@@ -1,0 +1,75 @@
+{
+  "example_id": "deepsearchqa-0316",
+  "source_id": "316",
+  "source_index": 316,
+  "source_dataset": "google/deepsearchqa",
+  "source_file": "DSQA-full.csv",
+  "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+  "problem": "Identify the five states with the highest poverty rate in 2022, using data from the Center for American Progress. Then, using data from the U.S. Census Bureau, identify which of the five states had the highest number of grandparents on disability status who were taking care of grandchildren under 18 years old.",
+  "problem_category": "Health",
+  "answer": "Louisiana",
+  "answer_type": "Single Answer",
+  "codex_difficulty": {
+    "schema_version": "1.0",
+    "method": "bounded-research-v1",
+    "label": "hard",
+    "termination_reason": "action_limit_reached",
+    "research_action_count": 15,
+    "research_action_limit": 15,
+    "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+    "answer_outcome": "fully_correct",
+    "grader": {
+      "name": "deterministic-gold-item-comparison",
+      "grader_valid": true,
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fully_correct": true,
+      "fully_incorrect": false,
+      "correct_with_excessive_answers": false,
+      "official_parity_verified": false
+    },
+    "agent": {
+      "platform": "codex",
+      "model": "inherited",
+      "reasoning_effort": "inherited",
+      "worker_prompt_version": "1.0",
+      "context_mode": "none"
+    },
+    "measurement": {
+      "action_count_source": "agent_self_reported",
+      "gold_isolation": "instruction_only",
+      "local_file_access_prohibited": true
+    },
+    "run_id": "codex-dsqa85-20260818-v1",
+    "evaluated_at": "2026-08-18T05:25:00Z",
+    "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0316.json"
+  },
+  "difficulty_rationale": {
+    "schema_version": "1.0",
+    "summary": "Hard: the worker used the full 15-action budget and returned a bounded best-effort answer (fully_correct, F1=1.000).",
+    "decision_basis": {
+      "termination_reason": "action_limit_reached",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "answer_outcome": "fully_correct",
+      "grader_valid": true,
+      "f1_score": 1.0
+    },
+    "research_process": {
+      "action_type_counts": {
+        "open": 5,
+        "search": 10
+      },
+      "representative_actions": [
+        "Searched CAP 2022 poverty data.",
+        "Searched relevant ACS variables.",
+        "Opened the all-state result."
+      ],
+      "source_count": 2,
+      "action_log_detail": "descriptive",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0316.json"
+    },
+    "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+  }
+}

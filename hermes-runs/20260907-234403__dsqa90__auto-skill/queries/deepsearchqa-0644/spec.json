@@ -1,0 +1,103 @@
+{
+  "run_id": "20260907-234403__dsqa90__auto-skill",
+  "task_id": "deepsearchqa-0644",
+  "experiment": "auto-skill",
+  "instruction": "List all of the articles in any American Society for Microbiology journals that include as an author either the 2nd, 3rd, or 4th author listed for the 25th reference in the article titled \"Comparison of a Commercial Real-Time PCR Assay for tcdB Detection to a Cell Culture Cytotoxicity Assay and Toxigenic Culture for Direct Detection of Toxin-Producing Clostridium difficile in Clinical Samples\".",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0644",
+    "source_id": "644",
+    "source_index": 644,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "List all of the articles in any American Society for Microbiology journals that include as an author either the 2nd, 3rd, or 4th author listed for the 25th reference in the article titled \"Comparison of a Commercial Real-Time PCR Assay for tcdB Detection to a Cell Culture Cytotoxicity Assay and Toxigenic Culture for Direct Detection of Toxin-Producing Clostridium difficile in Clinical Samples\".",
+    "problem_category": "Science",
+    "answer": "\"Comparison of the VIDAS Clostridium difficile toxin A immunoassay with C. difficile culture and cytotoxin and latex tests\", \"Comparison of traditional gas chromatography (GC), headspace GC, and the microbial identification library GC system for the identification of Clostridium difficile\", \"Detection of gyrA gene mutations associated with ciprofloxacin resistance in methicillin-resistant Staphylococcus aureus: analysis by polymerase chain reaction and automated direct DNA sequencing\", \"Detection of asymptomatic Clostridium difficile carriage by an alcohol shock procedure\"",
+    "answer_type": "Set Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "medium",
+      "termination_reason": "completed",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "partial",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": true,
+        "f1_score": 0.4,
+        "precision": 1.0,
+        "recall": 0.25,
+        "fully_correct": false,
+        "fully_incorrect": false,
+        "correct_with_excessive_answers": true,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-dsqa85-20260818-v1",
+      "evaluated_at": "2026-08-18T06:42:00Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0644.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Medium: the worker produced a locally correct or partially correct answer in 15 actions, within the 5–15 action range (partial, F1=0.400).",
+      "decision_basis": {
+        "termination_reason": "completed",
+        "research_action_count": 15,
+        "research_action_limit": 15,
+        "answer_outcome": "partial",
+        "grader_valid": true,
+        "f1_score": 0.4
+      },
+      "research_process": {
+        "action_type_counts": {
+          "reported": 15
+        },
+        "representative_actions": [
+          "Worker self-reported atomic research action 1; the action log was compacted during batch persistence.",
+          "Worker self-reported atomic research action 8; the action log was compacted during batch persistence.",
+          "Worker self-reported atomic research action 15; the action log was compacted during batch persistence."
+        ],
+        "source_count": 1,
+        "action_log_detail": "compacted",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0644.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0644",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation",
+    "skills"
+  ],
+  "skills": [],
+  "prompt_prefix": "",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

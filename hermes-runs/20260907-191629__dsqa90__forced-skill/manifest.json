@@ -1,0 +1,542 @@
+[
+  {
+    "task_id": "deepsearchqa-0056",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0056",
+    "category": "Finance & Economics",
+    "instruction": "Among Saia, Inc., Matson, Inc., and ArcBest Corporation, which company had the greatest reduction in operating expenses for the fiscal year ended December 31, 2023? Use the SEC website and filings."
+  },
+  {
+    "task_id": "deepsearchqa-0060",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0060",
+    "category": "Education",
+    "instruction": "Based on information located on data.nysed.gov, consider ny state graduation rate data for high school students as of August 2023. Consider subgroups that had a total enrollment under 2000 students. Which of these subgroups also had a dropout percentage of 3 percent or more and a graduation rate over 40 percent? List the subgroups in order of least amount total enrolled students to highest."
+  },
+  {
+    "task_id": "deepsearchqa-0072",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0072",
+    "category": "Health",
+    "instruction": "According to the CDC, which US states had a death rate due to heart disease >191.5, a death rate due to cancer >161.9, and a death rate due to diabetes >33.1 in 2022?"
+  },
+  {
+    "task_id": "deepsearchqa-0076",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0076",
+    "category": "Other",
+    "instruction": "Which US states (do not include Washington DC) had fewer than 100 total fatal car crashes in any year between 2016 and 2019, using NHTSA data?"
+  },
+  {
+    "task_id": "deepsearchqa-0084",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0084",
+    "category": "Technology",
+    "instruction": "According to JDPower, which of these companies released the most SUV models in 2014? Ford, GMC, Jeep, Dodge, Chevrolet, Cadillac, Nissan, Lincoln, Honda, Toyota, or Volkswagen?"
+  },
+  {
+    "task_id": "deepsearchqa-0103",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0103",
+    "category": "Travel",
+    "instruction": "According to Orange Country Transportation Authority's (OCTA) February 2024 Bus Book, identify the city that is the starting point for the most local fixed routes. Of those local fixed routes with the identified city as the starting point, look at the route with the largest number. How many stops have scheduled departures for that route?"
+  },
+  {
+    "task_id": "deepsearchqa-0115",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0115",
+    "category": "Geography",
+    "instruction": "Of the waterfalls that are 3,000-2,300 feet tall, have an average width of 50 feet or greater, and have a confirmed status from the World Waterfall Database, which ones are located in South America?"
+  },
+  {
+    "task_id": "deepsearchqa-0120",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0120",
+    "category": "Politics & Government",
+    "instruction": "I'd like you to refer to Homicide Mortality by State from the CDC National Center for Health Statistics and Gun Map: Ownership by State from CBS News. Assess the following states: Wisconsin, Ohio, Michigan, and Missouri. Tell me which state has the lowest ratio of federal licenses in 2021 to homicide mortality deaths in 2022 (i.e., the number of federal licenses in 2021 divided by the number of homicide deaths in 2022)."
+  },
+  {
+    "task_id": "deepsearchqa-0121",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0121",
+    "category": "Politics & Government",
+    "instruction": "Tell me all of the candidates for Dublin South-West in the most recent Irish General Election, as of Jan 2024, who received 5% or less of the total \"First Preference\" vote, excluding candidates who ran as Independents with no political party."
+  },
+  {
+    "task_id": "deepsearchqa-0122",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0122",
+    "category": "Science",
+    "instruction": "According to fishbase.org, what is the FishBase Name and species of every fish in Japan that has a highly commercial designation in both the \"use\" column and the \"use elsewhere\" column?"
+  },
+  {
+    "task_id": "deepsearchqa-0129",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0129",
+    "category": "Education",
+    "instruction": "According to the ACT, for 2023 identify of all the states to have an estimated at least 90% of their grads tested using the ACT, which of those states had a composite average score of at least 18.5, had at least 42% of test takers meet the English benchmark, had at least 19% meet the math benchmark, and at least 30% meet the reading benchmark."
+  },
+  {
+    "task_id": "deepsearchqa-0142",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0142",
+    "category": "Finance & Economics",
+    "instruction": "I'm analysing the baskets of goods and services used to measure consumer price inflation by the Office of National Statistics. On the ONS website, in the tables showing the allocation of items to 'Consumer Prices Index including owner occupiers' housing costs' (CPIH) divisions for 2020-2024 (inclusive), which categories, if any, experienced fluctuations in figures of representative items (per cent of total) over the course of this period? List the categories in alphabetical order, separated by a comma and a space."
+  },
+  {
+    "task_id": "deepsearchqa-0143",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0143",
+    "category": "Travel",
+    "instruction": "What's the bus route in Halifax that goes along Oxford and ends over at the terminal by the Walmart and Sobeys?"
+  },
+  {
+    "task_id": "deepsearchqa-0153",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0153",
+    "category": "Science",
+    "instruction": "Compare these five animals using IUCNRedList.org -- Wild Water Buffalo, Siberian Taimen, Yellow-eared Parrot, Saiga tatarica, and Komodo Dragon; find their earliest Red List assessment dates, and list these in chronological order. (Keep answer under 100 words.)"
+  },
+  {
+    "task_id": "deepsearchqa-0164",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0164",
+    "category": "Finance & Economics",
+    "instruction": "Identify the names of the companies that these CIK codes belong to, as shown in EDGAR, as well as their abbreviated state locations: 0001288741, 0001078207, 0000084839, 0000898598, and 0001340733."
+  },
+  {
+    "task_id": "deepsearchqa-0189",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0189",
+    "category": "Politics & Government",
+    "instruction": "Provide an exhaustive list of US states that satisfy the following criteria: 1.) According to estimates by Dietz, Rose, McArthur and Maenner (2022), the estimated prevalence of autism spectrum disorder among adults was equal to or higher than Dietz et al.'s estimated national average of 2.21%. 2.) The state's 2023 average unemployment rate, reported by the Bureau of Labor Statistics, was equal to or higher than 3.2%. 3.) The state's electors all cast their votes for the Democratic nominee in both the 2016 and 2020 US Presidential elections."
+  },
+  {
+    "task_id": "deepsearchqa-0194",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0194",
+    "category": "Media & Entertainment",
+    "instruction": "List all of the romance books released in 2023, that were in the top 10 most sold fiction books in Canada by print sales volume, and who appeared on the New York Times \"Combined Print & E-Book Fiction\" list for more than 20 consecutive weeks in the same year."
+  },
+  {
+    "task_id": "deepsearchqa-0206",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0206",
+    "category": "Science",
+    "instruction": "According to the paper \"Combining phylogenomic and supermatrix approaches, and a time-calibrated phylogeny for squamate reptiles (lizards and snakes) based on 52 genes and 4162 species\", geckos have several families, could you list the northernmost genus of the sister family to the family with the least total species diversity."
+  },
+  {
+    "task_id": "deepsearchqa-0208",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0208",
+    "category": "Education",
+    "instruction": "As per the 2023 Times Higher Education rankings, which Russell Group universities feature in the top 10 for all 3 of the following subjects: Clinical and Health, Arts and Humanities, and Psychology?"
+  },
+  {
+    "task_id": "deepsearchqa-0212",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0212",
+    "category": "Science",
+    "instruction": "Give me a list of all of the fish that Albacore form mixed schools with, but ignore the ones that can live over 20 years."
+  },
+  {
+    "task_id": "deepsearchqa-0216",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0216",
+    "category": "Health",
+    "instruction": "According to BRFSS, what states had a prevalence below 45% of adults who have had at least one drink of alcohol within the past 30 days, between 2019 and 2022"
+  },
+  {
+    "task_id": "deepsearchqa-0230",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0230",
+    "category": "Arts",
+    "instruction": "Which of Georgia O’Keeffe's works at the Art Institute of Chicago, as of June 2024, were landscapes of New Mexico created before 1940 with oil painting?"
+  },
+  {
+    "task_id": "deepsearchqa-0241",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0241",
+    "category": "Politics & Government",
+    "instruction": "Which U.S. Presidents attended a university that was a member of the Association of American Universities (AAU) as of May 2024, had prior experience as a state governor, and were elected president after 1900?"
+  },
+  {
+    "task_id": "deepsearchqa-0242",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0242",
+    "category": "Technology",
+    "instruction": "According to table 2.2 in the ICILS 2023 international report, which countries had the most categories for both CIL and CT education which were \"Available but not compulsory to teach\" for ISCED 1 level education?"
+  },
+  {
+    "task_id": "deepsearchqa-0249",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0249",
+    "category": "Finance & Economics",
+    "instruction": "Using FDIC information, of the failed banks closed in Wisconsin in 2011, which one has the highest “Total Paid” percentage for dividends marked as final?"
+  },
+  {
+    "task_id": "deepsearchqa-0256",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0256",
+    "category": "Media & Entertainment",
+    "instruction": "WolfeyVGC has a mainstay pick for his championship teams despite it being one of his most hated Pokémon. How would that Pokémon stack up to Pachirisu, listing and comparing all of their base stats from when both Pokémon each respectively first appeared on a 1st place Pokémon Videogame World Championships team?"
+  },
+  {
+    "task_id": "deepsearchqa-0259",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0259",
+    "category": "Politics & Government",
+    "instruction": "Limiting to member localities of the Central Shenandoah Planning District Commission with populations under 30,000 according to 2020 U.S. Census, which one's had more than a thousand National Forest Permits issued as reported by Virginia DWR for fiscal year 2020?"
+  },
+  {
+    "task_id": "deepsearchqa-0294",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0294",
+    "category": "Finance & Economics",
+    "instruction": "In the two years 2022/2023, which Canadian province had the largest total capital expenditure in hydroelectric power generation over that time?"
+  },
+  {
+    "task_id": "deepsearchqa-0300",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0300",
+    "category": "Health",
+    "instruction": "In June 2020, a review was published by two authors in Clinical reviews in allergy & immunology regarding the relationship between hypermobile Ehlers-Danlos Syndrome (hEDS), Postural Orthostatic Tachycardia Syndrome (POTS), and Mast Cell Activation Syndrome (MCAS). Using PubMed, go to the 2nd publication (published in 2008) that this review references, and identify the geneticist who published the classification of one of the previous syndromes in 1998. What is the title of this geneticist’s first publication in The Practitioner?"
+  },
+  {
+    "task_id": "deepsearchqa-0305",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0305",
+    "category": "Politics & Government",
+    "instruction": "Using https://results.aec.gov.au/, of the parties that received more than 100000 votes in the national count of the 2004 federal election in Australia for the House of Representatives, which of these parties also received more than 15000 votes in Western Australia for that election and more than 10000 votes in Queensland for that election, and more than 1% of the vote in South Australia? List these parties by their full official names, in descending order of first preference votes received in that election nationally."
+  },
+  {
+    "task_id": "deepsearchqa-0309",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0309",
+    "category": "Finance & Economics",
+    "instruction": "I am writing a report on the effect of internal displacement on the labour force for my economics class. Of the 5 countries that had the most amount of internally displaced people in 2020 (According to UNHCR refugee data), which had the lowest percentage of people employed in agriculture in 2020 (as a percentage of people that were employed, according to United Nations data)?"
+  },
+  {
+    "task_id": "deepsearchqa-0314",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0314",
+    "category": "Science",
+    "instruction": "Exhaustive list of all types of the genus Tyrannosaurus as of May 2024"
+  },
+  {
+    "task_id": "deepsearchqa-0316",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0316",
+    "category": "Health",
+    "instruction": "Identify the five states with the highest poverty rate in 2022, using data from the Center for American Progress. Then, using data from the U.S. Census Bureau, identify which of the five states had the highest number of grandparents on disability status who were taking care of grandchildren under 18 years old."
+  },
+  {
+    "task_id": "deepsearchqa-0325",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0325",
+    "category": "Health",
+    "instruction": "Of the top 5 countries with the biggest economy in 2020, according to Madison Trust, which had coronary artery disease as the number one cause of death for males in both 2020 and 2021, according to the World Health Organization?"
+  },
+  {
+    "task_id": "deepsearchqa-0353",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0353",
+    "category": "Health",
+    "instruction": "Which of the following are considered in the US to be non-alcoholic according to this article https://pmc.ncbi.nlm.nih.gov/articles/PMC9506306/ but, according to the UK government, would not be defined as being alcohol-free: Kopparberg Strawberry & Lime Alcohol Free, Sheppy's Low Alcohol Classic Cider, Gordon's Pink Gin & Tonic Can, Jack Daniel's Whiskey & Coca-Cola, Old Mout Berries & Cherries 0%ABV, Thatchers Zero English Cider, and Adnams Wild Wave Non-Alcoholic 0.5% Cider?"
+  },
+  {
+    "task_id": "deepsearchqa-0355",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0355",
+    "category": "Politics & Government",
+    "instruction": "In the 44th Canadian General Election, which electoral districts in British Columbia had over 50% of valid ballots be cast for their local representative to the Conservative party?"
+  },
+  {
+    "task_id": "deepsearchqa-0357",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0357",
+    "category": "Finance & Economics",
+    "instruction": "According to the IMF, which of the following countries saw the highest percentage change in general government net debt by domestic currency between Jan 1 2019 and Dec 31 2021? Germany, France, Spain, Belgium, Netherlands, Italy, Switzerland, Portugal, Poland. Answer with the country names only."
+  },
+  {
+    "task_id": "deepsearchqa-0358",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0358",
+    "category": "Geography",
+    "instruction": "Of the non-EU countries (excluding the UK)(as of June 2024) with a 'medium' rating on the 2024 Climate Change Performance Index , find the country with a 2023 HDI ranking of lower than 0.7 but a GDP of higher than $350bn in 2023 according to the World Bank World Development Indicators."
+  },
+  {
+    "task_id": "deepsearchqa-0364",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0364",
+    "category": "Finance & Economics",
+    "instruction": "According to 2023 data from Autism Speaks, how do the 10 states with the oldest average age of first autism intervention rank (highest to lowest) in terms of percentage of population below the poverty line that same year, based on Census.gov data?"
+  },
+  {
+    "task_id": "deepsearchqa-0369",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0369",
+    "category": "Finance & Economics",
+    "instruction": "Find the Asian countries and territories with a 2008 GDP of more than 25 billion USD and a 2018 GDP of less than 22 billion USD according to database.earth data."
+  },
+  {
+    "task_id": "deepsearchqa-0376",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0376",
+    "category": "Geography",
+    "instruction": "I am researching trends of young people leaving Wales. According to the Welsh Census 2021 and official Welsh government data, find the local authorities that did NOT see an overall decrease in amount of households since 2011. Out of these local authorities, identify those that had a population of less than 120,000 at the point of mid-year 2021 and are not in the North Wales region. From this selection, identify the all local authorities that have seen an increase of over 2% in people aged 25 to 44 between mid-year 2021 and mid-year 2022."
+  },
+  {
+    "task_id": "deepsearchqa-0387",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0387",
+    "category": "Other",
+    "instruction": "According to Fashionphile's 2023 Ultra Luxury Resale Report, find which Hermes bag is the most popular for resale. Then, based on the upcoming 2024 price increases article from PurseBlog.com, determine if it would be cheaper to buy it in Europe or US. If there are multiple sizes listed for the same bag, pick the larger one from the list, the numbers next to the bag names are the sizes. Let's use the average 2023 exchange rate of 1 USD to 0.924 EUR."
+  },
+  {
+    "task_id": "deepsearchqa-0391",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0391",
+    "category": "History",
+    "instruction": "Determine which decade experienced the biggest difference between the number of hurricanes originating off the west coast of Mexico versus the east coast of Mexico? List, alphabetically, the names of all Category 4 hurricanes within 60 nautical miles of either Mexican coast from that decade. Use historical hurricane tracks data from NOAA to consider all Category 1-5 hurricanes tracked within 60 nautical miles of Mexico, comparing the decades 1990-1999, 2000-2009, and 2010-2019."
+  },
+  {
+    "task_id": "deepsearchqa-0396",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0396",
+    "category": "Finance & Economics",
+    "instruction": "Which country according to Eurostat's available data transported the most goods in total across air, sea, road, and rail in 2022? Do not include countries whose average full time adjusted salary per employee in 2022 was below 50,000 euros."
+  },
+  {
+    "task_id": "deepsearchqa-0398",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0398",
+    "category": "Education",
+    "instruction": "From the school year 2015-2016 to the school year 2018-2019, identify all the school years in which Vinton County High School had a \"Gap Closing\" rating of D or lower, according to their state report card from the Ohio Department of Education. Format these school years chronologically in a comma-separated list."
+  },
+  {
+    "task_id": "deepsearchqa-0407",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0407",
+    "category": "Health",
+    "instruction": "Of the top 5 states that have the most deaths by car crash in 2023, which had a seat belt use of less than 90% in 2023?"
+  },
+  {
+    "task_id": "deepsearchqa-0408",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0408",
+    "category": "Geography",
+    "instruction": "Consider the countries that received a rating of “very high” in the 2023 Global Peace Index. Exclude any countries that have an area of either over 1,000,000 km2 or under 25,000 km2. Of the remaining countries, which had the highest CO2 emissions per capita in 2023 according to data.worldbank.org?"
+  },
+  {
+    "task_id": "deepsearchqa-0420",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0420",
+    "category": "Health",
+    "instruction": "Based on the research study published in PLOS One \"Temporal trends in peripartum hysterectomy among individuals with a previous cesarean delivery by race/ethnicity in the United States: A population-based cohort study\", of the individuals who had previously given birth via a caesarean delivery, which racial demographic group(s) had more peripartum hysterectomies (per 1000 individuals) in 2018 as compared to 2017? Provide the racial groups as they are named in the study table S1 and list them in alphabetical order."
+  },
+  {
+    "task_id": "deepsearchqa-0454",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0454",
+    "category": "Other",
+    "instruction": "Using data from the USDA's National Agricultural Statistics Service's 2012 and 2017 census, looking at the Specialty crops section, which maple producing states saw a decrease in gallons produced from 2012 to 2017, while still producing at least 1,000 gallons?"
+  },
+  {
+    "task_id": "deepsearchqa-0459",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0459",
+    "category": "Travel",
+    "instruction": "First, determine the European countries that have greater than 10,000 million passenger-km (including territorial sea) in 2022. From among those countries, determine the five countries with the greatest number of main commercial airports in 2022. Of those five countries, determine which countries did not increase the number of main commercial airports from 2021 to 2022. Then, of those countries, determine which countries did not have more then nine small commercial airports in 2022. Use the Eurostat website to determine all of this information."
+  },
+  {
+    "task_id": "deepsearchqa-0465",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0465",
+    "category": "Education",
+    "instruction": "Which authors contributed articles to the NAWE's Writing in Education journal, vol 33 'Writing & Location'?"
+  },
+  {
+    "task_id": "deepsearchqa-0474",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0474",
+    "category": "Media & Entertainment",
+    "instruction": "Which 2007 Rock and Roll hall of fame inductee had the longest-charting song on the Billboard Hot 100 prior to January 2024? Name the artist and song."
+  },
+  {
+    "task_id": "deepsearchqa-0489",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0489",
+    "category": "History",
+    "instruction": "What US presidential election years from 1930-2020 elected US democratic presidents who served two full terms and were succeeded by a republican president, while in the same election year, a female American gymnast won the Olympic All-Around Gold medal?"
+  },
+  {
+    "task_id": "deepsearchqa-0519",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0519",
+    "category": "Health",
+    "instruction": "Which U.S. states had a percentage of alcohol-impaired-driving traffic fatalities higher than 35% in 2022 according to the NHTSA’s Traffic Safety Facts report, and also had an excessive drinking rate above 20% in 2022 based on data from WorldPopulationReview.com?"
+  },
+  {
+    "task_id": "deepsearchqa-0529",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0529",
+    "category": "Education",
+    "instruction": "According to data from the Australian Curriculum, Assessment and Reporting Authority (https://www.acara.edu.au/reporting/national-report-on-schooling-in-australia/naplan-national-report-archive), for the Australia-wide NAPLAN results for Year 7, which subject had the greatest improvement in average NAPLAN score (when comparing the years 2012 and 2022) and also had a 2022 participation rate equal to or greater than 91%?"
+  },
+  {
+    "task_id": "deepsearchqa-0531",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0531",
+    "category": "Education",
+    "instruction": "Out of all the subjects that you can study at the University of Cambridge, which ones saw an increase in the percentage of acceptances of students from Maintained schools between the 2019 and 2021 undergraduate admissions cycles and then also between the 2021 and 2023 undergraduate admissions cycles. Consider Home applicants only."
+  },
+  {
+    "task_id": "deepsearchqa-0532",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0532",
+    "category": "Science",
+    "instruction": "Identify the five countries that had the greatest share of reduction in reported TB cases in 2021 compared to 2019. Of these countries, which reported the lowest number of TB cases in 2023?"
+  },
+  {
+    "task_id": "deepsearchqa-0543",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0543",
+    "category": "History",
+    "instruction": "NASA has a reference guide for The Space Shuttle that features a detailed look at all the previous Shuttles. Note the shuttle that has the second fewest number of construction milestones listed before 2024. From the flights of the shuttle, create a list of the missions where its landing site was EAFB."
+  },
+  {
+    "task_id": "deepsearchqa-0545",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0545",
+    "category": "Health",
+    "instruction": "I am performing research into best practices for low birth weight births. In 2017, which Canadian provinces had a Proportion of low birth weight births (<2500 grams at birth) above 6.0 but an Infant Mortality rate (per 1000 live births) below 4.5? Source all data from Statistics Canada Table: 13-10-0368-01 and Table: 13-10-0404-01. Ensure that all values are for both sexes."
+  },
+  {
+    "task_id": "deepsearchqa-0563",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0563",
+    "category": "Arts",
+    "instruction": "out of the artists who participated in the 2023 The Art of Texas State Parks traveling art exhibit, which ones were from austin texas?"
+  },
+  {
+    "task_id": "deepsearchqa-0565",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0565",
+    "category": "Politics & Government",
+    "instruction": "From the Australian Census data, for all persons and all private dwellings, which state out of NSW, Victoria, and Queensland had the smallest decrease in proportion of median weekly rent to median weekly household income from 2016 to 2021?"
+  },
+  {
+    "task_id": "deepsearchqa-0588",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0588",
+    "category": "History",
+    "instruction": "For Volume 10, 2009 of the journal Historically Speaking published by John Hopkins University Press, please list all articles written by Donald A. Yerxa from the issue which contains the most articles written by him (in that volume)."
+  },
+  {
+    "task_id": "deepsearchqa-0592",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0592",
+    "category": "Other",
+    "instruction": "I want to move somewhere safer. According to 2022 statistics from the Washington State Statistical Analysis Center's CrimeStats, which counties had absolutely no adult arrests reported to NIBRS for murder, robbery, kidnapping, AND forcible sex crimes?"
+  },
+  {
+    "task_id": "deepsearchqa-0644",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0644",
+    "category": "Science",
+    "instruction": "List all of the articles in any American Society for Microbiology journals that include as an author either the 2nd, 3rd, or 4th author listed for the 25th reference in the article titled \"Comparison of a Commercial Real-Time PCR Assay for tcdB Detection to a Cell Culture Cytotoxicity Assay and Toxigenic Culture for Direct Detection of Toxin-Producing Clostridium difficile in Clinical Samples\"."
+  },
+  {
+    "task_id": "deepsearchqa-0656",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0656",
+    "category": "Geography",
+    "instruction": "There was a special performance program at MoMA in 2009, of the artists represented in those 7 performance exhibitions, which one comes from the country with the highest percentage of muslims?"
+  },
+  {
+    "task_id": "deepsearchqa-0681",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0681",
+    "category": "Finance & Economics",
+    "instruction": "In the year 2020 which 5 states had the capability to produce the most electricity from coal?"
+  },
+  {
+    "task_id": "deepsearchqa-0682",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0682",
+    "category": "Health",
+    "instruction": "Of the countries which have a higher LGBT+ rights index (2019) and women's business and the law index (2023) and lower annual working hours per worker (2017) compared to the United States, which had the highest share of people who say they are happy (2022) with a positive relative change? Use data from Our World In Data to find your answer."
+  },
+  {
+    "task_id": "deepsearchqa-0684",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0684",
+    "category": "Technology",
+    "instruction": "According to Toyota, what is the part number for the oil filter cap assembly for the highest MSRP 2020 Toyota SUV that uses a battery with the same chemistry as the 2021 Toyota Aqua?"
+  },
+  {
+    "task_id": "deepsearchqa-0693",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0693",
+    "category": "History",
+    "instruction": "Give the U.S. President with more than 6 children who nicknamed his daughter, who was also his first-born, after a character in a Charles Dickens book, along with the nickname and book it was from."
+  },
+  {
+    "task_id": "deepsearchqa-0697",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0697",
+    "category": "Other",
+    "instruction": "Which, if any, of the countries that met WHO air quality standards in the IQ Air Quality Reports 2023 also had 2022 EPI sanitation / drinking water and water resources ranks of 1?"
+  },
+  {
+    "task_id": "deepsearchqa-0699",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0699",
+    "category": "History",
+    "instruction": "Of the 56 people who signed the Declaration of Independence, excluding any future presidents and anyone born outside of the US, which of them actually died before American independence was officially won?"
+  },
+  {
+    "task_id": "deepsearchqa-0703",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0703",
+    "category": "Other",
+    "instruction": "Which Pennsylvania county or counties experienced three or more tornadoes between 1950 and 2000, according to climate.met.psu.edu and also, according to official census.gov data from 2019 to 2023, which of these counties had a median household income below $49,000 (in 2023 dollars) and were among the five least populated counties in Pennsylvania according to the 2020 census.gov figures?"
+  },
+  {
+    "task_id": "deepsearchqa-0713",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0713",
+    "category": "Education",
+    "instruction": "In 2021, of all the states with less than 1 million students enrolled in public elementary and secondary schools, what are the 5 with the lowest percentage of private school students per total enrolled students based on the National Center for Education Statistics?"
+  },
+  {
+    "task_id": "deepsearchqa-0733",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0733",
+    "category": "Science",
+    "instruction": "Please name the authors of a brief article titled \"The impact of late, non-balanced bilingualism on cognitive performance\" in the 137th edition of \"Cognition: International Journal of Cognitive Science\", published April 2015"
+  },
+  {
+    "task_id": "deepsearchqa-0755",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0755",
+    "category": "Health",
+    "instruction": "Of the founding members of the Organisation of Eastern Caribbean States with a population growth rate of less than 0.5% in 2021 (according to the CIA world factbook 2021 archive), did any have an under 5 mortality rate of less than 20 per 1000 live births in 2020 (according to UN data) and also a female life expectancy at birth of over 75 years in 2020 (according to UN data)? If so please list them."
+  },
+  {
+    "task_id": "deepsearchqa-0756",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0756",
+    "category": "Education",
+    "instruction": "I am thinking of studying at university in the Netherlands, but I'm not sure where to go. I am interested in universities that have a good reputation for research quality. According to the Times Higher Education World University Rankings of 2021, 2022, and 2023, are there any universities in the Netherlands that had a score of 60 or above for research in all 3 years? If so, please list them."
+  },
+  {
+    "task_id": "deepsearchqa-0780",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0780",
+    "category": "Education",
+    "instruction": "Regular attendance is defined as missing less than 10% of school days (or fewer than 2 absences per month), regardless of the reason. According to Washington state's Office of Superintendent of Public Instruction's report card data, which elementary schools in District 7 of Seattle Public Schools had less than 70% of students with regular attendance in the 2021-22 school year? Do not include K-8 schools."
+  },
+  {
+    "task_id": "deepsearchqa-0785",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0785",
+    "category": "Science",
+    "instruction": "Of the mosses listed by Putzke in 2015 as having been collected in at least 3 of the 4 given locations (King George Island, Elephant Island, Nelson Island and Hope Bay), which species are also found in South Australia? Refer to Catcheside's 1980 list and compare the names as they appear in these sources, ignoring any potential name changes."
+  },
+  {
+    "task_id": "deepsearchqa-0793",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0793",
+    "category": "History",
+    "instruction": "Consider the nations who joined the League of Nations on January 10th 1920, who were also part of the 51 original members of the United Nations. Of these nations, which one was the latest to join the Allies side in WWII?"
+  },
+  {
+    "task_id": "deepsearchqa-0813",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0813",
+    "category": "Geography",
+    "instruction": "Out of the countries that the World Bank recorded as having women and girls as less than 45% of their population in 2000, which country had women and girls as the highest average percentage of its population from 2020 through the end of 2023?"
+  },
+  {
+    "task_id": "deepsearchqa-0824",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0824",
+    "category": "Health",
+    "instruction": "In 2022, which states who were in the top 5 for death rates related to heart disease, also had chronic lower respiratory diseases in their top 5 leading causes of death in 2022. Use data from the CDC."
+  },
+  {
+    "task_id": "deepsearchqa-0829",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0829",
+    "category": "History",
+    "instruction": "Who has won a Ripple of Hope Award before the year 2017 and has also won a Nobel Prize before the year 2010?"
+  },
+  {
+    "task_id": "deepsearchqa-0830",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0830",
+    "category": "History",
+    "instruction": "Please list all the people who were added to the FBI's Most Wanted list in 2000 or 2001 who were convicted of murder within the ten years after their placement on the list."
+  },
+  {
+    "task_id": "deepsearchqa-0840",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0840",
+    "category": "Geography",
+    "instruction": "As of 2020, which countries have had a diplomat appointed as Secretary-General of the United Nations and share contiguous borders with at least three countries with which they do not share a common official language, according to CIA.gov? List country names as seen on the CIA World Factbook - Languages."
+  },
+  {
+    "task_id": "deepsearchqa-0841",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0841",
+    "category": "Health",
+    "instruction": "In 2019, the European Centre for Disease Prevention and Control (ECDC) found that the following EU/EEA countries had measles cases exceeding 100: Austria, Belgium, Bulgaria, Czechia, France, Germany, Italy, Lithuania, Poland, Romania, Slovakia, and Spain. Which of these countries had second-dose coverage of a measles-containing vaccine below 90% (according to WUENIC data) and a GDP per capita (World Bank data) below the EU average in 2019?"
+  },
+  {
+    "task_id": "deepsearchqa-0842",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0842",
+    "category": "Politics & Government",
+    "instruction": "In Denezpi v. United States, Justice Gorsuch's wrote a scathing dissent criticizing the majority's finding that no Double Jeopardy violation occurred under the \"dual sovereignty\" doctrine, which he had criticized in an earlier decision. Another justice dissented in the \"earlier\" case referenced, and that justice cited a twice-affirmed Supreme Court precedent which they felt should be overturned. What was the full name of the case they felt should be overturned?"
+  },
+  {
+    "task_id": "deepsearchqa-0858",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0858",
+    "category": "Travel",
+    "instruction": "Which Walt Disney World Theme Park saw the largest growth in attendance between 2022 and 2023?"
+  },
+  {
+    "task_id": "deepsearchqa-0870",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0870",
+    "category": "Politics & Government",
+    "instruction": "Which countries' GPI were at or above three in 2023 and were below three in 2021, given the states that collected data in World Population Review?"
+  },
+  {
+    "task_id": "deepsearchqa-0876",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0876",
+    "category": "Geography",
+    "instruction": "In World Bank Open Data, which region out of China and its SAR (Special Administrative Region) has a crude birth rate of higher than 4 out of 1000, has a population growth lower than 1%, and has an annual GDP growth rate of higher than -5%, in 2022? If there is more than 1 region, then I want the region with lower than 5% in food price inflation in December 2022, according to the World Bank. If there is still more than 1 region then what is the region with a higher than 80 years old in life expectancy in 2022, according to Our World in Data?"
+  },
+  {
+    "task_id": "deepsearchqa-0885",
+    "task_dir": "/home/ubuntu/smasurekar/datasets/dsqa90/deepsearchqa-0885",
+    "category": "Finance & Economics",
+    "instruction": "Which of the UK-born individuals who won The Nobel Prize in Economic Sciences while being affiliated with a UK based institution, between the inception of the award and the year that the first woman won The Nobel Prize in Economic Sciences, has fewer than 20 \"Articles\" listed on ideas.repec.org that have a publication year prior to the year that they won the award?"
+  }
+]

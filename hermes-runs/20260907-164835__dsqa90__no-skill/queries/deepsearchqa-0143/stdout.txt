@@ -1,0 +1,1 @@
+**Route 1 Spring Garden** runs along Oxford Street and connects Bridge Terminal to Mumford Terminal. The Walmart and Sobeys are at the Bayers Road Centre, right next to Mumford Terminal (the route's western terminus).

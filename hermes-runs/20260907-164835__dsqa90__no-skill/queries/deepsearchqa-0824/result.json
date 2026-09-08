@@ -1,0 +1,164 @@
+{
+  "task_id": "deepsearchqa-0824",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788807498.1183693,
+  "finished_at": 1788807598.6188078,
+  "latency_total_seconds": 100.5,
+  "prompt": "In 2022, which states who were in the top 5 for death rates related to heart disease, also had chronic lower respiratory diseases in their top 5 leading causes of death in 2022. Use data from the CDC.",
+  "prompt_prefix": "",
+  "instruction": "In 2022, which states who were in the top 5 for death rates related to heart disease, also had chronic lower respiratory diseases in their top 5 leading causes of death in 2022. Use data from the CDC.",
+  "answer": "Based on CDC data for 2022, the top 5 states for heart disease death rates were:\n\n1. **Oklahoma** (254.3 per 100,000)\n2. **Mississippi** (236.5)\n3. **Alabama** (234.2)\n4. **Louisiana** (220)\n5. **Tennessee** (210)\n\nAll five of these states also had **chronic lower respiratory diseases** in their top 5 leading causes of death in 2022:\n\n| State | Rank of Chronic Lower Respiratory Diseases |\n|-------|--------------------------------------------|\n| Oklahoma | 4th |\n| Mississippi | 3rd |\n| Alabama | 4th |\n| Louisiana | 5th |\n| Tennessee | 4th |\n\n**Answer: All 5 states** — Oklahoma, Mississippi, Alabama, Louisiana, and Tennessee.\n\nSources: CDC WONDER/Stats of the States data as reported by Becker's Cardiology (heart disease mortality rankings) and Becker's Oncology (state leading causes of death tables), both citing CDC National Center for Health Statistics.",
+  "answer_chars": 864,
+  "expected_answer": "Oklahoma, Mississippi, Arkansas",
+  "answer_type": "Set Answer",
+  "category": "Health",
+  "metrics": {
+    "latency_total_seconds": 100.5,
+    "token_usage_input": 175038,
+    "token_usage_output": 6498,
+    "llm_calls": 12,
+    "subagents_invoked": 0,
+    "tool_calls_total": 12,
+    "token_usage_input_root": 175038,
+    "token_usage_output_root": 6498,
+    "llm_calls_root": 12,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 12,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 10,
+      "web_extract": 2
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 12,
+    "turns_with_reasoning": 12,
+    "sessions_total": 1,
+    "cache_read_tokens": 205056,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 5529,
+    "total_tokens": 181536,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_185820_b52cd6",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_185820_b52cd6",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788807500.719894,
+        "ended_at": 1788807598.5981648,
+        "end_reason": "agent_close",
+        "message_count": 25,
+        "tool_call_count": 12,
+        "api_call_count": 12,
+        "input_tokens": 175038,
+        "output_tokens": 6498,
+        "cache_read_tokens": 205056,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 5529,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0824/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "In 2022, which states who were in the top 5 for death rates related to heart disease, also had chronic lower respiratory diseases in their top 5 leading causes of death in 2022. Use data from the CDC.",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0824/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0824/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 235123
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 184507
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 25,
+  "agent_cwd_files": []
+}

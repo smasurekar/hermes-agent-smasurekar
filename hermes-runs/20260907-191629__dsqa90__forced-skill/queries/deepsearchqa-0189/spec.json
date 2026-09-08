@@ -1,0 +1,106 @@
+{
+  "run_id": "20260907-191629__dsqa90__forced-skill",
+  "task_id": "deepsearchqa-0189",
+  "experiment": "forced-skill",
+  "instruction": "Provide an exhaustive list of US states that satisfy the following criteria: 1.) According to estimates by Dietz, Rose, McArthur and Maenner (2022), the estimated prevalence of autism spectrum disorder among adults was equal to or higher than Dietz et al.'s estimated national average of 2.21%. 2.) The state's 2023 average unemployment rate, reported by the Bureau of Labor Statistics, was equal to or higher than 3.2%. 3.) The state's electors all cast their votes for the Democratic nominee in both the 2016 and 2020 US Presidential elections.",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0189",
+    "source_id": "189",
+    "source_index": 189,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "Provide an exhaustive list of US states that satisfy the following criteria: 1.) According to estimates by Dietz, Rose, McArthur and Maenner (2022), the estimated prevalence of autism spectrum disorder among adults was equal to or higher than Dietz et al.'s estimated national average of 2.21%. 2.) The state's 2023 average unemployment rate, reported by the Bureau of Labor Statistics, was equal to or higher than 3.2%. 3.) The state's electors all cast their votes for the Democratic nominee in both the 2016 and 2020 US Presidential elections.",
+    "problem_category": "Politics & Government",
+    "answer": "California, Colorado, Connecticut, Delaware, Illinois, Massachusetts, Nevada, New Jersey, New York, Oregon",
+    "answer_type": "Set Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "medium",
+      "termination_reason": "completed",
+      "research_action_count": 12,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "fully_correct",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": true,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fully_correct": true,
+        "fully_incorrect": false,
+        "correct_with_excessive_answers": false,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-dsqa85-20260818-v1",
+      "evaluated_at": "2026-08-18T05:06:00Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0189.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Medium: the worker produced a locally correct or partially correct answer in 12 actions, within the 5–15 action range (fully_correct, F1=1.000).",
+      "decision_basis": {
+        "termination_reason": "completed",
+        "research_action_count": 12,
+        "research_action_limit": 15,
+        "answer_outcome": "fully_correct",
+        "grader_valid": true,
+        "f1_score": 1.0
+      },
+      "research_process": {
+        "action_type_counts": {
+          "open": 8,
+          "search": 4
+        },
+        "representative_actions": [
+          "Searched for Dietz adult-autism state estimates.",
+          "Located the autism state table and threshold values.",
+          "Retried the PMC article after a challenge page."
+        ],
+        "source_count": 4,
+        "action_log_detail": "descriptive",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0189.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-191629__dsqa90__forced-skill/queries/deepsearchqa-0189",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation",
+    "skills"
+  ],
+  "skills": [
+    "deep-research"
+  ],
+  "prompt_prefix": "/deep-research ",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

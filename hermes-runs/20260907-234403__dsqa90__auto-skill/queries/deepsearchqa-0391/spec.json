@@ -1,0 +1,104 @@
+{
+  "run_id": "20260907-234403__dsqa90__auto-skill",
+  "task_id": "deepsearchqa-0391",
+  "experiment": "auto-skill",
+  "instruction": "Determine which decade experienced the biggest difference between the number of hurricanes originating off the west coast of Mexico versus the east coast of Mexico? List, alphabetically, the names of all Category 4 hurricanes within 60 nautical miles of either Mexican coast from that decade. Use historical hurricane tracks data from NOAA to consider all Category 1-5 hurricanes tracked within 60 nautical miles of Mexico, comparing the decades 1990-1999, 2000-2009, and 2010-2019.",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0391",
+    "source_id": "391",
+    "source_index": 391,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "Determine which decade experienced the biggest difference between the number of hurricanes originating off the west coast of Mexico versus the east coast of Mexico? List, alphabetically, the names of all Category 4 hurricanes within 60 nautical miles of either Mexican coast from that decade. Use historical hurricane tracks data from NOAA to consider all Category 1-5 hurricanes tracked within 60 nautical miles of Mexico, comparing the decades 1990-1999, 2000-2009, and 2010-2019.",
+    "problem_category": "History",
+    "answer": "Bret, Douglas, Greg, Juliette, Kevin, Pauline",
+    "answer_type": "Set Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "medium",
+      "termination_reason": "completed",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "partial",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": true,
+        "f1_score": 0.1818181818,
+        "precision": 0.2,
+        "recall": 0.1666666667,
+        "fully_correct": false,
+        "fully_incorrect": false,
+        "correct_with_excessive_answers": true,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-dsqa85-20260818-v1",
+      "evaluated_at": "2026-08-18T05:52:00Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0391.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Medium: the worker produced a locally correct or partially correct answer in 15 actions, within the 5–15 action range (partial, F1=0.182).",
+      "decision_basis": {
+        "termination_reason": "completed",
+        "research_action_count": 15,
+        "research_action_limit": 15,
+        "answer_outcome": "partial",
+        "grader_valid": true,
+        "f1_score": 0.1818181818
+      },
+      "research_process": {
+        "action_type_counts": {
+          "open": 2,
+          "search": 13
+        },
+        "representative_actions": [
+          "Searched NOAA hurricane tracks.",
+          "Checked Atlantic Category 4 records.",
+          "Cross-checked Opal and Bret."
+        ],
+        "source_count": 1,
+        "action_log_detail": "descriptive",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0391.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-234403__dsqa90__auto-skill/queries/deepsearchqa-0391",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation",
+    "skills"
+  ],
+  "skills": [],
+  "prompt_prefix": "",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

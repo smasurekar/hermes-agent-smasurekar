@@ -1,0 +1,1 @@
+/deep-research From the Australian Census data, for all persons and all private dwellings, which state out of NSW, Victoria, and Queensland had the smallest decrease in proportion of median weekly rent to median weekly household income from 2016 to 2021?

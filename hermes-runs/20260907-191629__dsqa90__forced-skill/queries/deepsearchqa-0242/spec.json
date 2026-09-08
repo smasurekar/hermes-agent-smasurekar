@@ -1,0 +1,106 @@
+{
+  "run_id": "20260907-191629__dsqa90__forced-skill",
+  "task_id": "deepsearchqa-0242",
+  "experiment": "forced-skill",
+  "instruction": "According to table 2.2 in the ICILS 2023 international report, which countries had the most categories for both CIL and CT education which were \"Available but not compulsory to teach\" for ISCED 1 level education?",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0242",
+    "source_id": "242",
+    "source_index": 242,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "According to table 2.2 in the ICILS 2023 international report, which countries had the most categories for both CIL and CT education which were \"Available but not compulsory to teach\" for ISCED 1 level education?",
+    "problem_category": "Technology",
+    "answer": "United States, Netherlands",
+    "answer_type": "Single Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "medium",
+      "termination_reason": "completed",
+      "research_action_count": 5,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "fully_correct",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": true,
+        "f1_score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fully_correct": true,
+        "fully_incorrect": false,
+        "correct_with_excessive_answers": false,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-rerun-20260818-v2",
+      "evaluated_at": "2026-08-18T06:01:40Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0242.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Medium: the worker produced a locally correct or partially correct answer in 5 actions, within the 5–15 action range (fully_correct, F1=1.000).",
+      "decision_basis": {
+        "termination_reason": "completed",
+        "research_action_count": 5,
+        "research_action_limit": 15,
+        "answer_outcome": "fully_correct",
+        "grader_valid": true,
+        "f1_score": 1.0
+      },
+      "research_process": {
+        "action_type_counts": {
+          "open": 2,
+          "search": 3
+        },
+        "representative_actions": [
+          "Searched the official IEA domain for ICILS 2023 Table 2.2 and its ISCED level 1 CIL/CT entries.",
+          "Retrieved the indexed text of Table 2.2 from the official IEA-hosted report, including all country rows and the table legend.",
+          "Opened the official IEA publication page and confirmed the report title, author, and publisher."
+        ],
+        "source_count": 2,
+        "action_log_detail": "descriptive",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0242.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-191629__dsqa90__forced-skill/queries/deepsearchqa-0242",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation",
+    "skills"
+  ],
+  "skills": [
+    "deep-research"
+  ],
+  "prompt_prefix": "/deep-research ",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

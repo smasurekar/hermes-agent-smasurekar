@@ -1,0 +1,164 @@
+{
+  "task_id": "deepsearchqa-0465",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788805176.2755327,
+  "finished_at": 1788805199.3951232,
+  "latency_total_seconds": 23.12,
+  "prompt": "Which authors contributed articles to the NAWE's Writing in Education journal, vol 33 'Writing & Location'?",
+  "prompt_prefix": "",
+  "instruction": "Which authors contributed articles to the NAWE's Writing in Education journal, vol 33 'Writing & Location'?",
+  "answer": "Based on the NAWE website, the authors who contributed articles to **Writing in Education, Vol. 33 – \"Writing & Location\"** are:\n\n1. **Bryan Podmore** — two articles: \"A Risky Business This Writing?\" and \"Crashing through the Fourth Wall\"\n2. **Sarah Wardle** — two articles: \"Audere Est Facere\" and \"Reflections on Memory and Identity\"\n3. **Martin Goodman** — \"Location and Dislocation - a Writer's Use of Place\"\n4. **Fred Sedgwick** — \"Primary Children Writing in the Grip of Shakespeare\"\n5. **Paul Munden** — \"Text and Context\"\n6. **Maggie Butt** — \"The View from Here\"\n7. **Keith Bennett** — \"Welcome to Maribor\"\n8. **Carl Tighe** — \"Worlds in War: War in Words\"\n\nThat's 8 distinct authors contributing 10 articles total in this volume. (Note: Vol. 31 was also themed \"Writing & Location\" — a different issue — but you asked specifically for Vol. 33.)",
+  "answer_chars": 854,
+  "expected_answer": "Bryan Podmore, Sarah Wardle, Martin Goodman, Fred Sedgwick, Paul Munden, Maggie Butt, Keith Bennett, Carl Tighe",
+  "answer_type": "Set Answer",
+  "category": "Education",
+  "metrics": {
+    "latency_total_seconds": 23.12,
+    "token_usage_input": 42421,
+    "token_usage_output": 997,
+    "llm_calls": 4,
+    "subagents_invoked": 0,
+    "tool_calls_total": 3,
+    "token_usage_input_root": 42421,
+    "token_usage_output_root": 997,
+    "llm_calls_root": 4,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 3,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_extract": 2,
+      "web_search": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 4,
+    "turns_with_reasoning": 4,
+    "sessions_total": 1,
+    "cache_read_tokens": 8192,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 577,
+    "total_tokens": 43418,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_181940_2200b9",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_181940_2200b9",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788805180.2447975,
+        "ended_at": 1788805199.374991,
+        "end_reason": "agent_close",
+        "message_count": 8,
+        "tool_call_count": 3,
+        "api_call_count": 4,
+        "input_tokens": 42421,
+        "output_tokens": 997,
+        "cache_read_tokens": 8192,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 577,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0465/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Which authors contributed articles to the NAWE's Writing in Education journal, vol 33 'Writing & Location'?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0465/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0465/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 65129
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 52737
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 8,
+  "agent_cwd_files": []
+}

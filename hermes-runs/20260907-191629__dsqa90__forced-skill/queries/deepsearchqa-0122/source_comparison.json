@@ -1,0 +1,29 @@
+{
+  "sources": {
+    "JAF_List_GBIF": {
+      "species_count": 4625,
+      "description": "Official Japanese fish checklist from National Museum of Nature and Science, updated to version 38 (4,852 species per metadata)",
+      "url": "https://doi.org/10.15468/tm3dqs",
+      "format": "Darwin Core Archive with scientific names and Japanese vernacular names"
+    },
+    "FishBase_CountryChecklist": {
+      "total": 4254,
+      "freshwater": 318,
+      "marine": 4022,
+      "overlap_fresh_marine": 86,
+      "url": "https://www.fishbase.se/country/CountryChecklist.php?c_code=392",
+      "description": "FishBase country checklist for Japan (c_code=392)"
+    },
+    "FishBase_RegionSpeciesList": {
+      "total_reported": 4427,
+      "url": "https://www.fishbase.se/identification/RegionSpeciesList.php?c_code=392",
+      "description": "FishBase identification tool for Japan region, 89 pages x 50 species per page"
+    }
+  },
+  "comparison": {
+    "in_both_jaf_fishbase": 3663,
+    "only_in_jaf": 962,
+    "only_in_fishbase": 591,
+    "notes": "JAF List is more current (2026) and comprehensive; FishBase checklist may have some older taxonomy or missing recent records"
+  }
+}

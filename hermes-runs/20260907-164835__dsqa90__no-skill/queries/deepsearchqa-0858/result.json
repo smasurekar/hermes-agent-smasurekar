@@ -1,0 +1,163 @@
+{
+  "task_id": "deepsearchqa-0858",
+  "experiment": "no-skill",
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "status": "ok",
+  "error": null,
+  "exit_code": 0,
+  "started_at": 1788808124.5574026,
+  "finished_at": 1788808140.7513182,
+  "latency_total_seconds": 16.194,
+  "prompt": "Which Walt Disney World Theme Park saw the largest growth in attendance between 2022 and 2023?",
+  "prompt_prefix": "",
+  "instruction": "Which Walt Disney World Theme Park saw the largest growth in attendance between 2022 and 2023?",
+  "answer": "Based on the attendance data from MagicGuides and the TEA/AECOM Global Attractions Attendance Report, **EPCOT** saw the largest growth in attendance between 2022 and 2023.\n\n**2022 → 2023 attendance by park:**\n- **EPCOT**: 10,000,000 → 11,980,000 (**+1,980,000 / +19.8%**) — largest absolute and percentage gain\n- **Magic Kingdom**: 17,133,000 → 17,720,000 (+587,000 / +3.4%)\n- **Disney's Hollywood Studios**: 10,900,000 → 10,300,000 (−600,000 / −5.5%)\n- **Disney's Animal Kingdom**: 9,027,000 → 8,770,000 (−257,000 / −2.8%)\n\nEPCOT's growth was driven by its multi-year transformation, including new attractions like Guardians of the Galaxy: Cosmic Rewind (opened May 2022) and the ongoing EPCOT overhaul.",
+  "answer_chars": 704,
+  "expected_answer": "Epcot",
+  "answer_type": "Single Answer",
+  "category": "Travel",
+  "metrics": {
+    "latency_total_seconds": 16.194,
+    "token_usage_input": 14454,
+    "token_usage_output": 761,
+    "llm_calls": 2,
+    "subagents_invoked": 0,
+    "tool_calls_total": 1,
+    "token_usage_input_root": 14454,
+    "token_usage_output_root": 761,
+    "llm_calls_root": 2,
+    "token_source": "session_rows",
+    "usage_file_present": true,
+    "subagent_tasks_requested": 0,
+    "delegate_task_calls": 0,
+    "tool_calls_root": 1,
+    "tool_calls_subagents": 0,
+    "tool_call_counts": {
+      "web_search": 1
+    },
+    "tool_error_counts": {},
+    "assistant_turns": 2,
+    "turns_with_reasoning": 2,
+    "sessions_total": 1,
+    "cache_read_tokens": 1536,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 404,
+    "total_tokens": 15215,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_usd_root": 0.0,
+    "cost_status": "unknown",
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": "custom",
+    "root_session_id": "20260907_190849_b65149",
+    "end_reason": "agent_close",
+    "completed": true,
+    "failed": false,
+    "sessions": [
+      {
+        "id": "20260907_190849_b65149",
+        "parent_session_id": null,
+        "model": "nvidia/nvidia/nemotron-3-ultra",
+        "started_at": 1788808129.1691508,
+        "ended_at": 1788808140.729748,
+        "end_reason": "agent_close",
+        "message_count": 4,
+        "tool_call_count": 1,
+        "api_call_count": 2,
+        "input_tokens": 14454,
+        "output_tokens": 761,
+        "cache_read_tokens": 1536,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 404,
+        "estimated_cost_usd": 0.0,
+        "cost_status": "unknown",
+        "cost_source": "none",
+        "billing_provider": "custom",
+        "billing_base_url": "https://inference-api.nvidia.com/v1",
+        "title": null,
+        "cwd": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0858/agent_cwd",
+        "profile_name": "default"
+      }
+    ]
+  },
+  "config": {
+    "model": "nvidia/nvidia/nemotron-3-ultra",
+    "provider": null,
+    "base_url": "https://inference-api.nvidia.com/v1",
+    "reasoning": null,
+    "toolsets": [
+      "web",
+      "terminal",
+      "file",
+      "todo",
+      "delegation"
+    ],
+    "skills_preloaded": [],
+    "skills_toolset_enabled": false,
+    "max_turns": 500,
+    "run_budget_seconds": 1680,
+    "timeout": 1800.0,
+    "argv": [
+      "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+      "-z",
+      "Which Walt Disney World Theme Park saw the largest growth in attendance between 2022 and 2023?",
+      "--usage-file",
+      "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0858/usage.json",
+      "-t",
+      "web,terminal,file,todo,delegation",
+      "-m",
+      "nvidia/nvidia/nemotron-3-ultra"
+    ],
+    "hermes_home": {
+      "path": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0858/hermes_home",
+      "source": "/home/ubuntu/.hermes",
+      "config": "copied",
+      "config_overrides": {
+        "auxiliary": {
+          "title_generation": {
+            "enabled": false
+          }
+        },
+        "curator": {
+          "enabled": false
+        },
+        "agent": {
+          "max_turns": 500,
+          "run_budget_seconds": 1680.0
+        }
+      },
+      "env": "symlinked",
+      "skills": "symlinked"
+    }
+  },
+  "artifacts": {
+    "answer": "answer.md",
+    "prompt": "prompt.txt",
+    "task_metadata": "task.json",
+    "usage": "usage.json",
+    "metrics": "metrics.json",
+    "stdout": "stdout.txt",
+    "stderr": "stderr.txt",
+    "sessions_export": "trace/sessions.jsonl",
+    "flattened_events": "trace/events.jsonl",
+    "claude_code_trace": "trace/trace.jsonl",
+    "agent_cwd": "agent_cwd/",
+    "hermes_home": "hermes_home/",
+    "research_artifacts": "research_artifacts/"
+  },
+  "export": {
+    "jsonl": {
+      "exit_code": 0,
+      "bytes": 23881
+    },
+    "trace": {
+      "exit_code": 0,
+      "bytes": 14441
+    }
+  },
+  "research_artifacts": {
+    "copied": [],
+    "source_root": "/home/ubuntu/.hermes/research"
+  },
+  "event_count": 4,
+  "agent_cwd_files": []
+}

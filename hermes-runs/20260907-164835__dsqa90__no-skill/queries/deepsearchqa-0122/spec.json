@@ -1,0 +1,103 @@
+{
+  "run_id": "20260907-164835__dsqa90__no-skill",
+  "task_id": "deepsearchqa-0122",
+  "experiment": "no-skill",
+  "instruction": "According to fishbase.org, what is the FishBase Name and species of every fish in Japan that has a highly commercial designation in both the \"use\" column and the \"use elsewhere\" column?",
+  "task_metadata": {
+    "example_id": "deepsearchqa-0122",
+    "source_id": "122",
+    "source_index": 122,
+    "source_dataset": "google/deepsearchqa",
+    "source_file": "DSQA-full.csv",
+    "source_url": "https://huggingface.co/datasets/google/deepsearchqa/resolve/main/DSQA-full.csv",
+    "problem": "According to fishbase.org, what is the FishBase Name and species of every fish in Japan that has a highly commercial designation in both the \"use\" column and the \"use elsewhere\" column?",
+    "problem_category": "Science",
+    "answer": "Pacific sandlance (Ammodytes personatus), Japanese Scad (Decapterus maruadsi), Japanese anchovy (Engraulis japonicus), Deepwater longtail red snapper (Etelis coruscans), Alaska pollack (Gadus chalcogrammus), Pacific cod (Gadus macrocephalus), Red seabream (Pagrus major), Ayu sweetfish (Plecoglossus altivelis), Chub mackerel (Scomber japonicus), Japanese amberjack (Seriola quinqueradiata), Japanese pufferfish (Takifugu rubripes), Yellowfin tuna (Thunnus albacares)",
+    "answer_type": "Set Answer",
+    "codex_difficulty": {
+      "schema_version": "1.0",
+      "method": "bounded-research-v1",
+      "label": "hard",
+      "termination_reason": "action_limit_reached",
+      "research_action_count": 15,
+      "research_action_limit": 15,
+      "action_counting_policy": "atomic external search, fetch, inspection, or calculation actions",
+      "answer_outcome": "partially_correct",
+      "grader": {
+        "name": "deterministic-gold-item-comparison",
+        "grader_valid": 1.0,
+        "f1_score": 0.631578947368421,
+        "precision": 0.8571428571428571,
+        "recall": 0.5,
+        "fully_correct": 0.0,
+        "fully_incorrect": 0.0,
+        "correct_with_excessive_answers": 0.0,
+        "official_parity_verified": false
+      },
+      "agent": {
+        "platform": "codex",
+        "model": "inherited",
+        "reasoning_effort": "inherited",
+        "worker_prompt_version": "1.0",
+        "context_mode": "none"
+      },
+      "measurement": {
+        "action_count_source": "agent_self_reported",
+        "gold_isolation": "instruction_only",
+        "local_file_access_prohibited": true
+      },
+      "run_id": "codex-dsqa85-20260818-v1",
+      "evaluated_at": "2026-08-18T04:41:47Z",
+      "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0122.json"
+    },
+    "difficulty_rationale": {
+      "schema_version": "1.0",
+      "summary": "Hard: the worker used the full 15-action budget and returned a bounded best-effort answer (partially_correct, F1=0.632).",
+      "decision_basis": {
+        "termination_reason": "action_limit_reached",
+        "research_action_count": 15,
+        "research_action_limit": 15,
+        "answer_outcome": "partially_correct",
+        "grader_valid": 1.0,
+        "f1_score": 0.631578947368421
+      },
+      "research_process": {
+        "action_type_counts": {
+          "open": 5,
+          "search": 10
+        },
+        "representative_actions": [
+          "Searched FishBase Japan checklist and species pages for highly commercial records.",
+          "Retried the Japan commercial-checklist URL with encoded parameters; URL was rejected.",
+          "Searched with exclusions to expose further Japan highly-commercial records."
+        ],
+        "source_count": 2,
+        "action_log_detail": "descriptive",
+        "result_artifact": "analysis/codex_difficulty_runs/codex-dsqa90-main/deepsearchqa-0122.json"
+      },
+      "classification_policy": "hard for action-limit, invalid, contaminated, error, or zero-F1 runs; otherwise easy for fewer than 5 actions and medium for 5 through 15 actions"
+    }
+  },
+  "query_dir": "/home/ubuntu/smasurekar/hermes-agent-smasurekar/hermes-runs/20260907-164835__dsqa90__no-skill/queries/deepsearchqa-0122",
+  "source_hermes_home": "/home/ubuntu/.hermes",
+  "hermes_bin": "/home/ubuntu/.hermes/venvs/hermes-dev/bin/hermes",
+  "toolsets": [
+    "web",
+    "terminal",
+    "file",
+    "todo",
+    "delegation"
+  ],
+  "skills": [],
+  "prompt_prefix": "",
+  "model": "nvidia/nvidia/nemotron-3-ultra",
+  "provider": null,
+  "base_url": "https://inference-api.nvidia.com/v1",
+  "reasoning": null,
+  "max_turns": 500,
+  "run_budget_seconds": 1680,
+  "timeout": 1800.0,
+  "link_user_skills": true,
+  "prune_home": false,
+  "redact_traces": true
+}

@@ -1,0 +1,1 @@
+I stopped retrying web_search because it hit the tool-call guardrail (loop_web_search_cap) after 50 repeated non-progressing attempts. The last tool result explains the blocker; the next step is to change strategy instead of repeating the same call.
